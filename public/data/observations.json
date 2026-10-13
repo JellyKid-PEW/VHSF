@@ -1,0 +1,539 @@
+{
+ "_about": "Source-grounded observations. Each entry points at a verbatim line in a supplied manuscript chapter by block index and SHA-256; the text itself is not stored here. tools/build-content.mjs resolves them into public/content/quotes.json (local, gitignored) and reports any line that no longer exists in the current draft. viewpoint = whose viewpoint the passage is narrated from; about = which perspectives the line is relevant to.",
+ "quotes": [
+  {
+   "id": "q-helm-familiar",
+   "chapter": "presence-02",
+   "block": 5,
+   "sha256": "e3a722bed32dcb8618b6af3e6537ca995f619772863e6e3fb612c6f6f7ffd75e",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-bridge-liked",
+   "chapter": "next-02",
+   "block": 111,
+   "sha256": "093b43dac7b86e8badf025be9c9606b9e6156e51734472ccae8ce5f95e25ff1f",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-bridge-met",
+   "chapter": "next-01",
+   "block": 174,
+   "sha256": "a4bc49b06439cad3deb854186e8c32a0a28a64bad37452350b2eadfd987e843f",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-chair-waited",
+   "chapter": "next-01",
+   "block": 175,
+   "sha256": "2dae881f77ffee05bf0251e7f6d19282488a80dcf9e23c2f36ea53f67aaf7a72",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-trimmed",
+   "chapter": "presence-02",
+   "block": 3,
+   "sha256": "b3dba94e02f8b3f2c4c530106e9a7816416977b972abf9f9f5dc392182ca1c83",
+   "viewpoint": "quenby",
+   "about": [
+    "bob",
+    "iri"
+   ]
+  },
+  {
+   "id": "q-bob-rerouted",
+   "chapter": "next-07",
+   "block": 57,
+   "sha256": "435cd1c567407b5c264f5eeb18255797177d7f90c2978f05fdc06fd896695dad",
+   "viewpoint": "quenby",
+   "about": [
+    "bob"
+   ]
+  },
+  {
+   "id": "q-profile-first",
+   "chapter": "presence-06",
+   "block": 125,
+   "sha256": "294acca0c4e2d2fbc33dbafd842c251843d6cc4157b6a7f4c1524c81f36938bc",
+   "viewpoint": "iri",
+   "about": [
+    "iri",
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-aux-station",
+   "chapter": "presence-02",
+   "block": 5,
+   "sha256": "1e2c3ac2187530a5a0cc7d2e1b9ee3530f1c1418048f3185569cd55ab6ca994a",
+   "viewpoint": "quenby",
+   "about": [
+    "iri"
+   ]
+  },
+  {
+   "id": "q-aux-captain",
+   "chapter": "presence-06",
+   "block": 122,
+   "sha256": "894343df2440c457a1a12d5948fb7982c34a016a94888092d029f1593a33085e",
+   "viewpoint": "iri",
+   "about": [
+    "bob"
+   ]
+  },
+  {
+   "id": "q-copilot-sprawl",
+   "chapter": "presence-09",
+   "block": 55,
+   "sha256": "921db75a3d646ead72ac1d445c5fad73751c6dc6d9692f35a7bba2f7b59df0af",
+   "viewpoint": "quenby",
+   "about": [
+    "nova"
+   ]
+  },
+  {
+   "id": "q-bolts-towers",
+   "chapter": "presence-09",
+   "block": 5,
+   "sha256": "fd7a7fd6ec41de1e7f6d79b05854b9f6e6b3060d530a3253e0dbff13fb0bfa6d",
+   "viewpoint": "quenby",
+   "about": [
+    "nova"
+   ]
+  },
+  {
+   "id": "q-doors-open",
+   "chapter": "presence-09",
+   "block": 19,
+   "sha256": "f32fceaa666c10b824abab98e7f135fd63a354daf09922042a86554b5cada937",
+   "viewpoint": "quenby",
+   "about": [
+    "nova"
+   ]
+  },
+  {
+   "id": "q-rail-worn",
+   "chapter": "next-01",
+   "block": 24,
+   "sha256": "8fcdc694f9667f7a57fbebd0090adf8eb5ed861a0bd787878433274b865de860",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-rail-lights",
+   "chapter": "next-01",
+   "block": 205,
+   "sha256": "72d745047c5cf3c9b11acda6a757af028902f55b27834c5057440ed411b52072",
+   "viewpoint": "quenby",
+   "about": [
+    "bob"
+   ]
+  },
+  {
+   "id": "q-bench-floor",
+   "chapter": "presence-05",
+   "block": 7,
+   "sha256": "4129061eb67d0373c9d182c905069f34b981d30b431be8b2aa5d589fd358e299",
+   "viewpoint": "quenby",
+   "about": [
+    "iri"
+   ]
+  },
+  {
+   "id": "q-ship-rhythm",
+   "chapter": "next-01",
+   "block": 4,
+   "sha256": "7e8847d0c105d07c57a6b474b0c5b06a5935959b8dfd140dd5d8c840c9bfd7bd",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "nova"
+   ]
+  },
+  {
+   "id": "q-galley-prepbar",
+   "chapter": "next-02",
+   "block": 1,
+   "sha256": "0d6aa141f1c5d9350aab9ae0187f19b10e6f45102aca5d46a132fe0e040d3356",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-index-card",
+   "chapter": "next-02",
+   "block": 11,
+   "sha256": "e9f7d8c00e0cca6d9d8c09733249e8eb643b87d7a78174bf41c41e2973c52114",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-status-light",
+   "chapter": "presence-06",
+   "block": 3,
+   "sha256": "a04b87d43595d17d04327e8ddefafd3cb8b10810e890585fbb53ce436a4d3a7d",
+   "viewpoint": "quenby",
+   "about": [
+    "bob"
+   ]
+  },
+  {
+   "id": "q-ration-triangle",
+   "chapter": "next-10",
+   "block": 163,
+   "sha256": "b281385ce1eea9aafface1f547adbda842b5185a39cba92105a2d9b2c46ebca5",
+   "viewpoint": "iri",
+   "about": [
+    "iri"
+   ]
+  },
+  {
+   "id": "q-spoon-upright",
+   "chapter": "next-10",
+   "block": 164,
+   "sha256": "2add3b0ecab99c4522def326c3fd733b4c98c9cf05228ade8caa1ed0f8035c6f",
+   "viewpoint": "iri",
+   "about": [
+    "iri"
+   ]
+  },
+  {
+   "id": "q-tins-rack",
+   "chapter": "next-02",
+   "block": 13,
+   "sha256": "d8183c3d0e3a0001cb8113f86cd35a53027690d1b364ace45baf53edfe6df830",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-tins-row",
+   "chapter": "presence-11",
+   "block": 92,
+   "sha256": "6148bba5ef458d15901184bcf0b886353c65599c3ae1e4f98e966e9a0791dce3",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "iri"
+   ]
+  },
+  {
+   "id": "q-tins-nova",
+   "chapter": "presence-06",
+   "block": 26,
+   "sha256": "2add00d0735e7540c975b4e7fed388012376d0dccfb0f4a16b2daf7d99c48471",
+   "viewpoint": "quenby",
+   "about": [
+    "nova"
+   ]
+  },
+  {
+   "id": "q-heater-note",
+   "chapter": "next-02",
+   "block": 3,
+   "sha256": "2b87b7497375714c6fbaf0a74ae93051a4e29a6d3a7aafa4348b384cec257a9f",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "nova"
+   ]
+  },
+  {
+   "id": "q-heater-click",
+   "chapter": "next-02",
+   "block": 85,
+   "sha256": "dc016f8769b5f17dd9085d3ca7008bad9e1e04b4bcfb242ec98e8cec680107c4",
+   "viewpoint": "quenby",
+   "about": [
+    "bob"
+   ]
+  },
+  {
+   "id": "q-water-gen",
+   "chapter": "next-07",
+   "block": 83,
+   "sha256": "6e19df51b9ac04a5608befe1f42d29b26c8727e3e62eacd09286165e919a8a71",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-filter-stutter",
+   "chapter": "next-07",
+   "block": 84,
+   "sha256": "7bdcf1106c5171a8df71f2aba419546194bcb7992f140e838b0c2c07c7db70bc",
+   "viewpoint": "quenby",
+   "about": [
+    "nova",
+    "bob"
+   ]
+  },
+  {
+   "id": "q-bob-character",
+   "chapter": "next-07",
+   "block": 86,
+   "sha256": "26b3807115c672cf7883576de2fc013e654067a021aae230fd746634bcc6cd61",
+   "viewpoint": "quenby",
+   "about": [
+    "bob"
+   ]
+  },
+  {
+   "id": "q-cooling-iri",
+   "chapter": "next-07",
+   "block": 87,
+   "sha256": "bf886b48f08e87d4bb21953622ae8a67c6c8b354bd4e642808a656abcb83e620",
+   "viewpoint": "quenby",
+   "about": [
+    "iri"
+   ]
+  },
+  {
+   "id": "q-galley-dim",
+   "chapter": "next-07",
+   "block": 82,
+   "sha256": "52da392027a00688f69858d8f98ad15d8baf2c6b5e005871dfaeda6dfff3fa0f",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "bob"
+   ]
+  },
+  {
+   "id": "q-table-nova",
+   "chapter": "presence-11",
+   "block": 96,
+   "sha256": "5c51870b093d98ce815e81a69a043e0a86877e4b8df27297730e606020712f36",
+   "viewpoint": "quenby",
+   "about": [
+    "nova"
+   ]
+  },
+  {
+   "id": "q-table-medkit",
+   "chapter": "presence-06",
+   "block": 79,
+   "sha256": "d82ecb07d50d82397f6ded9b265a0afe3b67e4689d7c3c248020f030c1c832a2",
+   "viewpoint": "quenby",
+   "about": [
+    "iri"
+   ]
+  },
+  {
+   "id": "q-not-plan",
+   "chapter": "next-08",
+   "block": 0,
+   "sha256": "27f24d3b5c709b17a835fbacd5ec1ee9d141ed4b47d5d5fe04e6e3741bad614e",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-bench-narrow",
+   "chapter": "presence-06",
+   "block": 1,
+   "sha256": "e011e3afc78ca249923c20a69e5800618b34b08ed49053b19d923a776495aa9f",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "iri"
+   ]
+  },
+  {
+   "id": "q-hum-softened",
+   "chapter": "presence-06",
+   "block": 2,
+   "sha256": "9f427dfb5994dc74896ef3099b2474cfd871a9642af425657cfb8022dc4fa439",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "nova",
+    "iri"
+   ]
+  },
+  {
+   "id": "q-drawer-cabinet",
+   "chapter": "presence-06",
+   "block": 15,
+   "sha256": "ecd04f9a54dc991ed1864e390cc568f2a0a97e891fa9ec95f5b21032188d4fe9",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "nova"
+   ]
+  },
+  {
+   "id": "q-cupboards",
+   "chapter": "presence-06",
+   "block": 14,
+   "sha256": "1aba9267c95094d8bfa3cfb1774263dfbac8105615d254fd6068be62c15103bd",
+   "viewpoint": "quenby",
+   "about": [
+    "nova"
+   ]
+  },
+  {
+   "id": "q-fan",
+   "chapter": "presence-06",
+   "block": 47,
+   "sha256": "f88501beb87f8f04c6237ea5e9c3c140d6b19de5a1c86bdda6e763c0e6078dda",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "nova",
+    "bob"
+   ]
+  },
+  {
+   "id": "q-galley-lights-iri",
+   "chapter": "presence-06",
+   "block": 120,
+   "sha256": "7fd6f5fe9a9af15b623e0facd977f6bddc0ad83482a81cb9a459589a4496ae14",
+   "viewpoint": "iri",
+   "about": [
+    "iri"
+   ]
+  },
+  {
+   "id": "q-spine-turn",
+   "chapter": "want-05",
+   "block": 335,
+   "sha256": "cd59bc1680d7cd2b37712f906fdc97e2f3d40d4626b32a85a91ca1b84400b8c0",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-cup-junction",
+   "chapter": "want-09",
+   "block": 198,
+   "sha256": "23ff43fddc987cd8f2a2b83325b5d75d84557063fd3c2a36f9a8b6f6cee47992",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "iri"
+   ]
+  },
+  {
+   "id": "q-corridor-smell",
+   "chapter": "presence-06",
+   "block": 124,
+   "sha256": "7c7e4fa2e554b64d2d256a3da3f06657824beb1649d517319efea5ef44e135ca",
+   "viewpoint": "iri",
+   "about": [
+    "iri"
+   ]
+  },
+  {
+   "id": "q-corridor-hum",
+   "chapter": "next-02",
+   "block": 42,
+   "sha256": "493cfd63408d328e2cc65cad4a33613bf5ac9d4474dddbb6f24eb0ece3dd31f6",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "nova",
+    "bob"
+   ]
+  },
+  {
+   "id": "q-three-sounds-1",
+   "chapter": "next-05",
+   "block": 104,
+   "sha256": "85371a6476cd1d621283ae78db612f5eeb9ab51908fb1adc4ce6d41596641733",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "bob",
+    "nova"
+   ]
+  },
+  {
+   "id": "q-three-sounds-2",
+   "chapter": "next-05",
+   "block": 105,
+   "sha256": "7ac9e03d0f6c25227b80baf301680976cd7ff92be4bd8d6c12362dc567bb9dcf",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "bob",
+    "nova"
+   ]
+  },
+  {
+   "id": "q-three-sounds-3",
+   "chapter": "next-05",
+   "block": 106,
+   "sha256": "91fa64d27ab1ab78c99d52e4e456825406017cb0d641f9264c468afb042344cc",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "bob",
+    "nova"
+   ]
+  },
+  {
+   "id": "q-hull-ticks",
+   "chapter": "presence-05",
+   "block": 126,
+   "sha256": "c71373776292a605cb779e7a4063d22d9c0d2ee6b7e1cc8795bbb3dda2a52155",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "nova"
+   ]
+  },
+  {
+   "id": "q-quarter-sharp",
+   "chapter": "presence-01",
+   "block": 1,
+   "sha256": "61f0ae17284aba73a2c974645b207b3f8742aa5ce1df0539fa60e49441f23523",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby"
+   ]
+  },
+  {
+   "id": "q-displays-slept",
+   "chapter": "want-04",
+   "block": 33,
+   "sha256": "431614f62011cabd6c2c8a8476e4e77af5ce6310f1126b6c224ffad648f4b226",
+   "viewpoint": "quenby",
+   "about": [
+    "bob"
+   ]
+  },
+  {
+   "id": "q-nav-locks",
+   "chapter": "presence-02",
+   "block": 61,
+   "sha256": "2340d96b5babf76ff5dd0759f6f8bd4050974af03fa63fc4ccadbb30075c6888",
+   "viewpoint": "quenby",
+   "about": [
+    "quenby",
+    "bob"
+   ]
+  }
+ ]
+}

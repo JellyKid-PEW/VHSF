@@ -1,0 +1,129 @@
+{
+ "_about": "Places to settle. 'at' is the seat (or standing spot) in world metres; eye is eye height above the deck; yaw follows Roomwright's walker (yaw = π faces forward, toward the glass).",
+ "start": {
+  "at": [
+   0.85,
+   0.0,
+   0.45
+  ],
+  "yaw": 3.3,
+  "room": "bridge"
+ },
+ "settle": [
+  {
+   "id": "cradle",
+   "room": "bridge",
+   "label": "Pilot cradle",
+   "at": [
+    0,
+    0.6,
+    -0.72
+   ],
+   "eye": 1.2,
+   "yaw": 3.1416,
+   "pitch": -0.02,
+   "standAt": [
+    0.55,
+    0,
+    -0.2
+   ],
+   "view": "Forward glass, helm, and the dark ahead."
+  },
+  {
+   "id": "copilot",
+   "room": "bridge",
+   "label": "Copilot chair",
+   "at": [
+    1.32,
+    0.6,
+    -0.66
+   ],
+   "eye": 1.22,
+   "yaw": 3.022,
+   "pitch": -0.03,
+   "standAt": [
+    1.0,
+    0,
+    0.05
+   ],
+   "view": "The helm to your left, the glass beyond."
+  },
+  {
+   "id": "vbench",
+   "room": "bridge",
+   "label": "Viewport bench",
+   "at": [
+    -1.62,
+    0.55,
+    -1.95
+   ],
+   "eye": 1.2,
+   "yaw": 2.15,
+   "pitch": 0.0,
+   "standAt": [
+    -1.35,
+    0,
+    -0.35
+   ],
+   "view": "The glass beside you, the whole bridge in front."
+  },
+  {
+   "id": "galleybench",
+   "room": "galley",
+   "label": "Galley bench",
+   "at": [
+    -0.95,
+    0.55,
+    12.3
+   ],
+   "eye": 1.2,
+   "yaw": 3.1416,
+   "pitch": -0.08,
+   "standAt": [
+    -2.05,
+    0,
+    11.75
+   ],
+   "view": "Table in front, the working half and the hatch beyond (camera anchor M-D)."
+  },
+  {
+   "id": "stool",
+   "room": "galley",
+   "label": "Stool at the table",
+   "at": [
+    -0.1,
+    0.6,
+    10.58
+   ],
+   "eye": 1.24,
+   "yaw": 0.0,
+   "pitch": -0.1,
+   "standAt": [
+    -0.1,
+    0,
+    9.95
+   ],
+   "view": "Facing the table and the bench."
+  },
+  {
+   "id": "counterlean",
+   "room": "galley",
+   "label": "Lean at the counter",
+   "verb": "Lean at the counter",
+   "at": [
+    -1.6,
+    0.95,
+    9.3
+   ],
+   "eye": 1.56,
+   "yaw": 0.45,
+   "pitch": -0.12,
+   "standAt": [
+    -1.5,
+    0,
+    9.3
+   ],
+   "view": "Hip against the counter, looking aft across the room."
+  }
+ ]
+}

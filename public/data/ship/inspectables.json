@@ -1,0 +1,326 @@
+{
+ "_about": "Inspectable objects in the developed rooms. shipRecord is neutral visitor-facing description derived from the cited plan or log; quotes reference public/data/observations.json. Character-voice drafts live separately in data/drafts/perspective-lines.draft.json.",
+ "items": [
+  {
+   "id": "helm",
+   "room": "bridge",
+   "record": "Helm console",
+   "offset": [
+    0,
+    1.0,
+    0.3
+   ],
+   "label": "Helm and pilot cradle",
+   "shipRecord": "Pilot cradle and helm console on the bridge centreline, facing the forward glass. The helm’s kneehole panel stands open; an older, unmapped harness runs beneath it.",
+   "basis": "Roomwright layout v34 (helmConsole, pilotCradle, helm kneehole panel)",
+   "quotes": [
+    "q-helm-familiar",
+    "q-bridge-met",
+    "q-chair-waited",
+    "q-profile-first",
+    "q-bob-rerouted"
+   ]
+  },
+  {
+   "id": "glass",
+   "room": "bridge",
+   "record": "Forward glass",
+   "offset": [
+    -0.6,
+    1.1,
+    0.15
+   ],
+   "label": "Forward glass",
+   "shipRecord": "Real glass, not a display: a 4.8 m viewport band with its sill at 0.55 m.",
+   "basis": "Roomwright layout v34 (viewportWall); production plan V1",
+   "quotes": [
+    "q-bridge-liked",
+    "q-trimmed",
+    "q-displays-slept"
+   ]
+  },
+  {
+   "id": "navlocks",
+   "room": "bridge",
+   "record": "Nav lock lever bank",
+   "offset": [
+    0,
+    1.0,
+    0
+   ],
+   "label": "Nav lock levers",
+   "shipRecord": "Physical course-hold levers at the pilot’s right hand. Author ruling: Presence-02’s “nav locks” are helm hardware, not the lower-deck nav compartment.",
+   "basis": "Design decisions log, author-canon session",
+   "quotes": [
+    "q-nav-locks"
+   ]
+  },
+  {
+   "id": "copilot",
+   "room": "bridge",
+   "record": "Copilot chair",
+   "offset": [
+    0,
+    0.8,
+    0
+   ],
+   "label": "Copilot chair",
+   "shipRecord": "Second seat, starboard of the helm. A short station rail stands between the stations with the chair gap left open.",
+   "basis": "Roomwright layout v34; author ruling on the rail-between-stations conflict",
+   "quotes": [
+    "q-copilot-sprawl"
+   ]
+  },
+  {
+   "id": "aux",
+   "room": "bridge",
+   "record": "Auxiliary console",
+   "offset": [
+    0,
+    1.0,
+    0.25
+   ],
+   "label": "Auxiliary console",
+   "shipRecord": "Auxiliary station to port, angled toward the helm, with an occupancy strip along its edge.",
+   "basis": "Roomwright layout v34 (auxConsole)",
+   "quotes": [
+    "q-aux-station",
+    "q-aux-captain"
+   ]
+  },
+  {
+   "id": "bolts",
+   "room": "bridge",
+   "record": "Nova’s bolts",
+   "offset": [
+    0,
+    0.06,
+    0
+   ],
+   "label": "Loose bolts on the deck",
+   "shipRecord": "Stripped bolts and washers on the open deck behind the seats. Production-flexible: they move.",
+   "basis": "Roomwright layout v34 (bolts); production plan V1 flexible elements",
+   "quotes": [
+    "q-bolts-towers",
+    "q-drawer-cabinet"
+   ]
+  },
+  {
+   "id": "rail",
+   "room": "bridge",
+   "record": "Forward rail",
+   "offset": [
+    0.75,
+    0.85,
+    0
+   ],
+   "label": "Forward rail",
+   "shipRecord": "Worn rail across the forward stations, with a row of indicator lights.",
+   "basis": "Roomwright layout v34 (forwardRail)",
+   "quotes": [
+    "q-rail-worn",
+    "q-rail-lights"
+   ]
+  },
+  {
+   "id": "vbench",
+   "room": "bridge",
+   "record": "Viewport bench",
+   "offset": [
+    0.2,
+    0.55,
+    0.05
+   ],
+   "label": "Viewport bench",
+   "shipRecord": "A bench built into the forward viewport, port side.",
+   "basis": "Roomwright layout v34 (viewport bench)",
+   "quotes": [
+    "q-bench-floor"
+   ]
+  },
+  {
+   "id": "elbow",
+   "room": "corridor",
+   "record": "Grab rail (elbow blind corner)",
+   "offset": [
+    0,
+    1.1,
+    -0.1
+   ],
+   "label": "The corridor elbow",
+   "shipRecord": "The primary corridor offsets here, before the medbay, so nobody boarding through the airlock looks straight into medical. The storage-spine hatch is the turn just forward of it.",
+   "basis": "Design decisions log (main-deck topology); Roomwright layout v34",
+   "quotes": [
+    "q-spine-turn",
+    "q-cup-junction",
+    "q-corridor-hum",
+    "q-corridor-smell"
+   ]
+  },
+  {
+   "id": "powerpanel",
+   "room": "corridor",
+   "record": "Corridor service panel — power distribution",
+   "offset": [
+    0.12,
+    1.2,
+    0
+   ],
+   "label": "Corridor service panel",
+   "shipRecord": "Power-distribution pull panel on the forward run. Maintenance aboard happens in lived space, wherever the runs go.",
+   "basis": "Roomwright service-points pass",
+   "quotes": [
+    "q-three-sounds-1",
+    "q-three-sounds-2",
+    "q-three-sounds-3",
+    "q-ship-rhythm"
+   ]
+  },
+  {
+   "id": "counter",
+   "room": "galley",
+   "record": "Galley counter run + sink",
+   "offset": [
+    0.3,
+    1.0,
+    0.6
+   ],
+   "label": "Counter run and sink",
+   "shipRecord": "One long integrated counter run with the sink, along the port side. The prose’s “central prep counter” is the working stretch of this run, not a free-standing island (author ruling).",
+   "basis": "Comic Production Floor Plan V1 — galley fixed background elements",
+   "quotes": [
+    "q-galley-prepbar",
+    "q-index-card",
+    "q-status-light",
+    "q-water-gen",
+    "q-ration-triangle",
+    "q-spoon-upright"
+   ]
+  },
+  {
+   "id": "tins",
+   "room": "galley",
+   "record": "Tin shelf",
+   "offset": [
+    0.22,
+    1.42,
+    -0.1
+   ],
+   "label": "Tin shelf",
+   "shipRecord": "Tin shelf above the working side, with a warm strip light under it.",
+   "basis": "Comic Production Floor Plan V1",
+   "quotes": [
+    "q-tins-row",
+    "q-tins-rack",
+    "q-tins-nova"
+   ]
+  },
+  {
+   "id": "heater",
+   "room": "galley",
+   "record": "Heating / hydration unit",
+   "offset": [
+    -0.22,
+    1.1,
+    0
+   ],
+   "label": "Heating and hydration unit",
+   "shipRecord": "Heating / hydration appliance on the side opposite the counter. Its service panel opens from the same wall.",
+   "basis": "Comic Production Floor Plan V1; exact technology still open in the design log",
+   "quotes": [
+    "q-heater-note",
+    "q-heater-click",
+    "q-filter-stutter",
+    "q-bob-character"
+   ]
+  },
+  {
+   "id": "cooler",
+   "room": "galley",
+   "record": "Cooling unit",
+   "offset": [
+    -0.15,
+    0.6,
+    -0.15
+   ],
+   "label": "Cooling unit",
+   "shipRecord": "Cooling unit, low in the aft half.",
+   "basis": "Comic Production Floor Plan V1",
+   "quotes": [
+    "q-cooling-iri"
+   ]
+  },
+  {
+   "id": "table",
+   "room": "galley",
+   "record": "Galley table",
+   "offset": [
+    0,
+    0.85,
+    0
+   ],
+   "label": "Galley table",
+   "shipRecord": "A real table in the aft, eating-and-lingering half. Stools move; the table does not.",
+   "basis": "Comic Production Floor Plan V1",
+   "quotes": [
+    "q-not-plan",
+    "q-table-nova",
+    "q-table-medkit",
+    "q-galley-dim"
+   ]
+  },
+  {
+   "id": "bench",
+   "room": "galley",
+   "record": "Galley bench",
+   "offset": [
+    -0.65,
+    0.55,
+    0
+   ],
+   "label": "Leather bench",
+   "shipRecord": "Leather-covered bench against the aft wall.",
+   "basis": "Comic Production Floor Plan V1",
+   "quotes": [
+    "q-bench-narrow",
+    "q-hum-softened",
+    "q-galley-lights-iri"
+   ]
+  },
+  {
+   "id": "cabinet",
+   "room": "galley",
+   "record": "Galley cabinet",
+   "offset": [
+    -0.22,
+    1.25,
+    0
+   ],
+   "label": "Cabinet",
+   "shipRecord": "The cabinet with the bolts-in-a-mug. A drawer below holds two spoons.",
+   "basis": "Comic Production Floor Plan V1",
+   "quotes": [
+    "q-drawer-cabinet",
+    "q-cupboards"
+   ]
+  },
+  {
+   "id": "fan",
+   "room": "galley",
+   "record": "Corner fan",
+   "offset": [
+    0.06,
+    0.42,
+    0.06
+   ],
+   "label": "Corner fan",
+   "shipRecord": "Corner fan, forward port corner of the galley.",
+   "basis": "Comic Production Floor Plan V1",
+   "quotes": [
+    "q-fan",
+    "q-hull-ticks",
+    "q-quarter-sharp"
+   ]
+  }
+ ]
+}

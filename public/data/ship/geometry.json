@@ -1,0 +1,9005 @@
+{
+ "objects": [
+  {
+   "layoutKey": "floor",
+   "room": "bridge",
+   "type": "floor",
+   "name": "Bridge deck",
+   "params": {
+    "width": 4.8,
+    "depth": 4.6
+   },
+   "pos": [
+    0,
+    0,
+    0
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ceiling",
+   "room": "bridge",
+   "type": "ceiling",
+   "name": "Overhead",
+   "params": {
+    "width": 4.8,
+    "depth": 4.6,
+    "height": 2.25
+   },
+   "pos": [
+    0,
+    0,
+    0
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "viewportWall",
+   "room": "bridge",
+   "type": "viewport",
+   "name": "Forward glass",
+   "params": {
+    "length": 4.8,
+    "height": 2.25,
+    "thickness": 0.18,
+    "sillHeight": 0.55,
+    "windowHeight": 1.05
+   },
+   "pos": [
+    0,
+    0,
+    -2.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "wallPort",
+   "room": "bridge",
+   "type": "wall",
+   "name": "Port bulkhead",
+   "params": {
+    "length": 4.6,
+    "height": 2.25,
+    "thickness": 0.16
+   },
+   "pos": [
+    -2.4,
+    0,
+    0
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "doorway",
+   "room": "bridge",
+   "type": "doorway",
+   "name": "Bridge hatch",
+   "params": {
+    "length": 1.8,
+    "height": 2.25,
+    "thickness": 0.16,
+    "doorWidth": 0.85,
+    "doorHeight": 1.95,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    1.5,
+    0,
+    2.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "aftWallL",
+   "room": "bridge",
+   "type": "wall",
+   "name": "Aft bulkhead (port)",
+   "params": {
+    "length": 3,
+    "height": 2.25,
+    "thickness": 0.16
+   },
+   "pos": [
+    -0.8999999999999999,
+    0,
+    2.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "wallStbd",
+   "room": "bridge",
+   "type": "wall",
+   "name": "Starboard bulkhead",
+   "params": {
+    "length": 4.6,
+    "height": 2.25,
+    "thickness": 0.16
+   },
+   "pos": [
+    2.4,
+    0,
+    0
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "doorSill",
+   "room": "bridge",
+   "type": "step",
+   "name": "Hatch sill (raised lip)",
+   "params": {
+    "width": 1,
+    "rise": 0.045,
+    "run": 0.32,
+    "steps": 1
+   },
+   "pos": [
+    1.5,
+    0,
+    2.0999999999999996
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "helmConsole",
+   "room": "bridge",
+   "type": "console",
+   "name": "Helm console",
+   "params": {
+    "width": 1.15,
+    "depth": 0.72,
+    "height": 0.92,
+    "screens": 2,
+    "lit": true
+   },
+   "pos": [
+    0.1,
+    0,
+    -1.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "pilotCradle",
+   "room": "bridge",
+   "type": "seat",
+   "name": "Pilot cradle",
+   "params": {
+    "seatHeight": 0.42,
+    "width": 0.58,
+    "hasArms": true
+   },
+   "pos": [
+    0,
+    0,
+    -0.72
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "copilotConsole",
+   "room": "bridge",
+   "type": "console",
+   "name": "Copilot console",
+   "params": {
+    "width": 1.05,
+    "depth": 0.68,
+    "height": 0.92,
+    "screens": 3,
+    "lit": true
+   },
+   "pos": [
+    1.35,
+    0,
+    -1.42
+   ],
+   "rotY": -0.12
+  },
+  {
+   "layoutKey": "copilotChair",
+   "room": "bridge",
+   "type": "seat",
+   "name": "Copilot chair",
+   "params": {
+    "seatHeight": 0.44,
+    "width": 0.55,
+    "hasArms": true
+   },
+   "pos": [
+    1.32,
+    0,
+    -0.66
+   ],
+   "rotY": 3.021592653589793
+  },
+  {
+   "layoutKey": "auxConsole",
+   "room": "bridge",
+   "type": "console",
+   "name": "Auxiliary console",
+   "params": {
+    "width": 1.05,
+    "depth": 0.65,
+    "height": 0.9,
+    "screens": 2,
+    "lit": true
+   },
+   "pos": [
+    -1.35,
+    0,
+    -1.12
+   ],
+   "rotY": 0.35
+  },
+  {
+   "layoutKey": "forwardRail",
+   "room": "bridge",
+   "type": "rail",
+   "name": "Forward rail",
+   "params": {
+    "length": 2.6,
+    "height": 0.82,
+    "midRail": true
+   },
+   "pos": [
+    0.35,
+    0,
+    -1.92
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "stationRail",
+   "room": "bridge",
+   "type": "rail",
+   "name": "Station rail",
+   "params": {
+    "length": 0.44,
+    "height": 0.86,
+    "midRail": false
+   },
+   "pos": [
+    -0.45,
+    0,
+    -1.08
+   ],
+   "rotY": 0.2
+  },
+  {
+   "layoutKey": "viewportBench",
+   "room": "bridge",
+   "type": "bench",
+   "name": "Viewport bench",
+   "params": {
+    "width": 1.25,
+    "height": 0.42,
+    "depth": 0.45
+   },
+   "pos": [
+    -1.62,
+    0,
+    -1.95
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "supplyRack",
+   "room": "bridge",
+   "type": "storage",
+   "name": "Supply rack",
+   "params": {
+    "width": 1.05,
+    "height": 1.75,
+    "depth": 0.42
+   },
+   "pos": [
+    -1.72,
+    0,
+    1.98
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "aftPanel",
+   "room": "bridge",
+   "type": "storage",
+   "name": "Aft wiring panel",
+   "params": {
+    "width": 0.9,
+    "height": 1.5,
+    "depth": 0.1
+   },
+   "pos": [
+    -0.7,
+    0,
+    2.16
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "navLockBank",
+   "room": "bridge",
+   "type": "crate",
+   "name": "Nav lock lever bank",
+   "params": {
+    "width": 0.3,
+    "height": 0.82,
+    "depth": 0.24
+   },
+   "pos": [
+    0.48,
+    0,
+    -1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "boltsScatter",
+   "room": "bridge",
+   "type": "bolts",
+   "name": "Nova’s bolts",
+   "params": {
+    "count": 9,
+    "spread": 0.75
+   },
+   "pos": [
+    1,
+    0,
+    0.95
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corFloor",
+   "room": "corridor",
+   "type": "floor",
+   "name": "Main corridor deck (forward run)",
+   "params": {
+    "width": 1.1,
+    "depth": 2.75
+   },
+   "pos": [
+    1.5,
+    0,
+    3.675
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corCeiling",
+   "room": "corridor",
+   "type": "ceiling",
+   "name": "Main corridor overhead (forward run)",
+   "params": {
+    "width": 1.1,
+    "depth": 2.75,
+    "height": 2.15
+   },
+   "pos": [
+    1.5,
+    0,
+    3.675
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corWallPort",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Main corridor port wall (forward)",
+   "params": {
+    "length": 0.7999999999999998,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    0.95,
+    0,
+    2.6999999999999997
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "stairDoor",
+   "room": "stairwell",
+   "type": "doorway",
+   "name": "Primary stair opening",
+   "params": {
+    "length": 1.1,
+    "height": 2.15,
+    "thickness": 0.12,
+    "doorWidth": 0.9,
+    "doorHeight": 1.95,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 1
+   },
+   "pos": [
+    0.95,
+    0,
+    3.65
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corWallPortMid",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Main corridor port wall (to bend)",
+   "params": {
+    "length": 0.2999999999999998,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    0.95,
+    0,
+    4.35
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corWallStbd1",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Main corridor starboard wall (forward)",
+   "params": {
+    "length": 0.3999999999999999,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    2.05,
+    0,
+    2.5
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "alkInnerDoor",
+   "room": "airlock",
+   "type": "doorway",
+   "name": "Airlock inner hatch",
+   "params": {
+    "length": 0.9,
+    "height": 2.15,
+    "thickness": 0.12,
+    "doorWidth": 0.7,
+    "doorHeight": 1.85,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    2.05,
+    0,
+    3.15
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corWallStbd1b",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Main corridor starboard wall (mid)",
+   "params": {
+    "length": 0.24999999999999956,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    2.05,
+    0,
+    3.7249999999999996
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "spineHatch",
+   "room": "corridor",
+   "type": "doorway",
+   "name": "Storage spine hatch",
+   "params": {
+    "length": 1,
+    "height": 2.15,
+    "thickness": 0.12,
+    "doorWidth": 0.62,
+    "doorHeight": 1.85,
+    "kind": "hinged",
+    "hinge": "left",
+    "swing": "out",
+    "open": 0
+   },
+   "pos": [
+    2.05,
+    0,
+    4.35
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corWallStbd2",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Main corridor starboard wall (to bend)",
+   "params": {
+    "length": 0.20000000000000018,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    2.05,
+    0,
+    4.949999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corBendFloor",
+   "room": "corridor",
+   "type": "floor",
+   "name": "Main corridor offset deck",
+   "params": {
+    "width": 2.25,
+    "depth": 1.1
+   },
+   "pos": [
+    0.925,
+    0,
+    5.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corBendCeil",
+   "room": "corridor",
+   "type": "ceiling",
+   "name": "Main corridor offset overhead",
+   "params": {
+    "width": 2.25,
+    "depth": 1.1,
+    "height": 2.15
+   },
+   "pos": [
+    0.925,
+    0,
+    5.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corBendN",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Offset forward bulkhead",
+   "params": {
+    "length": 1.15,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    0.375,
+    0,
+    4.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corBendS",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Offset aft bulkhead",
+   "params": {
+    "length": 1.15,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    1.475,
+    0,
+    5.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corBendW",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Offset port end cap",
+   "params": {
+    "length": 0.55,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -0.19999999999999996,
+    0,
+    4.7749999999999995
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corBendE",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Offset starboard end cap",
+   "params": {
+    "length": 0.55,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    2.05,
+    0,
+    5.325
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corAftFloor",
+   "room": "corridor",
+   "type": "floor",
+   "name": "Main corridor deck (aft run)",
+   "params": {
+    "width": 1.1,
+    "depth": 2.75
+   },
+   "pos": [
+    0.3500000000000001,
+    0,
+    6.425
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corAftCeil",
+   "room": "corridor",
+   "type": "ceiling",
+   "name": "Main corridor overhead (aft run)",
+   "params": {
+    "width": 1.1,
+    "depth": 2.75,
+    "height": 2.15
+   },
+   "pos": [
+    0.3500000000000001,
+    0,
+    6.425
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "corAftWallPort1",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Aft corridor port wall (forward)",
+   "params": {
+    "length": 0.15000000000000036,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -0.19999999999999996,
+    0,
+    5.125
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "medHatch",
+   "room": "medbay",
+   "type": "doorway",
+   "name": "Medbay hatch",
+   "params": {
+    "length": 1.2,
+    "height": 2.15,
+    "thickness": 0.12,
+    "doorWidth": 0.8,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -0.19999999999999996,
+    0,
+    5.8
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corAftWallPort2",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Aft corridor port wall (between medical and domestic branch)",
+   "params": {
+    "length": 0.35000000000000053,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -0.19999999999999996,
+    0,
+    6.574999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygBranchDoor",
+   "room": "hygiene",
+   "type": "doorway",
+   "name": "Dry hygiene branch opening",
+   "params": {
+    "length": 1,
+    "height": 2.15,
+    "thickness": 0.12,
+    "doorWidth": 0.82,
+    "doorHeight": 1.92,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 1
+   },
+   "pos": [
+    -0.19999999999999996,
+    0,
+    7.25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "corAftWallStbd",
+   "room": "corridor",
+   "type": "wall",
+   "name": "Aft corridor starboard wall",
+   "params": {
+    "length": 2.2,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    0.9000000000000001,
+    0,
+    6.699999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "spnLeg1Floor",
+   "room": "spine",
+   "type": "floor",
+   "name": "Storage spine deck (first turn)",
+   "params": {
+    "width": 1.2,
+    "depth": 1
+   },
+   "pos": [
+    2.65,
+    0,
+    4.35
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnLeg1Ceil",
+   "room": "spine",
+   "type": "ceiling",
+   "name": "Spine overhead",
+   "params": {
+    "width": 1.2,
+    "depth": 1,
+    "height": 2.05
+   },
+   "pos": [
+    2.65,
+    0,
+    4.35
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnLeg1N",
+   "room": "spine",
+   "type": "wall",
+   "name": "Spine wall",
+   "params": {
+    "length": 1.2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    2.65,
+    0,
+    3.8499999999999996
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnLeg1S",
+   "room": "spine",
+   "type": "wall",
+   "name": "Spine wall",
+   "params": {
+    "length": 1.2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    2.65,
+    0,
+    4.85
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnLeg2Floor",
+   "room": "spine",
+   "type": "floor",
+   "name": "Storage spine deck (second turn)",
+   "params": {
+    "width": 1,
+    "depth": 6.200000000000001
+   },
+   "pos": [
+    3.75,
+    0,
+    6.95
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnLeg2Ceil",
+   "room": "spine",
+   "type": "ceiling",
+   "name": "Spine overhead",
+   "params": {
+    "width": 1,
+    "depth": 6.200000000000001,
+    "height": 2.05
+   },
+   "pos": [
+    3.75,
+    0,
+    6.95
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnLeg2N",
+   "room": "spine",
+   "type": "wall",
+   "name": "Spine wall (fwd)",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    3.75,
+    0,
+    3.8499999999999996
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnLeg2S",
+   "room": "spine",
+   "type": "doorway",
+   "name": "Engine bay doorway",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.72,
+    "doorHeight": 1.9,
+    "kind": "hinged",
+    "hinge": "left",
+    "swing": "in",
+    "open": 0.35
+   },
+   "pos": [
+    3.75,
+    0,
+    10.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnLeg2W1",
+   "room": "spine",
+   "type": "wall",
+   "name": "Spine wall (inboard forward)",
+   "params": {
+    "length": 3.700000000000001,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    3.25,
+    0,
+    6.7
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "s4Hatch",
+   "room": "storage-four",
+   "type": "doorway",
+   "name": "Storage Four hatch",
+   "params": {
+    "length": 0.9,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.66,
+    "doorHeight": 1.82,
+    "kind": "hinged",
+    "hinge": "right",
+    "swing": "in",
+    "open": 0
+   },
+   "pos": [
+    3.25,
+    0,
+    9
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "spnLeg2W2",
+   "room": "spine",
+   "type": "wall",
+   "name": "Spine wall (inboard aft)",
+   "params": {
+    "length": 0.6000000000000014,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    3.25,
+    0,
+    9.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "spnShoulderFloor",
+   "room": "spine",
+   "type": "floor",
+   "name": "Legacy service shoulder",
+   "params": {
+    "width": 0.62,
+    "depth": 1.45
+   },
+   "pos": [
+    2.94,
+    0,
+    7.3999999999999995
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnShoulderPanel",
+   "room": "spine",
+   "type": "storage",
+   "name": "Legacy utility panel",
+   "params": {
+    "width": 0.72,
+    "height": 1.25,
+    "depth": 0.16
+   },
+   "pos": [
+    2.69,
+    0,
+    7.3999999999999995
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "spnLeg2E1",
+   "room": "spine",
+   "type": "wall",
+   "name": "Spine wall (outboard fwd)",
+   "params": {
+    "length": 1.75,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    4.25,
+    0,
+    4.725
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "pktHatch",
+   "room": "pocket",
+   "type": "doorway",
+   "name": "Pocket three hatch",
+   "params": {
+    "length": 0.9,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.62,
+    "doorHeight": 1.8,
+    "kind": "hinged",
+    "hinge": "left",
+    "swing": "in",
+    "open": 0
+   },
+   "pos": [
+    4.25,
+    0,
+    6.05
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "spnLeg2E2",
+   "room": "spine",
+   "type": "wall",
+   "name": "Spine wall (outboard mid)",
+   "params": {
+    "length": 1.4999999999999991,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    4.25,
+    0,
+    7.25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "spnLeg2E3",
+   "room": "spine",
+   "type": "wall",
+   "name": "Spine wall (outboard aft)",
+   "params": {
+    "length": 1.1500000000000021,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    4.25,
+    0,
+    9.475
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "pktFloor",
+   "room": "pocket",
+   "type": "floor",
+   "name": "Pocket three deck",
+   "params": {
+    "width": 1.25,
+    "depth": 1.6
+   },
+   "pos": [
+    4.875,
+    0,
+    6.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "pktCeil",
+   "room": "pocket",
+   "type": "ceiling",
+   "name": "Pocket overhead",
+   "params": {
+    "width": 1.25,
+    "depth": 1.6,
+    "height": 2.05
+   },
+   "pos": [
+    4.875,
+    0,
+    6.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "pktWallN",
+   "room": "pocket",
+   "type": "wall",
+   "name": "Pocket wall (fwd)",
+   "params": {
+    "length": 1.25,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    4.875,
+    0,
+    5.25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "pktWallS",
+   "room": "pocket",
+   "type": "wall",
+   "name": "Pocket wall (aft)",
+   "params": {
+    "length": 1.25,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    4.875,
+    0,
+    6.85
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "pktWallE",
+   "room": "pocket",
+   "type": "wall",
+   "name": "Pocket wall (outboard)",
+   "params": {
+    "length": 1.6,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    5.5,
+    0,
+    6.05
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "pktShelf",
+   "room": "pocket",
+   "type": "shelf",
+   "name": "Narrow shelf",
+   "params": {
+    "width": 0.9,
+    "depth": 0.22,
+    "mountHeight": 1.15,
+    "tins": 0
+   },
+   "pos": [
+    5.37,
+    0,
+    5.8999999999999995
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "pktBox",
+   "room": "pocket",
+   "type": "crate",
+   "name": "Low storage box",
+   "params": {
+    "width": 0.46,
+    "height": 0.34,
+    "depth": 0.36
+   },
+   "pos": [
+    4.575,
+    0,
+    6.6499999999999995
+   ],
+   "rotY": 0.2
+  },
+  {
+   "layoutKey": "pktCrate",
+   "room": "pocket",
+   "type": "crate",
+   "name": "R. Vale’s crate",
+   "params": {
+    "width": 0.56,
+    "height": 0.5,
+    "depth": 0.44
+   },
+   "pos": [
+    5.195,
+    0,
+    6.57
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "s4Floor",
+   "room": "storage-four",
+   "type": "floor",
+   "name": "Storage Four deck",
+   "params": {
+    "width": 1.55,
+    "depth": 1.85
+   },
+   "pos": [
+    2.475,
+    0,
+    9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "s4Ceil",
+   "room": "storage-four",
+   "type": "ceiling",
+   "name": "Storage Four overhead",
+   "params": {
+    "width": 1.55,
+    "depth": 1.85,
+    "height": 2.05
+   },
+   "pos": [
+    2.475,
+    0,
+    9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "s4WallW",
+   "room": "storage-four",
+   "type": "wall",
+   "name": "Storage Four inboard wall",
+   "params": {
+    "length": 1.85,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    1.7000000000000002,
+    0,
+    9
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "s4WallN",
+   "room": "storage-four",
+   "type": "wall",
+   "name": "Storage Four wall",
+   "params": {
+    "length": 1.55,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    2.475,
+    0,
+    8.075
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "s4WallS",
+   "room": "storage-four",
+   "type": "wall",
+   "name": "Storage Four wall",
+   "params": {
+    "length": 1.55,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    2.475,
+    0,
+    9.925
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "s4Rack",
+   "room": "storage-four",
+   "type": "storage",
+   "name": "Storage Four rack",
+   "params": {
+    "width": 0.92,
+    "height": 1.55,
+    "depth": 0.38
+   },
+   "pos": [
+    2.025,
+    0,
+    8.8
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "alkFloor",
+   "room": "airlock",
+   "type": "floor",
+   "name": "Airlock deck",
+   "params": {
+    "width": 1.4,
+    "depth": 1.3
+   },
+   "pos": [
+    2.75,
+    0,
+    3.15
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "alkCeil",
+   "room": "airlock",
+   "type": "ceiling",
+   "name": "Airlock overhead",
+   "params": {
+    "width": 1.4,
+    "depth": 1.3,
+    "height": 2.15
+   },
+   "pos": [
+    2.75,
+    0,
+    3.15
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "alkWallN",
+   "room": "airlock",
+   "type": "wall",
+   "name": "Airlock wall (fwd)",
+   "params": {
+    "length": 1.4,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    2.75,
+    0,
+    2.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "alkWallS",
+   "room": "airlock",
+   "type": "wall",
+   "name": "Airlock wall (aft)",
+   "params": {
+    "length": 1.4,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    2.75,
+    0,
+    3.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "alkOuterDoor",
+   "room": "airlock",
+   "type": "doorway",
+   "name": "Airlock outer hatch",
+   "params": {
+    "length": 1.3,
+    "height": 2.15,
+    "thickness": 0.14,
+    "doorWidth": 0.75,
+    "doorHeight": 1.85,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    3.45,
+    0,
+    3.15
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "alkLocker",
+   "room": "airlock",
+   "type": "storage",
+   "name": "Exterior kit locker",
+   "params": {
+    "width": 0.7,
+    "height": 1.5,
+    "depth": 0.3
+   },
+   "pos": [
+    2.75,
+    0,
+    2.67
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "alkRail",
+   "room": "airlock",
+   "type": "rail",
+   "name": "Suit-up side rail",
+   "params": {
+    "length": 1,
+    "height": 0.95,
+    "midRail": false
+   },
+   "pos": [
+    2.75,
+    0,
+    3.6999999999999997
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galFloor",
+   "room": "galley",
+   "type": "floor",
+   "name": "Galley deck",
+   "params": {
+    "width": 3.4,
+    "depth": 4.8
+   },
+   "pos": [
+    -0.7999999999999998,
+    0,
+    10.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galCeiling",
+   "room": "galley",
+   "type": "ceiling",
+   "name": "Galley overhead",
+   "params": {
+    "width": 3.4,
+    "depth": 4.8,
+    "height": 2.15
+   },
+   "pos": [
+    -0.7999999999999998,
+    0,
+    10.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galHatch",
+   "room": "galley",
+   "type": "doorway",
+   "name": "Galley hatch",
+   "params": {
+    "length": 1.1,
+    "height": 2.15,
+    "thickness": 0.14,
+    "doorWidth": 0.8,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    0.3500000000000001,
+    0,
+    7.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galWallN",
+   "room": "galley",
+   "type": "wall",
+   "name": "Galley wall (fwd)",
+   "params": {
+    "length": 2.3,
+    "height": 2.15,
+    "thickness": 0.14
+   },
+   "pos": [
+    -1.35,
+    0,
+    7.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galWallS",
+   "room": "galley",
+   "type": "wall",
+   "name": "Galley wall (aft)",
+   "params": {
+    "length": 3.4,
+    "height": 2.15,
+    "thickness": 0.14
+   },
+   "pos": [
+    -0.7999999999999998,
+    0,
+    12.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galWallW",
+   "room": "galley",
+   "type": "wall",
+   "name": "Galley wall (port)",
+   "params": {
+    "length": 4.8,
+    "height": 2.15,
+    "thickness": 0.14
+   },
+   "pos": [
+    -2.5,
+    0,
+    10.2
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "galWallE",
+   "room": "galley",
+   "type": "wall",
+   "name": "Galley wall (starboard)",
+   "params": {
+    "length": 4.8,
+    "height": 2.15,
+    "thickness": 0.14
+   },
+   "pos": [
+    0.9000000000000001,
+    0,
+    10.2
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "galCounter",
+   "room": "galley",
+   "type": "counter",
+   "name": "Galley counter run + sink",
+   "params": {
+    "width": 2.75,
+    "depth": 0.58,
+    "height": 0.9,
+    "sink": true
+   },
+   "pos": [
+    -2.1399999999999997,
+    0,
+    9.85
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "galShelf",
+   "room": "galley",
+   "type": "shelf",
+   "name": "Tin shelf",
+   "params": {
+    "width": 1.1,
+    "depth": 0.24,
+    "mountHeight": 1.32,
+    "tins": 3
+   },
+   "pos": [
+    -2.3499999999999996,
+    0,
+    10.049999999999999
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "galHeatUnit",
+   "room": "galley",
+   "type": "storage",
+   "name": "Heating / hydration unit",
+   "params": {
+    "width": 0.72,
+    "height": 1.45,
+    "depth": 0.42
+   },
+   "pos": [
+    0.6600000000000001,
+    0,
+    9.049999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "galCooler",
+   "room": "galley",
+   "type": "crate",
+   "name": "Cooling unit",
+   "params": {
+    "width": 0.58,
+    "height": 0.62,
+    "depth": 0.5
+   },
+   "pos": [
+    0.56,
+    0,
+    12.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galTable",
+   "room": "galley",
+   "type": "table",
+   "name": "Galley table",
+   "params": {
+    "width": 1.25,
+    "depth": 0.78,
+    "height": 0.74
+   },
+   "pos": [
+    -0.6499999999999998,
+    0,
+    11.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galBench",
+   "room": "galley",
+   "type": "bench",
+   "name": "Galley bench",
+   "params": {
+    "width": 1.85,
+    "height": 0.42,
+    "depth": 0.44
+   },
+   "pos": [
+    -0.9499999999999998,
+    0,
+    12.32
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galStool1",
+   "room": "galley",
+   "type": "seat",
+   "name": "Galley stool one",
+   "params": {
+    "seatHeight": 0.46,
+    "width": 0.38,
+    "hasArms": false
+   },
+   "pos": [
+    0.3500000000000001,
+    0,
+    11.219999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "galStool2",
+   "room": "galley",
+   "type": "seat",
+   "name": "Galley stool two",
+   "params": {
+    "seatHeight": 0.46,
+    "width": 0.38,
+    "hasArms": false
+   },
+   "pos": [
+    -0.09999999999999987,
+    0,
+    10.579999999999998
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "galCabinet",
+   "room": "galley",
+   "type": "storage",
+   "name": "Galley cabinet",
+   "params": {
+    "width": 0.82,
+    "height": 1.6,
+    "depth": 0.36
+   },
+   "pos": [
+    0.6700000000000002,
+    0,
+    10.149999999999999
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "galFan",
+   "room": "galley",
+   "type": "crate",
+   "name": "Corner fan",
+   "params": {
+    "width": 0.24,
+    "height": 0.3,
+    "depth": 0.24
+   },
+   "pos": [
+    -2.25,
+    0,
+    8.079999999999998
+   ],
+   "rotY": 0.4
+  },
+  {
+   "layoutKey": "galPlants",
+   "room": "galley",
+   "type": "crate",
+   "name": "Potted plants",
+   "params": {
+    "width": 0.45,
+    "height": 0.34,
+    "depth": 0.4
+   },
+   "pos": [
+    -2.1199999999999997,
+    0,
+    12.25
+   ],
+   "rotY": 0.15
+  },
+  {
+   "layoutKey": "hygBranchFloor",
+   "room": "hygiene",
+   "type": "floor",
+   "name": "Dry hygiene access deck",
+   "params": {
+    "width": 4.85,
+    "depth": 0.8
+   },
+   "pos": [
+    -2.625,
+    0,
+    7.25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygBranchCeil",
+   "room": "hygiene",
+   "type": "ceiling",
+   "name": "Dry hygiene access overhead",
+   "params": {
+    "width": 4.85,
+    "depth": 0.8,
+    "height": 2.1
+   },
+   "pos": [
+    -2.625,
+    0,
+    7.25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "domServiceFloor",
+   "room": "domestic-service",
+   "type": "floor",
+   "name": "Domestic service passage deck",
+   "params": {
+    "width": 1.1,
+    "depth": 3.4000000000000004
+   },
+   "pos": [
+    -4.5,
+    0,
+    8.95
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "domServiceCeil",
+   "room": "domestic-service",
+   "type": "ceiling",
+   "name": "Domestic service passage overhead",
+   "params": {
+    "width": 1.1,
+    "depth": 3.4000000000000004,
+    "height": 2.1
+   },
+   "pos": [
+    -4.5,
+    0,
+    8.95
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygVestFloor",
+   "room": "hygiene",
+   "type": "floor",
+   "name": "Dry hygiene / ladder vestibule deck",
+   "params": {
+    "width": 1.1,
+    "depth": 3.5999999999999996
+   },
+   "pos": [
+    -4.5,
+    0,
+    12.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygVestCeil",
+   "room": "hygiene",
+   "type": "ceiling",
+   "name": "Dry hygiene / ladder vestibule overhead",
+   "params": {
+    "width": 1.1,
+    "depth": 3.5999999999999996,
+    "height": 2.1
+   },
+   "pos": [
+    -4.5,
+    0,
+    12.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygBranchWallN",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Dry hygiene branch forward wall",
+   "params": {
+    "length": 4.85,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -2.625,
+    0,
+    6.85
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygBranchWallS",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Dry hygiene branch aft wall",
+   "params": {
+    "length": 3.8,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -2.1,
+    0,
+    7.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "domRunDoor",
+   "room": "domestic-service",
+   "type": "doorway",
+   "name": "Domestic service run door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.7,
+    "doorHeight": 1.92,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -4.5,
+    0,
+    7.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygVestWallW",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Domestic service / hygiene outer wall",
+   "params": {
+    "length": 7,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -5.05,
+    0,
+    10.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygVestWallE1",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Dry hygiene vestibule service wall",
+   "params": {
+    "length": 3.0500000000000007,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.95,
+    0,
+    9.275
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygVestWallE2",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Dry hygiene vestibule service wall",
+   "params": {
+    "length": 0.6999999999999993,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.95,
+    0,
+    12.15
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygVestWallE3",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Dry hygiene vestibule service wall",
+   "params": {
+    "length": 0.75,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.95,
+    0,
+    13.875
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygVestEnd",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Dry hygiene vestibule aft wall",
+   "params": {
+    "length": 1.1,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -4.5,
+    0,
+    14.25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mainWetCore",
+   "room": "wet-service",
+   "type": "storage",
+   "name": "Main-deck domestic wet-service core",
+   "params": {
+    "width": 0.24,
+    "height": 1.8,
+    "depth": 4.55
+   },
+   "pos": [
+    -2.62,
+    0,
+    11.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mainWetPanel",
+   "room": "wet-service",
+   "type": "storage",
+   "name": "Domestic service manifold",
+   "params": {
+    "width": 0.82,
+    "height": 1.35,
+    "depth": 0.18
+   },
+   "pos": [
+    -4.03,
+    0,
+    9.65
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygToiletFloor",
+   "room": "hygiene",
+   "type": "floor",
+   "name": "Primary toilet deck",
+   "params": {
+    "width": 1.2,
+    "depth": 1.55
+   },
+   "pos": [
+    -3.35,
+    0,
+    11.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygToiletDoor",
+   "room": "hygiene",
+   "type": "doorway",
+   "name": "Primary toilet door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.72,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    -3.95,
+    0,
+    11.3
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygToiletDoorWallN",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Primary toilet doorway wall (forward)",
+   "params": {
+    "length": 0.275,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.95,
+    0,
+    10.662500000000001
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygToiletDoorWallS",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Primary toilet doorway wall (aft)",
+   "params": {
+    "length": 0.275,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.95,
+    0,
+    11.9375
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygToiletOuter",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Primary toilet outer wall",
+   "params": {
+    "length": 1.55,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -2.75,
+    0,
+    11.3
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygToiletN",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Primary toilet wall",
+   "params": {
+    "length": 1.2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.35,
+    0,
+    10.525
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygToiletS",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Primary toilet wall",
+   "params": {
+    "length": 1.2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.35,
+    0,
+    12.075000000000001
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygShowerFloor",
+   "room": "hygiene",
+   "type": "floor",
+   "name": "Shower / wash compartment deck",
+   "params": {
+    "width": 1.1,
+    "depth": 1.75
+   },
+   "pos": [
+    -3.4000000000000004,
+    0,
+    13
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygShowerDoor",
+   "room": "hygiene",
+   "type": "doorway",
+   "name": "Shower / wash door",
+   "params": {
+    "length": 1,
+    "height": 2.08,
+    "thickness": 0.1,
+    "doorWidth": 0.74,
+    "doorHeight": 1.92,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -3.95,
+    0,
+    13
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygShowerDoorWallN",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Shower doorway wall (forward)",
+   "params": {
+    "length": 0.375,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.95,
+    0,
+    12.3125
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygShowerDoorWallS",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Shower doorway wall (aft)",
+   "params": {
+    "length": 0.375,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.95,
+    0,
+    13.6875
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygShowerOuter",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Shower / wash outer wall",
+   "params": {
+    "length": 1.75,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -2.8500000000000005,
+    0,
+    13
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hygShowerN",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Shower / wash wall",
+   "params": {
+    "length": 1.1,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.4000000000000004,
+    0,
+    12.125
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygShowerS",
+   "room": "hygiene",
+   "type": "wall",
+   "name": "Shower / wash wall",
+   "params": {
+    "length": 1.1,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.4000000000000004,
+    0,
+    13.875
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygLadderHatch",
+   "room": "hygiene",
+   "type": "crate",
+   "name": "Secondary ladder upper hatch",
+   "params": {
+    "width": 0.78,
+    "height": 0.035,
+    "depth": 0.78
+   },
+   "pos": [
+    -4.5,
+    0,
+    13.7
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hygWash",
+   "room": "hygiene",
+   "type": "counter",
+   "name": "Vestibule wash / utility sink",
+   "params": {
+    "width": 0.72,
+    "depth": 0.38,
+    "height": 0.86,
+    "sink": true
+   },
+   "pos": [
+    -4.78,
+    0,
+    11.05
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "domeFloor",
+   "room": "dome",
+   "type": "floor",
+   "name": "Dome deck",
+   "params": {
+    "width": 2.9,
+    "depth": 2.7
+   },
+   "pos": [
+    5.5200000000000005,
+    0,
+    8.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "domeShell",
+   "room": "dome",
+   "type": "domeShell",
+   "name": "Observation dome",
+   "params": {
+    "radius": 1.25,
+    "wallHeight": 1,
+    "glassHeight": 0.95,
+    "archWidth": 0.85,
+    "archHeight": 1.78,
+    "ledgeHeight": 0.4
+   },
+   "pos": [
+    5.61,
+    0,
+    8.45
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "domeShutterHousing",
+   "room": "dome",
+   "type": "storage",
+   "name": "Observation viewport shutter housing",
+   "params": {
+    "width": 0.34,
+    "height": 1.35,
+    "depth": 0.86
+   },
+   "pos": [
+    6.94,
+    0,
+    8.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "engFloor",
+   "room": "engine",
+   "type": "floor",
+   "name": "Engine bay deck",
+   "params": {
+    "width": 2.7,
+    "depth": 2.4
+   },
+   "pos": [
+    3.75,
+    0,
+    11.25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engCeil",
+   "room": "engine",
+   "type": "ceiling",
+   "name": "Engine bay overhead",
+   "params": {
+    "width": 2.7,
+    "depth": 2.4,
+    "height": 2.15
+   },
+   "pos": [
+    3.75,
+    0,
+    11.25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engFloorHatch",
+   "room": "engine",
+   "type": "crate",
+   "name": "Deck access hatch",
+   "params": {
+    "width": 0.7,
+    "height": 0.03,
+    "depth": 0.7
+   },
+   "pos": [
+    3,
+    0,
+    10.7
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engWallNW",
+   "room": "engine",
+   "type": "wall",
+   "name": "Engine bay wall (fwd)",
+   "params": {
+    "length": 0.8500000000000001,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    2.825,
+    0,
+    10.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engWallNE",
+   "room": "engine",
+   "type": "wall",
+   "name": "Engine bay wall (fwd)",
+   "params": {
+    "length": 0.8500000000000001,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    4.675,
+    0,
+    10.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engWallS",
+   "room": "engine",
+   "type": "wall",
+   "name": "Engine bay wall (aft)",
+   "params": {
+    "length": 2.7,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    3.75,
+    0,
+    12.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engWallW",
+   "room": "engine",
+   "type": "wall",
+   "name": "Engine bay wall (port)",
+   "params": {
+    "length": 2.4,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    2.4,
+    0,
+    11.25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "engWallE",
+   "room": "engine",
+   "type": "wall",
+   "name": "Engine bay wall (starboard)",
+   "params": {
+    "length": 2.4,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    5.1,
+    0,
+    11.25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "engBench",
+   "room": "engine",
+   "type": "counter",
+   "name": "Workbench + tap",
+   "params": {
+    "width": 1.6,
+    "depth": 0.55,
+    "height": 0.92,
+    "sink": true
+   },
+   "pos": [
+    3.5,
+    0,
+    12.129999999999999
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "engToolbox",
+   "room": "engine",
+   "type": "crate",
+   "name": "Dented toolbox + cracked datapad",
+   "params": {
+    "width": 0.42,
+    "height": 0.24,
+    "depth": 0.28,
+    "secured": "mag-pad"
+   },
+   "pos": [
+    3.95,
+    0.92,
+    12.15
+   ],
+   "rotY": 0.12
+  },
+  {
+   "layoutKey": "engManifold",
+   "room": "engine",
+   "type": "storage",
+   "name": "Cooling manifold (open)",
+   "params": {
+    "width": 1.2,
+    "height": 1.5,
+    "depth": 0.3
+   },
+   "pos": [
+    4.88,
+    0,
+    11.15
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "engPanels",
+   "room": "engine",
+   "type": "crate",
+   "name": "Stripped paneling, stacked",
+   "params": {
+    "width": 0.5,
+    "height": 0.4,
+    "depth": 0.45
+   },
+   "pos": [
+    4.3,
+    0,
+    11.4
+   ],
+   "rotY": 0.25
+  },
+  {
+   "layoutKey": "medFloor",
+   "room": "medbay",
+   "type": "floor",
+   "name": "Medbay deck",
+   "params": {
+    "width": 2.6,
+    "depth": 2
+   },
+   "pos": [
+    -1.5,
+    0,
+    5.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "medCeil",
+   "room": "medbay",
+   "type": "ceiling",
+   "name": "Medbay overhead",
+   "params": {
+    "width": 2.6,
+    "depth": 2,
+    "height": 2.1
+   },
+   "pos": [
+    -1.5,
+    0,
+    5.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "medWallN",
+   "room": "medbay",
+   "type": "wall",
+   "name": "Medbay wall (fwd)",
+   "params": {
+    "length": 2.6,
+    "height": 2.1,
+    "thickness": 0.14
+   },
+   "pos": [
+    -1.5,
+    0,
+    4.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "medWallS",
+   "room": "medbay",
+   "type": "wall",
+   "name": "Medbay wall (aft)",
+   "params": {
+    "length": 2.6,
+    "height": 2.1,
+    "thickness": 0.14
+   },
+   "pos": [
+    -1.5,
+    0,
+    6.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "medWallW",
+   "room": "medbay",
+   "type": "wall",
+   "name": "Medbay wall (port)",
+   "params": {
+    "length": 2,
+    "height": 2.1,
+    "thickness": 0.14
+   },
+   "pos": [
+    -2.8,
+    0,
+    5.8
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "medCot",
+   "room": "medbay",
+   "type": "bench",
+   "name": "Procedure bed — \"the cot\" (stowed)",
+   "params": {
+    "width": 0.72,
+    "height": 0.52,
+    "depth": 1.5
+   },
+   "pos": [
+    -2.37,
+    0,
+    5.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "medRailHead",
+   "room": "medbay",
+   "type": "rail",
+   "name": "Bed deployment track (head)",
+   "params": {
+    "length": 1.15,
+    "height": 0.015,
+    "midRail": false
+   },
+   "pos": [
+    -2.1550000000000002,
+    0,
+    5.25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "medRailFoot",
+   "room": "medbay",
+   "type": "rail",
+   "name": "Bed deployment track (foot)",
+   "params": {
+    "length": 1.15,
+    "height": 0.015,
+    "midRail": false
+   },
+   "pos": [
+    -2.1550000000000002,
+    0,
+    6.35
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "medBoom",
+   "room": "medbay",
+   "type": "shelf",
+   "name": "Umbilical boom (power / med-gas / telemetry)",
+   "params": {
+    "width": 0.9,
+    "depth": 0.28,
+    "mountHeight": 1.95,
+    "tins": 0
+   },
+   "pos": [
+    -2.64,
+    0,
+    5.35
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "medUpperBed",
+   "room": "medbay",
+   "type": "shelf",
+   "name": "Fold-down cot (upper)",
+   "params": {
+    "width": 1.5,
+    "tins": 0,
+    "depth": 0.58,
+    "mountHeight": 1.34
+   },
+   "pos": [
+    -2.45,
+    0,
+    5.8
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "medConsole",
+   "room": "medbay",
+   "type": "console",
+   "name": "Medbay console",
+   "params": {
+    "width": 0.9,
+    "depth": 0.55,
+    "height": 0.95,
+    "screens": 1,
+    "lit": true
+   },
+   "pos": [
+    -1.4,
+    0,
+    5.17
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "medChair",
+   "room": "medbay",
+   "type": "seat",
+   "name": "Medbay chair",
+   "params": {
+    "seatHeight": 0.45,
+    "width": 0.46,
+    "hasArms": false
+   },
+   "pos": [
+    -1.5,
+    0,
+    5.74
+   ],
+   "rotY": 2.741592653589793
+  },
+  {
+   "layoutKey": "medShelf",
+   "room": "medbay",
+   "type": "storage",
+   "name": "Storage shelf",
+   "params": {
+    "width": 0.7,
+    "height": 1.5,
+    "depth": 0.34
+   },
+   "pos": [
+    -0.55,
+    0,
+    4.97
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "medSideConsole",
+   "room": "medbay",
+   "type": "console",
+   "name": "Side console",
+   "params": {
+    "width": 0.7,
+    "depth": 0.3,
+    "height": 0.85,
+    "screens": 1,
+    "lit": true
+   },
+   "pos": [
+    -2.3,
+    0,
+    6.6
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "medSterilizer",
+   "room": "medbay",
+   "type": "crate",
+   "name": "Sterilizer unit",
+   "params": {
+    "width": 0.38,
+    "height": 0.95,
+    "depth": 0.4
+   },
+   "pos": [
+    -0.55,
+    0,
+    6.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "medPrepSpout",
+   "room": "medbay",
+   "type": "shelf",
+   "name": "Medbay prep spout (galley line)",
+   "params": {
+    "width": 0.26,
+    "depth": 0.14,
+    "mountHeight": 1.08,
+    "tins": 0
+   },
+   "pos": [
+    -0.97,
+    0,
+    4.88
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "stwSteps",
+   "room": "stairwell",
+   "type": "step",
+   "name": "Primary stairwell",
+   "params": {
+    "width": 1.05,
+    "rise": 0.17647058823529413,
+    "run": 0.2,
+    "steps": 17
+   },
+   "pos": [
+    -0.55,
+    -3,
+    3.65
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "stwWallN",
+   "room": "stairwell",
+   "type": "wall",
+   "name": "Primary stairwell wall",
+   "params": {
+    "length": 3,
+    "height": 4.85,
+    "thickness": 0.12
+   },
+   "pos": [
+    -0.55,
+    -3,
+    3.0999999999999996
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "stwWallS",
+   "room": "stairwell",
+   "type": "wall",
+   "name": "Primary stairwell wall",
+   "params": {
+    "length": 3,
+    "height": 4.85,
+    "thickness": 0.12
+   },
+   "pos": [
+    -0.55,
+    -3,
+    4.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "stwCeil",
+   "room": "stairwell",
+   "type": "ceiling",
+   "name": "Primary stairwell overhead",
+   "params": {
+    "width": 3,
+    "depth": 1.1,
+    "height": 4.85
+   },
+   "pos": [
+    -0.55,
+    -3,
+    3.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "opLandingFloor",
+   "room": "operations",
+   "type": "floor",
+   "name": "Lower Operations landing",
+   "params": {
+    "width": 3,
+    "depth": 2.7
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    3.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "opLandingCeil",
+   "room": "operations",
+   "type": "ceiling",
+   "name": "Lower Operations overhead",
+   "params": {
+    "width": 3,
+    "depth": 2.7,
+    "height": 2.15
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    3.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "opDamageLocker",
+   "room": "operations",
+   "type": "storage",
+   "name": "Damage-control locker",
+   "params": {
+    "width": 0.8,
+    "height": 1.65,
+    "depth": 0.35
+   },
+   "pos": [
+    -3.8499999999999996,
+    -3,
+    3
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "opWallW",
+   "room": "operations",
+   "type": "wall",
+   "name": "Lower Operations port bulkhead",
+   "params": {
+    "length": 2.7,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -4.1,
+    -3,
+    3.65
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "opWallE1",
+   "room": "operations",
+   "type": "wall",
+   "name": "Lower Operations starboard bulkhead (forward)",
+   "params": {
+    "length": 0.7700000000000001,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -1.0999999999999996,
+    -3,
+    2.6849999999999996
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "opWallE2",
+   "room": "operations",
+   "type": "wall",
+   "name": "Lower Operations starboard bulkhead (aft)",
+   "params": {
+    "length": 0.7700000000000001,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -1.0999999999999996,
+    -3,
+    4.615
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "opWallN1",
+   "room": "operations",
+   "type": "wall",
+   "name": "Lower Operations forward bulkhead (port)",
+   "params": {
+    "length": 0.9,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -3.6499999999999995,
+    -3,
+    2.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "opWallN2",
+   "room": "operations",
+   "type": "wall",
+   "name": "Lower Operations forward bulkhead (starboard)",
+   "params": {
+    "length": 0.9,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -1.5499999999999996,
+    -3,
+    2.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "opWallS1",
+   "room": "operations",
+   "type": "wall",
+   "name": "Lower Operations aft bulkhead (port)",
+   "params": {
+    "length": 0.775,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -3.7124999999999995,
+    -3,
+    5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "opWallS2",
+   "room": "operations",
+   "type": "wall",
+   "name": "Lower Operations aft bulkhead (starboard)",
+   "params": {
+    "length": 0.775,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -1.4874999999999996,
+    -3,
+    5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "sbFloor",
+   "room": "skiffbay",
+   "type": "floor",
+   "name": "Skiff / mission bay deck",
+   "params": {
+    "width": 5,
+    "depth": 4.4
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    0.10000000000000009
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "sbCeil",
+   "room": "skiffbay",
+   "type": "ceiling",
+   "name": "Skiff / mission bay overhead",
+   "params": {
+    "width": 5,
+    "depth": 4.4,
+    "height": 2.55
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    0.10000000000000009
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "sbWallN",
+   "room": "skiffbay",
+   "type": "wall",
+   "name": "Skiff bay forward wall",
+   "params": {
+    "length": 5,
+    "height": 2.55,
+    "thickness": 0.14
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    -2.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "sbWallS1",
+   "room": "skiffbay",
+   "type": "wall",
+   "name": "Skiff bay aft wall (port)",
+   "params": {
+    "length": 1.9,
+    "height": 2.55,
+    "thickness": 0.14
+   },
+   "pos": [
+    -4.1499999999999995,
+    -3,
+    2.3000000000000003
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "sbWallS2",
+   "room": "skiffbay",
+   "type": "wall",
+   "name": "Skiff bay aft wall (starboard)",
+   "params": {
+    "length": 1.9,
+    "height": 2.55,
+    "thickness": 0.14
+   },
+   "pos": [
+    -1.0499999999999998,
+    -3,
+    2.3000000000000003
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "sbWallW",
+   "room": "skiffbay",
+   "type": "wall",
+   "name": "Skiff bay port wall",
+   "params": {
+    "length": 4.4,
+    "height": 2.55,
+    "thickness": 0.14
+   },
+   "pos": [
+    -5.1,
+    -3,
+    0.10000000000000009
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "sbLaunchDoor",
+   "room": "skiffbay",
+   "type": "doorway",
+   "name": "Launch aperture",
+   "params": {
+    "length": 4.4,
+    "height": 2.55,
+    "thickness": 0.16,
+    "doorWidth": 2.35,
+    "doorHeight": 2.25,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    -0.09999999999999964,
+    -3,
+    0.10000000000000009
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "sbHatch",
+   "room": "skiffbay",
+   "type": "doorway",
+   "name": "Skiff bay hatch",
+   "params": {
+    "length": 1.2,
+    "height": 2.55,
+    "thickness": 0.14,
+    "doorWidth": 0.9,
+    "doorHeight": 1.95,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    2.3000000000000003
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "sbSkiff",
+   "room": "skiffbay",
+   "type": "crate",
+   "name": "Skiff in its cradle",
+   "params": {
+    "width": 2.6,
+    "height": 1.35,
+    "depth": 1.5
+   },
+   "pos": [
+    -2.05,
+    -3,
+    -0.3499999999999999
+   ],
+   "rotY": 0.06
+  },
+  {
+   "layoutKey": "sbRig",
+   "room": "skiffbay",
+   "type": "console",
+   "name": "Rig station",
+   "params": {
+    "width": 1.05,
+    "depth": 0.58,
+    "height": 0.95,
+    "screens": 1,
+    "lit": true
+   },
+   "pos": [
+    -3.7499999999999996,
+    -3,
+    1.9200000000000004
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "sbGrid",
+   "room": "skiffbay",
+   "type": "shelf",
+   "name": "Loadout grid",
+   "params": {
+    "width": 1.35,
+    "depth": 0.28,
+    "mountHeight": 1.25,
+    "tins": 0
+   },
+   "pos": [
+    -4.3,
+    -3,
+    -1.9400000000000002
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "sbLocker",
+   "room": "skiffbay",
+   "type": "storage",
+   "name": "Rig locker",
+   "params": {
+    "width": 0.95,
+    "height": 1.8,
+    "depth": 0.42
+   },
+   "pos": [
+    -4.25,
+    -3,
+    0.8500000000000001
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workSpineFloor",
+   "room": "work-spine",
+   "type": "floor",
+   "name": "Primary work spine deck",
+   "params": {
+    "width": 1.45,
+    "depth": 15.35
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    12.325
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "workSpineCeil",
+   "room": "work-spine",
+   "type": "ceiling",
+   "name": "Primary work spine overhead",
+   "params": {
+    "width": 1.45,
+    "depth": 15.35,
+    "height": 2.25
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    12.325
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "workWallE1",
+   "room": "work-spine",
+   "type": "wall",
+   "name": "Work spine starboard bulkhead",
+   "params": {
+    "length": 1.5999999999999996,
+    "height": 2.25,
+    "thickness": 0.12
+   },
+   "pos": [
+    -1.8749999999999996,
+    -3,
+    5.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workWallE2",
+   "room": "work-spine",
+   "type": "wall",
+   "name": "Work spine starboard bulkhead",
+   "params": {
+    "length": 2.5250000000000004,
+    "height": 2.25,
+    "thickness": 0.12
+   },
+   "pos": [
+    -1.8749999999999996,
+    -3,
+    8.5125
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workWallE3",
+   "room": "work-spine",
+   "type": "wall",
+   "name": "Work spine starboard bulkhead",
+   "params": {
+    "length": 3.075000000000001,
+    "height": 2.25,
+    "thickness": 0.12
+   },
+   "pos": [
+    -1.8749999999999996,
+    -3,
+    12.8625
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workWallE4",
+   "room": "work-spine",
+   "type": "wall",
+   "name": "Work spine starboard bulkhead",
+   "params": {
+    "length": 2.200000000000003,
+    "height": 2.25,
+    "thickness": 0.12
+   },
+   "pos": [
+    -1.8749999999999996,
+    -3,
+    17.5
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workWallW1",
+   "room": "work-spine",
+   "type": "wall",
+   "name": "Work spine port bulkhead",
+   "params": {
+    "length": 0.7249999999999996,
+    "height": 2.25,
+    "thickness": 0.12
+   },
+   "pos": [
+    -3.3249999999999997,
+    -3,
+    5.0125
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workWallW2",
+   "room": "work-spine",
+   "type": "wall",
+   "name": "Work spine port bulkhead",
+   "params": {
+    "length": 9.075,
+    "height": 2.25,
+    "thickness": 0.12
+   },
+   "pos": [
+    -3.3249999999999997,
+    -3,
+    11.0625
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workWallW3",
+   "room": "work-spine",
+   "type": "wall",
+   "name": "Work spine port bulkhead",
+   "params": {
+    "length": 0.9000000000000021,
+    "height": 2.25,
+    "thickness": 0.12
+   },
+   "pos": [
+    -3.3249999999999997,
+    -3,
+    18.15
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workGuideA",
+   "room": "work-spine",
+   "type": "rail",
+   "name": "Cargo floor guide (port)",
+   "params": {
+    "length": 10.5,
+    "height": 0.045,
+    "midRail": false
+   },
+   "pos": [
+    -3.0199999999999996,
+    -3,
+    13.5
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workGuideB",
+   "room": "work-spine",
+   "type": "rail",
+   "name": "Cargo floor guide (starboard)",
+   "params": {
+    "length": 10.5,
+    "height": 0.045,
+    "midRail": false
+   },
+   "pos": [
+    -2.1799999999999997,
+    -3,
+    13.5
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workHeadFloor",
+   "room": "work-head",
+   "type": "floor",
+   "name": "Secondary work head deck",
+   "params": {
+    "width": 1.5,
+    "depth": 1.55
+   },
+   "pos": [
+    -1.1249999999999996,
+    -3,
+    6.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "workHeadCeil",
+   "room": "work-head",
+   "type": "ceiling",
+   "name": "Secondary work head overhead",
+   "params": {
+    "width": 1.5,
+    "depth": 1.55,
+    "height": 2.05
+   },
+   "pos": [
+    -1.1249999999999996,
+    -3,
+    6.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "workHeadDoor",
+   "room": "work-head",
+   "type": "doorway",
+   "name": "Work head door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.7,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    -1.8749999999999996,
+    -3,
+    6.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workHeadOuter",
+   "room": "work-head",
+   "type": "wall",
+   "name": "Work head outer wall",
+   "params": {
+    "length": 1.55,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -0.37499999999999956,
+    -3,
+    6.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "workHeadN",
+   "room": "work-head",
+   "type": "wall",
+   "name": "Work head wall",
+   "params": {
+    "length": 1.5,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -1.1249999999999996,
+    -3,
+    5.975
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "workHeadS",
+   "room": "work-head",
+   "type": "wall",
+   "name": "Work head wall",
+   "params": {
+    "length": 1.5,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -1.1249999999999996,
+    -3,
+    7.525
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "workHeadWash",
+   "room": "work-head",
+   "type": "counter",
+   "name": "Handwash / utility basin",
+   "params": {
+    "width": 0.62,
+    "depth": 0.34,
+    "height": 0.86,
+    "sink": true
+   },
+   "pos": [
+    -0.9049999999999996,
+    -3,
+    6.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "resTurnFloor",
+   "room": "residential",
+   "type": "floor",
+   "name": "Residential turn deck",
+   "params": {
+    "width": 4.175,
+    "depth": 1.15
+   },
+   "pos": [
+    -4.6875,
+    -3,
+    5.95
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "resTurnCeil",
+   "room": "residential",
+   "type": "ceiling",
+   "name": "Residential turn overhead",
+   "params": {
+    "width": 4.175,
+    "depth": 1.15,
+    "height": 2.1
+   },
+   "pos": [
+    -4.6875,
+    -3,
+    5.95
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "resTurnWallN",
+   "room": "residential",
+   "type": "wall",
+   "name": "Residential turn forward bulkhead",
+   "params": {
+    "length": 2.3749999999999996,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -4.512499999999999,
+    -3,
+    5.375
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "resTurnWallS",
+   "room": "residential",
+   "type": "wall",
+   "name": "Residential turn aft bulkhead",
+   "params": {
+    "length": 2.3,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -4.475,
+    -3,
+    6.525
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "resApproachFloor",
+   "room": "residential",
+   "type": "floor",
+   "name": "Residential approach deck",
+   "params": {
+    "width": 1.15,
+    "depth": 6.1000000000000005
+   },
+   "pos": [
+    -6.199999999999999,
+    -3,
+    9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "resApproachCeil",
+   "room": "residential",
+   "type": "ceiling",
+   "name": "Residential approach overhead",
+   "params": {
+    "width": 1.15,
+    "depth": 6.1000000000000005,
+    "height": 2.1
+   },
+   "pos": [
+    -6.199999999999999,
+    -3,
+    9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "navFloor",
+   "room": "nav",
+   "type": "floor",
+   "name": "Nav compartment deck",
+   "params": {
+    "width": 2.35,
+    "depth": 1.9
+   },
+   "pos": [
+    -6.199999999999999,
+    -3,
+    4.425
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "navCeil",
+   "room": "nav",
+   "type": "ceiling",
+   "name": "Nav compartment overhead",
+   "params": {
+    "width": 2.35,
+    "depth": 1.9,
+    "height": 2.1
+   },
+   "pos": [
+    -6.199999999999999,
+    -3,
+    4.425
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "navDoor",
+   "room": "nav",
+   "type": "doorway",
+   "name": "Nav hatch",
+   "params": {
+    "length": 1,
+    "height": 2.1,
+    "thickness": 0.1,
+    "doorWidth": 0.75,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    -6.199999999999999,
+    -3,
+    5.375
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "navWallN",
+   "room": "nav",
+   "type": "wall",
+   "name": "Nav forward wall",
+   "params": {
+    "length": 2.35,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -6.199999999999999,
+    -3,
+    3.4749999999999996
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "navWallW",
+   "room": "nav",
+   "type": "wall",
+   "name": "Nav port wall",
+   "params": {
+    "length": 1.9,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.374999999999999,
+    -3,
+    4.425
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "navWallE",
+   "room": "nav",
+   "type": "wall",
+   "name": "Nav starboard wall",
+   "params": {
+    "length": 1.9,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -5.0249999999999995,
+    -3,
+    4.425
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "navWallS1",
+   "room": "nav",
+   "type": "wall",
+   "name": "Nav aft wall (port)",
+   "params": {
+    "length": 0.675,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.0375,
+    -3,
+    5.375
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "navWallS2",
+   "room": "nav",
+   "type": "wall",
+   "name": "Nav aft wall (starboard)",
+   "params": {
+    "length": 0.675,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -5.362499999999999,
+    -3,
+    5.375
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "navConsole",
+   "room": "nav",
+   "type": "console",
+   "name": "Long-range nav console",
+   "params": {
+    "width": 1.25,
+    "depth": 0.58,
+    "height": 0.92,
+    "screens": 3,
+    "lit": true
+   },
+   "pos": [
+    -6.199999999999999,
+    -3,
+    3.8449999999999998
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "navPerch",
+   "room": "nav",
+   "type": "bench",
+   "name": "Nav fold-down perch",
+   "params": {
+    "width": 1,
+    "height": 0.43,
+    "depth": 0.42
+   },
+   "pos": [
+    -6.749999999999999,
+    -3,
+    4.705
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "navChair",
+   "room": "nav",
+   "type": "seat",
+   "name": "Nav chair (light, unbolted)",
+   "params": {
+    "seatHeight": 0.44,
+    "width": 0.4,
+    "hasArms": false
+   },
+   "pos": [
+    -5.419999999999999,
+    -3,
+    4.545
+   ],
+   "rotY": -0.5
+  },
+  {
+   "layoutKey": "cab1Floor",
+   "room": "cabin",
+   "type": "floor",
+   "name": "Cabin One deck",
+   "params": {
+    "width": 2.4,
+    "depth": 2
+   },
+   "pos": [
+    -7.975,
+    -3,
+    7.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab1Ceil",
+   "room": "cabin",
+   "type": "ceiling",
+   "name": "Cabin One overhead",
+   "params": {
+    "width": 2.4,
+    "depth": 2,
+    "height": 2.05
+   },
+   "pos": [
+    -7.975,
+    -3,
+    7.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab1WallN",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin One wall",
+   "params": {
+    "length": 2.4,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.975,
+    -3,
+    6.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab1WallS",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin One wall",
+   "params": {
+    "length": 2.4,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.975,
+    -3,
+    8.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab1OuterWall",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin One outer wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -9.174999999999999,
+    -3,
+    7.65
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab1Door",
+   "room": "cabin",
+   "type": "doorway",
+   "name": "Cabin One door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.75,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -6.7749999999999995,
+    -3,
+    7.95
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab1Bunk",
+   "room": "cabin",
+   "type": "bench",
+   "name": "Cabin One bunk",
+   "params": {
+    "width": 1.82,
+    "height": 0.4,
+    "depth": 0.68
+   },
+   "pos": [
+    -7.975,
+    -3,
+    7.03
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab1Locker",
+   "room": "cabin",
+   "type": "storage",
+   "name": "Cabin One locker",
+   "params": {
+    "width": 0.55,
+    "height": 1.78,
+    "depth": 0.42
+   },
+   "pos": [
+    -8.874999999999998,
+    -3,
+    8.42
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab1Desk",
+   "room": "cabin",
+   "type": "table",
+   "name": "Cabin One fold-down desk",
+   "params": {
+    "width": 0.6,
+    "depth": 0.4,
+    "height": 0.74
+   },
+   "pos": [
+    -8.204999999999998,
+    -3,
+    8.44
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab1Stool",
+   "room": "cabin",
+   "type": "seat",
+   "name": "Cabin One stool",
+   "params": {
+    "seatHeight": 0.44,
+    "width": 0.38,
+    "hasArms": false
+   },
+   "pos": [
+    -8.274999999999999,
+    -3,
+    7.87
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "cab2Floor",
+   "room": "cabin",
+   "type": "floor",
+   "name": "Cabin Two deck",
+   "params": {
+    "width": 2,
+    "depth": 1.85
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    9.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab2Ceil",
+   "room": "cabin",
+   "type": "ceiling",
+   "name": "Cabin Two overhead",
+   "params": {
+    "width": 2,
+    "depth": 1.85,
+    "height": 2.05
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    9.05
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab2WallN",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Two wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    8.125
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab2WallS",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Two wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    9.975000000000001
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab2OuterWall",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Two outer wall",
+   "params": {
+    "length": 1.85,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.624999999999999,
+    -3,
+    9.05
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab2Door",
+   "room": "cabin",
+   "type": "doorway",
+   "name": "Cabin Two door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.75,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0.35
+   },
+   "pos": [
+    -5.624999999999999,
+    -3,
+    9.350000000000001
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab2Bunk",
+   "room": "cabin",
+   "type": "bench",
+   "name": "Cabin Two bunk",
+   "params": {
+    "width": 1.82,
+    "height": 0.4,
+    "depth": 0.68
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    8.505
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab2Desk",
+   "room": "cabin",
+   "type": "table",
+   "name": "Cabin Two fold-down desk",
+   "params": {
+    "width": 0.6,
+    "depth": 0.4,
+    "height": 0.74
+   },
+   "pos": [
+    -4.594999999999999,
+    -3,
+    9.765
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab2Stool",
+   "room": "cabin",
+   "type": "seat",
+   "name": "Cabin Two stool",
+   "params": {
+    "seatHeight": 0.44,
+    "width": 0.38,
+    "hasArms": false
+   },
+   "pos": [
+    -4.5249999999999995,
+    -3,
+    9.195000000000002
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "cab3Floor",
+   "room": "cabin",
+   "type": "floor",
+   "name": "Cabin Three deck",
+   "params": {
+    "width": 2,
+    "depth": 1.85
+   },
+   "pos": [
+    -7.7749999999999995,
+    -3,
+    10.25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab3Ceil",
+   "room": "cabin",
+   "type": "ceiling",
+   "name": "Cabin Three overhead",
+   "params": {
+    "width": 2,
+    "depth": 1.85,
+    "height": 2.05
+   },
+   "pos": [
+    -7.7749999999999995,
+    -3,
+    10.25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab3WallN",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Three wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.7749999999999995,
+    -3,
+    9.325
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab3WallS",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Three wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.7749999999999995,
+    -3,
+    11.175
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab3OuterWall",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Three outer wall",
+   "params": {
+    "length": 1.85,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -8.774999999999999,
+    -3,
+    10.25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab3Door",
+   "room": "cabin",
+   "type": "doorway",
+   "name": "Cabin Three door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.75,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -6.7749999999999995,
+    -3,
+    10.55
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab3Bunk",
+   "room": "cabin",
+   "type": "bench",
+   "name": "Cabin Three bunk",
+   "params": {
+    "width": 1.82,
+    "height": 0.4,
+    "depth": 0.68
+   },
+   "pos": [
+    -7.7749999999999995,
+    -3,
+    9.705
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab3Locker",
+   "room": "cabin",
+   "type": "storage",
+   "name": "Cabin Three locker",
+   "params": {
+    "width": 0.55,
+    "height": 1.78,
+    "depth": 0.42
+   },
+   "pos": [
+    -8.474999999999998,
+    -3,
+    10.945
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab3Desk",
+   "room": "cabin",
+   "type": "table",
+   "name": "Cabin Three fold-down desk",
+   "params": {
+    "width": 0.6,
+    "depth": 0.4,
+    "height": 0.74
+   },
+   "pos": [
+    -7.804999999999999,
+    -3,
+    10.965
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab3Stool",
+   "room": "cabin",
+   "type": "seat",
+   "name": "Cabin Three stool",
+   "params": {
+    "seatHeight": 0.44,
+    "width": 0.38,
+    "hasArms": false
+   },
+   "pos": [
+    -7.874999999999998,
+    -3,
+    10.395000000000001
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "cab4Floor",
+   "room": "cabin",
+   "type": "floor",
+   "name": "Cabin Four — Nova deck",
+   "params": {
+    "width": 2,
+    "depth": 1.85
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    11.15
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab4Ceil",
+   "room": "cabin",
+   "type": "ceiling",
+   "name": "Cabin Four — Nova overhead",
+   "params": {
+    "width": 2,
+    "depth": 1.85,
+    "height": 2.05
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    11.15
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab4WallN",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Four — Nova wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    10.225
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab4WallS",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Four — Nova wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    12.075000000000001
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab4OuterWall",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Four — Nova outer wall",
+   "params": {
+    "length": 1.85,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -3.624999999999999,
+    -3,
+    11.15
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab4Door",
+   "room": "cabin",
+   "type": "doorway",
+   "name": "Cabin Four — Nova door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.75,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    -5.624999999999999,
+    -3,
+    11.450000000000001
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab4Bunk",
+   "room": "cabin",
+   "type": "bench",
+   "name": "Cabin Four — Nova bunk",
+   "params": {
+    "width": 1.82,
+    "height": 0.4,
+    "depth": 0.68
+   },
+   "pos": [
+    -4.624999999999999,
+    -3,
+    10.605
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab4Locker",
+   "room": "cabin",
+   "type": "storage",
+   "name": "Cabin Four — Nova locker",
+   "params": {
+    "width": 0.55,
+    "height": 1.78,
+    "depth": 0.42
+   },
+   "pos": [
+    -3.924999999999999,
+    -3,
+    11.845
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab4Desk",
+   "room": "cabin",
+   "type": "table",
+   "name": "Cabin Four — Nova fold-down desk",
+   "params": {
+    "width": 0.6,
+    "depth": 0.4,
+    "height": 0.74
+   },
+   "pos": [
+    -4.594999999999999,
+    -3,
+    11.865
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab4Stool",
+   "room": "cabin",
+   "type": "seat",
+   "name": "Cabin Four — Nova stool",
+   "params": {
+    "seatHeight": 0.44,
+    "width": 0.38,
+    "hasArms": false
+   },
+   "pos": [
+    -4.5249999999999995,
+    -3,
+    11.295000000000002
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "cab2Drawers",
+   "room": "cabin",
+   "type": "storage",
+   "name": "Labeled drawer unit (Cabin Two)",
+   "params": {
+    "width": 0.8,
+    "height": 0.9,
+    "depth": 0.32
+   },
+   "pos": [
+    -4.004999999999999,
+    -3,
+    9.6
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "cab4CablewayPlate",
+   "room": "cabin",
+   "type": "shelf",
+   "name": "Cableway cover plate (Cabin Four ceiling)",
+   "params": {
+    "width": 0.6,
+    "depth": 0.35,
+    "mountHeight": 1.92,
+    "tins": 0
+   },
+   "pos": [
+    -4.524999999999999,
+    -3,
+    11.55
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "resWallW1",
+   "room": "residential",
+   "type": "wall",
+   "name": "Residential approach bulkhead",
+   "params": {
+    "length": 1.5,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -6.7749999999999995,
+    -3,
+    6.7
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "resWallW2",
+   "room": "residential",
+   "type": "wall",
+   "name": "Residential approach bulkhead",
+   "params": {
+    "length": 1.6000000000000014,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -6.7749999999999995,
+    -3,
+    9.25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "resWallW3",
+   "room": "residential",
+   "type": "wall",
+   "name": "Residential approach bulkhead",
+   "params": {
+    "length": 1,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -6.7749999999999995,
+    -3,
+    11.55
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "resWallE1",
+   "room": "residential",
+   "type": "wall",
+   "name": "Residential approach bulkhead",
+   "params": {
+    "length": 2.8999999999999995,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -5.624999999999999,
+    -3,
+    7.4
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "resWallE2",
+   "room": "residential",
+   "type": "wall",
+   "name": "Residential approach bulkhead",
+   "params": {
+    "length": 1.0999999999999996,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -5.624999999999999,
+    -3,
+    10.399999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "resWallE3",
+   "room": "residential",
+   "type": "wall",
+   "name": "Residential approach bulkhead",
+   "params": {
+    "length": 0.10000000000000142,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -5.624999999999999,
+    -3,
+    12
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "doglegFloor",
+   "room": "residential",
+   "type": "floor",
+   "name": "Wet-core dogleg deck",
+   "params": {
+    "width": 3.15,
+    "depth": 1.15
+   },
+   "pos": [
+    -7.199999999999999,
+    -3,
+    12.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "doglegCeil",
+   "room": "residential",
+   "type": "ceiling",
+   "name": "Wet-core dogleg overhead",
+   "params": {
+    "width": 3.15,
+    "depth": 1.15,
+    "height": 2.08
+   },
+   "pos": [
+    -7.199999999999999,
+    -3,
+    12.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "quietRunFloor",
+   "room": "residential",
+   "type": "floor",
+   "name": "Quiet cabin run deck",
+   "params": {
+    "width": 1.15,
+    "depth": 5.4
+   },
+   "pos": [
+    -8.2,
+    -3,
+    15.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "quietRunCeil",
+   "room": "residential",
+   "type": "ceiling",
+   "name": "Quiet cabin run overhead",
+   "params": {
+    "width": 1.15,
+    "depth": 5.4,
+    "height": 2.08
+   },
+   "pos": [
+    -8.2,
+    -3,
+    15.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "wetCoreFloor",
+   "room": "wet-service",
+   "type": "floor",
+   "name": "Residential wet / service core deck",
+   "params": {
+    "width": 1.8,
+    "depth": 2.5
+   },
+   "pos": [
+    -4.699999999999999,
+    -3,
+    13.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "wetCoreCeil",
+   "room": "wet-service",
+   "type": "ceiling",
+   "name": "Wet / service core overhead",
+   "params": {
+    "width": 1.8,
+    "depth": 2.5,
+    "height": 2.15
+   },
+   "pos": [
+    -4.699999999999999,
+    -3,
+    13.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "wetCoreN",
+   "room": "wet-service",
+   "type": "wall",
+   "name": "Wet / service core wall",
+   "params": {
+    "length": 1.8,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -4.699999999999999,
+    -3,
+    12.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "wetCoreS",
+   "room": "wet-service",
+   "type": "wall",
+   "name": "Wet / service core wall",
+   "params": {
+    "length": 1.8,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -4.699999999999999,
+    -3,
+    14.7
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "wetCoreW",
+   "room": "wet-service",
+   "type": "wall",
+   "name": "Wet / service core corridor wall",
+   "params": {
+    "length": 2.5,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -5.6,
+    -3,
+    13.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "wetCoreE",
+   "room": "wet-service",
+   "type": "wall",
+   "name": "Wet / service core outer wall",
+   "params": {
+    "length": 2.5,
+    "height": 2.15,
+    "thickness": 0.12
+   },
+   "pos": [
+    -3.7999999999999994,
+    -3,
+    13.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "wetCorePanel",
+   "room": "wet-service",
+   "type": "storage",
+   "name": "Habitation service manifold",
+   "params": {
+    "width": 0.95,
+    "height": 1.35,
+    "depth": 0.18
+   },
+   "pos": [
+    -5.5,
+    -3,
+    13.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "secondaryLadder",
+   "room": "wet-service",
+   "type": "step",
+   "name": "Secondary ship ladder",
+   "params": {
+    "width": 0.68,
+    "rise": 0.17647058823529413,
+    "run": 0.1,
+    "steps": 17
+   },
+   "pos": [
+    -4.499999999999999,
+    -3,
+    13.7
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "quietWallW1",
+   "room": "residential",
+   "type": "wall",
+   "name": "Quiet run west bulkhead",
+   "params": {
+    "length": 1.2250000000000014,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -8.774999999999999,
+    -3,
+    13.6375
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "quietWallW2",
+   "room": "residential",
+   "type": "wall",
+   "name": "Quiet run west bulkhead",
+   "params": {
+    "length": 1,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -8.774999999999999,
+    -3,
+    15.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "quietWallW3",
+   "room": "residential",
+   "type": "wall",
+   "name": "Quiet run west bulkhead",
+   "params": {
+    "length": 0.5500000000000007,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -8.774999999999999,
+    -3,
+    17.525
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "quietWallE",
+   "room": "residential",
+   "type": "wall",
+   "name": "Quiet run east bulkhead",
+   "params": {
+    "length": 4.775000000000002,
+    "height": 2.08,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.624999999999999,
+    -3,
+    15.4125
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "gardenFloor",
+   "room": "domestic-stores",
+   "type": "floor",
+   "name": "Domestic stores deck",
+   "params": {
+    "width": 2,
+    "depth": 2.55
+   },
+   "pos": [
+    -6.612499999999999,
+    -3,
+    14.299999999999999
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "gardenCeil",
+   "room": "domestic-stores",
+   "type": "ceiling",
+   "name": "Domestic stores overhead",
+   "params": {
+    "width": 2,
+    "depth": 2.55,
+    "height": 2.1
+   },
+   "pos": [
+    -6.612499999999999,
+    -3,
+    14.299999999999999
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "gardenHatch",
+   "room": "domestic-stores",
+   "type": "doorway",
+   "name": "Domestic stores hatch / future garden hatch",
+   "params": {
+    "length": 1.15,
+    "height": 2.1,
+    "thickness": 0.1,
+    "doorWidth": 0.8,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -6.612499999999999,
+    -3,
+    13.024999999999999
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "gardenWallS",
+   "room": "domestic-stores",
+   "type": "wall",
+   "name": "Domestic stores aft wall",
+   "params": {
+    "length": 2,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -6.612499999999999,
+    -3,
+    15.575
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "gardenWallW",
+   "room": "domestic-stores",
+   "type": "wall",
+   "name": "Domestic stores side wall",
+   "params": {
+    "length": 2.55,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.612499999999999,
+    -3,
+    14.299999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "gardenWallE",
+   "room": "domestic-stores",
+   "type": "wall",
+   "name": "Domestic stores side wall",
+   "params": {
+    "length": 2.55,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -5.612499999999999,
+    -3,
+    14.299999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "gardenWallN1",
+   "room": "domestic-stores",
+   "type": "wall",
+   "name": "Domestic stores forward wall (port)",
+   "params": {
+    "length": 0.42500000000000004,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.399999999999999,
+    -3,
+    13.024999999999999
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "gardenWallN2",
+   "room": "domestic-stores",
+   "type": "wall",
+   "name": "Domestic stores forward wall (starboard)",
+   "params": {
+    "length": 0.42500000000000004,
+    "height": 2.1,
+    "thickness": 0.1
+   },
+   "pos": [
+    -5.824999999999999,
+    -3,
+    13.024999999999999
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "gardenStore1",
+   "room": "domestic-stores",
+   "type": "storage",
+   "name": "Low side-opening domestic store 1",
+   "params": {
+    "width": 0.72,
+    "height": 0.72,
+    "depth": 0.72
+   },
+   "pos": [
+    -7.162499999999999,
+    -3,
+    14.399999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "gardenStore2",
+   "room": "domestic-stores",
+   "type": "storage",
+   "name": "Low side-opening domestic store 2",
+   "params": {
+    "width": 0.72,
+    "height": 0.72,
+    "depth": 0.72
+   },
+   "pos": [
+    -7.162499999999999,
+    -3,
+    15.149999999999999
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "gardenStore3",
+   "room": "domestic-stores",
+   "type": "storage",
+   "name": "Low side-opening domestic store 3",
+   "params": {
+    "width": 0.72,
+    "height": 0.72,
+    "depth": 0.72
+   },
+   "pos": [
+    -6.062499999999999,
+    -3,
+    14.7
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "cab5Floor",
+   "room": "cabin",
+   "type": "floor",
+   "name": "Cabin Five — Iri deck",
+   "params": {
+    "width": 2.1,
+    "depth": 2
+   },
+   "pos": [
+    -9.825,
+    -3,
+    14.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab5Ceil",
+   "room": "cabin",
+   "type": "ceiling",
+   "name": "Cabin Five — Iri overhead",
+   "params": {
+    "width": 2.1,
+    "depth": 2,
+    "height": 2.05
+   },
+   "pos": [
+    -9.825,
+    -3,
+    14.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab5WallN",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Five — Iri wall",
+   "params": {
+    "length": 2.1,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -9.825,
+    -3,
+    13.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab5WallS",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Five — Iri wall",
+   "params": {
+    "length": 2.1,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -9.825,
+    -3,
+    15.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab5OuterWall",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Five — Iri outer wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -10.875,
+    -3,
+    14.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab5Door",
+   "room": "cabin",
+   "type": "doorway",
+   "name": "Cabin Five — Iri door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.75,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0.45
+   },
+   "pos": [
+    -8.774999999999999,
+    -3,
+    14.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab5Bunk",
+   "room": "cabin",
+   "type": "bench",
+   "name": "Cabin Five — Iri bunk",
+   "params": {
+    "width": 1.82,
+    "height": 0.4,
+    "depth": 0.68
+   },
+   "pos": [
+    -9.825,
+    -3,
+    13.83
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab6Floor",
+   "room": "cabin",
+   "type": "floor",
+   "name": "Cabin Six — Quenby deck",
+   "params": {
+    "width": 2.4,
+    "depth": 2
+   },
+   "pos": [
+    -9.974999999999998,
+    -3,
+    16.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab6Ceil",
+   "room": "cabin",
+   "type": "ceiling",
+   "name": "Cabin Six — Quenby overhead",
+   "params": {
+    "width": 2.4,
+    "depth": 2,
+    "height": 2.05
+   },
+   "pos": [
+    -9.974999999999998,
+    -3,
+    16.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab6WallN",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Six — Quenby wall",
+   "params": {
+    "length": 2.4,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -9.974999999999998,
+    -3,
+    15.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab6WallS",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Six — Quenby wall",
+   "params": {
+    "length": 2.4,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -9.974999999999998,
+    -3,
+    17.45
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab6OuterWall",
+   "room": "cabin",
+   "type": "wall",
+   "name": "Cabin Six — Quenby outer wall",
+   "params": {
+    "length": 2,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -11.174999999999997,
+    -3,
+    16.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab6Door",
+   "room": "cabin",
+   "type": "doorway",
+   "name": "Cabin Six — Quenby door",
+   "params": {
+    "length": 1,
+    "height": 2.05,
+    "thickness": 0.1,
+    "doorWidth": 0.75,
+    "doorHeight": 1.9,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -8.774999999999999,
+    -3,
+    16.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab6Bunk",
+   "room": "cabin",
+   "type": "bench",
+   "name": "Cabin Six — Quenby bunk",
+   "params": {
+    "width": 1.82,
+    "height": 0.4,
+    "depth": 0.68
+   },
+   "pos": [
+    -9.974999999999998,
+    -3,
+    15.83
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab6Locker",
+   "room": "cabin",
+   "type": "storage",
+   "name": "Cabin Six — Quenby locker",
+   "params": {
+    "width": 0.55,
+    "height": 1.78,
+    "depth": 0.42
+   },
+   "pos": [
+    -10.874999999999996,
+    -3,
+    17.22
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab6Desk",
+   "room": "cabin",
+   "type": "table",
+   "name": "Cabin Six — Quenby fold-down desk",
+   "params": {
+    "width": 0.6,
+    "depth": 0.4,
+    "height": 0.74
+   },
+   "pos": [
+    -10.204999999999997,
+    -3,
+    17.24
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab6Stool",
+   "room": "cabin",
+   "type": "seat",
+   "name": "Cabin Six — Quenby stool",
+   "params": {
+    "seatHeight": 0.44,
+    "width": 0.38,
+    "hasArms": false
+   },
+   "pos": [
+    -10.274999999999997,
+    -3,
+    16.669999999999998
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "cab5Table",
+   "room": "cabin",
+   "type": "table",
+   "name": "Iri’s worktable",
+   "params": {
+    "width": 0.85,
+    "depth": 0.5,
+    "height": 0.78
+   },
+   "pos": [
+    -9.995,
+    -3,
+    15.1
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "cab5Stool",
+   "room": "cabin",
+   "type": "seat",
+   "name": "Iri’s stool",
+   "params": {
+    "seatHeight": 0.44,
+    "width": 0.38,
+    "hasArms": false
+   },
+   "pos": [
+    -9.874999999999998,
+    -3,
+    14.51
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab5Hatch",
+   "room": "cabin",
+   "type": "shelf",
+   "name": "Iri’s sealed storage hatch",
+   "params": {
+    "width": 0.7,
+    "depth": 0.26,
+    "mountHeight": 1.2,
+    "tins": 0
+   },
+   "pos": [
+    -10.774999999999999,
+    -3,
+    14.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cab5Locker",
+   "room": "cabin",
+   "type": "storage",
+   "name": "Cabin Five — Iri locker",
+   "params": {
+    "width": 0.55,
+    "height": 1.78,
+    "depth": 0.42
+   },
+   "pos": [
+    -10.665,
+    -3,
+    15.12
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "aftServiceFloor",
+   "room": "aft-service",
+   "type": "floor",
+   "name": "Aft service passage deck",
+   "params": {
+    "width": 1.15,
+    "depth": 3.2
+   },
+   "pos": [
+    -8.2,
+    -3,
+    19
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "aftServiceCeil",
+   "room": "aft-service",
+   "type": "ceiling",
+   "name": "Aft service passage overhead",
+   "params": {
+    "width": 1.15,
+    "depth": 3.2,
+    "height": 2.05
+   },
+   "pos": [
+    -8.2,
+    -3,
+    19
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "storageTwo",
+   "room": "aft-service",
+   "type": "storage",
+   "name": "Storage Two (old registry)",
+   "params": {
+    "width": 0.9,
+    "height": 1.6,
+    "depth": 0.34
+   },
+   "pos": [
+    -8.554999999999998,
+    -3,
+    18.6
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "aftServiceWallW",
+   "room": "aft-service",
+   "type": "wall",
+   "name": "Aft service passage port bulkhead",
+   "params": {
+    "length": 2.8,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -8.774999999999999,
+    -3,
+    19.2
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "aftServiceWallE",
+   "room": "aft-service",
+   "type": "wall",
+   "name": "Aft service passage starboard bulkhead",
+   "params": {
+    "length": 1.6,
+    "height": 2.05,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.624999999999999,
+    -3,
+    18.6
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "aftReconnectFloor",
+   "room": "aft-service",
+   "type": "floor",
+   "name": "Aft reconnection deck",
+   "params": {
+    "width": 5.6,
+    "depth": 1.2
+   },
+   "pos": [
+    -5.3999999999999995,
+    -3,
+    20
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "aftReconnectCeil",
+   "room": "aft-service",
+   "type": "ceiling",
+   "name": "Aft reconnection overhead",
+   "params": {
+    "width": 5.6,
+    "depth": 1.2,
+    "height": 2.1
+   },
+   "pos": [
+    -5.3999999999999995,
+    -3,
+    20
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "flexFloor",
+   "room": "flex-bay",
+   "type": "floor",
+   "name": "Hold Two — configurable mission / flex bay deck",
+   "params": {
+    "width": 5.2,
+    "depth": 6
+   },
+   "pos": [
+    0.7250000000000005,
+    -3,
+    10.55
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "flexCeil",
+   "room": "flex-bay",
+   "type": "ceiling",
+   "name": "Mission / flex bay overhead",
+   "params": {
+    "width": 5.2,
+    "depth": 6,
+    "height": 2.6
+   },
+   "pos": [
+    0.7250000000000005,
+    -3,
+    10.55
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "flexDoor",
+   "room": "flex-bay",
+   "type": "doorway",
+   "name": "Mission / flex bay cargo hatch",
+   "params": {
+    "length": 1.55,
+    "height": 2.6,
+    "thickness": 0.14,
+    "doorWidth": 1.25,
+    "doorHeight": 2.15,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -1.8749999999999996,
+    -3,
+    10.55
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "flexOuter",
+   "room": "flex-bay",
+   "type": "wall",
+   "name": "Mission / flex bay outer wall",
+   "params": {
+    "length": 6,
+    "height": 2.6,
+    "thickness": 0.14
+   },
+   "pos": [
+    3.3250000000000006,
+    -3,
+    10.55
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "flexWallN",
+   "room": "flex-bay",
+   "type": "wall",
+   "name": "Mission / flex bay wall",
+   "params": {
+    "length": 5.2,
+    "height": 2.6,
+    "thickness": 0.14
+   },
+   "pos": [
+    0.7250000000000005,
+    -3,
+    7.550000000000001
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "flexWallS",
+   "room": "flex-bay",
+   "type": "wall",
+   "name": "Mission / flex bay wall",
+   "params": {
+    "length": 5.2,
+    "height": 2.6,
+    "thickness": 0.14
+   },
+   "pos": [
+    0.7250000000000005,
+    -3,
+    13.55
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "flexUtility",
+   "room": "flex-bay",
+   "type": "console",
+   "name": "Modular utility panel",
+   "params": {
+    "width": 1.15,
+    "depth": 0.28,
+    "height": 1,
+    "screens": 1,
+    "lit": true
+   },
+   "pos": [
+    3.1450000000000005,
+    -3,
+    9.100000000000001
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "flexRail",
+   "room": "flex-bay",
+   "type": "rail",
+   "name": "Module mounting rail",
+   "params": {
+    "length": 3.8,
+    "height": 0.12,
+    "midRail": false
+   },
+   "pos": [
+    0.7250000000000005,
+    -3,
+    13.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "partsRecessFloor",
+   "room": "work-spine",
+   "type": "floor",
+   "name": "Parts / repair recess deck",
+   "params": {
+    "width": 1.7,
+    "depth": 2
+   },
+   "pos": [
+    -1.0499999999999996,
+    -3,
+    15.4
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "partsStorage",
+   "room": "work-spine",
+   "type": "storage",
+   "name": "Parts lockers",
+   "params": {
+    "width": 1.2,
+    "height": 1.65,
+    "depth": 0.4
+   },
+   "pos": [
+    -0.44999999999999973,
+    -3,
+    15.6
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "partsBench",
+   "room": "work-spine",
+   "type": "counter",
+   "name": "Fold-down repair surface",
+   "params": {
+    "width": 1.05,
+    "depth": 0.42,
+    "height": 0.9,
+    "sink": false
+   },
+   "pos": [
+    -1.0499999999999996,
+    -3,
+    14.7
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engAccessFloor",
+   "room": "engineering-access",
+   "type": "floor",
+   "name": "Underdeck engineering access recess",
+   "params": {
+    "width": 1.9,
+    "depth": 2.1
+   },
+   "pos": [
+    -4.1499999999999995,
+    -3,
+    16.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engAccessHatch",
+   "room": "engineering-access",
+   "type": "step",
+   "name": "Engineering hatch + rungs",
+   "params": {
+    "width": 0.72,
+    "rise": 0.24,
+    "run": 0.16,
+    "steps": 6
+   },
+   "pos": [
+    -4.1499999999999995,
+    -4.4399999999999995,
+    16.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "engAccessPanel",
+   "room": "engineering-access",
+   "type": "storage",
+   "name": "Local isolation / service panel",
+   "params": {
+    "width": 0.85,
+    "height": 1.25,
+    "depth": 0.18
+   },
+   "pos": [
+    -4.949999999999999,
+    -3,
+    16.8
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "aftFreightFloor",
+   "room": "aft-freight",
+   "type": "floor",
+   "name": "Aft Freight / Service junction deck",
+   "params": {
+    "width": 3.2,
+    "depth": 2.8
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    20
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "aftFreightCeil",
+   "room": "aft-freight",
+   "type": "ceiling",
+   "name": "Aft Freight / Service overhead",
+   "params": {
+    "width": 3.2,
+    "depth": 2.8,
+    "height": 2.55
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    20
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "freightLockFloor",
+   "room": "freight-lock",
+   "type": "floor",
+   "name": "Freight transfer lock deck",
+   "params": {
+    "width": 3.4,
+    "depth": 2.8
+   },
+   "pos": [
+    0.6000000000000005,
+    -3,
+    19.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "freightLockCeil",
+   "room": "freight-lock",
+   "type": "ceiling",
+   "name": "Freight transfer lock overhead",
+   "params": {
+    "width": 3.4,
+    "depth": 2.8,
+    "height": 2.7
+   },
+   "pos": [
+    0.6000000000000005,
+    -3,
+    19.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "freightLockN",
+   "room": "freight-lock",
+   "type": "wall",
+   "name": "Freight lock wall",
+   "params": {
+    "length": 3.4,
+    "height": 2.7,
+    "thickness": 0.16
+   },
+   "pos": [
+    0.6000000000000005,
+    -3,
+    18.200000000000003
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "freightLockS",
+   "room": "freight-lock",
+   "type": "wall",
+   "name": "Freight lock wall",
+   "params": {
+    "length": 3.4,
+    "height": 2.7,
+    "thickness": 0.16
+   },
+   "pos": [
+    0.6000000000000005,
+    -3,
+    21
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "freightInnerDoor",
+   "room": "freight-lock",
+   "type": "doorway",
+   "name": "Freight lock inner cargo door",
+   "params": {
+    "length": 2.2,
+    "height": 2.7,
+    "thickness": 0.16,
+    "doorWidth": 1.85,
+    "doorHeight": 2.35,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -1.0999999999999994,
+    -3,
+    19.6
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "freightOuterDoor",
+   "room": "freight-lock",
+   "type": "doorway",
+   "name": "Freight lock outer cargo hatch",
+   "params": {
+    "length": 2.8,
+    "height": 2.7,
+    "thickness": 0.18,
+    "doorWidth": 2.15,
+    "doorHeight": 2.35,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    2.3000000000000007,
+    -3,
+    19.6
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "freightGuide",
+   "room": "freight-lock",
+   "type": "rail",
+   "name": "Freight sled alignment guide",
+   "params": {
+    "length": 2.7,
+    "height": 0.05,
+    "midRail": false
+   },
+   "pos": [
+    0.6000000000000005,
+    -3,
+    19.6
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cargoFloor",
+   "room": "cargo-bay",
+   "type": "floor",
+   "name": "Hold One (\"the forward hold\") — main cargo / training bay deck",
+   "params": {
+    "width": 7,
+    "depth": 8
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cargoCeil",
+   "room": "cargo-bay",
+   "type": "ceiling",
+   "name": "Main cargo / flex bay overhead",
+   "params": {
+    "width": 7,
+    "depth": 8,
+    "height": 3.2
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    25
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cargoWallS",
+   "room": "cargo-bay",
+   "type": "wall",
+   "name": "Main cargo bay aft wall",
+   "params": {
+    "length": 7,
+    "height": 3.2,
+    "thickness": 0.16
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    29
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cargoWallE1",
+   "room": "cargo-bay",
+   "type": "wall",
+   "name": "Main cargo bay starboard wall (forward)",
+   "params": {
+    "length": 2.5500000000000007,
+    "height": 3.2,
+    "thickness": 0.16
+   },
+   "pos": [
+    0.9000000000000004,
+    -3,
+    22.275
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cargoWallE2",
+   "room": "cargo-bay",
+   "type": "wall",
+   "name": "Main cargo bay starboard wall (aft)",
+   "params": {
+    "length": 4.550000000000001,
+    "height": 3.2,
+    "thickness": 0.16
+   },
+   "pos": [
+    0.9000000000000004,
+    -3,
+    26.725
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cargoWallW1",
+   "room": "cargo-bay",
+   "type": "wall",
+   "name": "Main cargo bay port wall (forward)",
+   "params": {
+    "length": 3.1499999999999986,
+    "height": 3.2,
+    "thickness": 0.16
+   },
+   "pos": [
+    -6.1,
+    -3,
+    22.575
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cargoWallW2",
+   "room": "cargo-bay",
+   "type": "wall",
+   "name": "Main cargo bay port wall (aft)",
+   "params": {
+    "length": 3.8500000000000014,
+    "height": 3.2,
+    "thickness": 0.16
+   },
+   "pos": [
+    -6.1,
+    -3,
+    27.075
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cargoWallN1",
+   "room": "cargo-bay",
+   "type": "wall",
+   "name": "Main cargo bay forward wall (port)",
+   "params": {
+    "length": 2.1,
+    "height": 3.2,
+    "thickness": 0.16
+   },
+   "pos": [
+    -5.05,
+    -3,
+    21
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cargoWallN2",
+   "room": "cargo-bay",
+   "type": "wall",
+   "name": "Main cargo bay forward wall (starboard)",
+   "params": {
+    "length": 2.1,
+    "height": 3.2,
+    "thickness": 0.16
+   },
+   "pos": [
+    -0.14999999999999947,
+    -3,
+    21
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cargoFreightDoor",
+   "room": "cargo-bay",
+   "type": "doorway",
+   "name": "Main bay freight door",
+   "params": {
+    "length": 2.8,
+    "height": 3.2,
+    "thickness": 0.16,
+    "doorWidth": 2.4,
+    "doorHeight": 2.6,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    21
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cargoPersonnelDoor",
+   "room": "cargo-bay",
+   "type": "doorway",
+   "name": "Main bay personnel / service hatch",
+   "params": {
+    "length": 1,
+    "height": 2.2,
+    "thickness": 0.12,
+    "doorWidth": 0.75,
+    "doorHeight": 1.95,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0
+   },
+   "pos": [
+    -6.1,
+    -3,
+    24.65
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "unlFloor",
+   "room": "unlisted",
+   "type": "floor",
+   "name": "Unlisted corridor deck",
+   "params": {
+    "width": 0.66,
+    "depth": 7.199999999999999
+   },
+   "pos": [
+    1.3100000000000003,
+    -3,
+    25.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "unlCeil",
+   "room": "unlisted",
+   "type": "ceiling",
+   "name": "Unlisted corridor overhead",
+   "params": {
+    "width": 0.66,
+    "depth": 7.199999999999999,
+    "height": 1.95
+   },
+   "pos": [
+    1.3100000000000003,
+    -3,
+    25.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "unlWallE",
+   "room": "unlisted",
+   "type": "wall",
+   "name": "Unlisted corridor outboard wall",
+   "params": {
+    "length": 7.199999999999999,
+    "height": 1.95,
+    "thickness": 0.1
+   },
+   "pos": [
+    1.6900000000000004,
+    -3,
+    25.1
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "unlCapN",
+   "room": "unlisted",
+   "type": "wall",
+   "name": "Unlisted corridor forward end",
+   "params": {
+    "length": 0.78,
+    "height": 1.95,
+    "thickness": 0.1
+   },
+   "pos": [
+    1.3100000000000003,
+    -3,
+    21.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "unlCapS",
+   "room": "unlisted",
+   "type": "wall",
+   "name": "Unlisted corridor aft end",
+   "params": {
+    "length": 0.78,
+    "height": 1.95,
+    "thickness": 0.1
+   },
+   "pos": [
+    1.3100000000000003,
+    -3,
+    28.7
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "unlHatch",
+   "room": "unlisted",
+   "type": "doorway",
+   "name": "Access plate (the seam behind the vent grid)",
+   "params": {
+    "length": 0.9,
+    "height": 1.85,
+    "thickness": 0.16,
+    "doorWidth": 0.55,
+    "doorHeight": 1.78,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0
+   },
+   "pos": [
+    0.9000000000000004,
+    -3,
+    24
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "unlConduit",
+   "room": "unlisted",
+   "type": "conduit",
+   "name": "Old conduit run (buried behind newer work)",
+   "params": {
+    "length": 6.6,
+    "lines": 2,
+    "gauge": 0.07,
+    "mountHeight": 1.78,
+    "era": "ancient"
+   },
+   "pos": [
+    1.5100000000000002,
+    -3,
+    25.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "unlCacheHatch",
+   "room": "unlisted",
+   "type": "crate",
+   "name": "Layered deck panel (the cache lid)",
+   "params": {
+    "width": 0.5,
+    "height": 0.025,
+    "depth": 0.65
+   },
+   "pos": [
+    1.3100000000000003,
+    -3,
+    27
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "unlCacheStores",
+   "room": "unlisted",
+   "type": "crate",
+   "name": "Underfloor cache — supply rolls, half a medkit, filtration patches",
+   "params": {
+    "width": 0.5,
+    "height": 0.34,
+    "depth": 0.6
+   },
+   "pos": [
+    1.3100000000000003,
+    -3.44,
+    27
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "unlCacheCase",
+   "room": "unlisted",
+   "type": "crate",
+   "name": "Rear compartment — the black travel case",
+   "params": {
+    "width": 0.42,
+    "height": 0.16,
+    "depth": 0.3
+   },
+   "pos": [
+    1.3100000000000003,
+    -3.42,
+    27.62
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3LandingFloor",
+   "room": "deck-three",
+   "type": "floor",
+   "name": "Deck Three landing",
+   "params": {
+    "width": 1.3,
+    "depth": 2
+   },
+   "pos": [
+    -4.15,
+    -5.6,
+    16.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3LandingCeil",
+   "room": "deck-three",
+   "type": "ceiling",
+   "name": "Deck Three landing overhead",
+   "params": {
+    "width": 1.3,
+    "depth": 2,
+    "height": 1.95
+   },
+   "pos": [
+    -4.15,
+    -5.6,
+    16.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3LandingCapS",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "Deck Three landing aft wall",
+   "params": {
+    "length": 1.3,
+    "height": 1.95,
+    "thickness": 0.12
+   },
+   "pos": [
+    -4.15,
+    -5.6,
+    17.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3LandingWallW",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "Deck Three landing side wall",
+   "params": {
+    "length": 2,
+    "height": 1.95,
+    "thickness": 0.12
+   },
+   "pos": [
+    -4.800000000000001,
+    -5.6,
+    16.3
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "d3LandingWallE",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "Deck Three landing side wall",
+   "params": {
+    "length": 2,
+    "height": 1.95,
+    "thickness": 0.12
+   },
+   "pos": [
+    -3.5000000000000004,
+    -5.6,
+    16.3
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "d3Mouth",
+   "room": "deck-three",
+   "type": "doorway",
+   "name": "Deck Three mouth door",
+   "params": {
+    "length": 1.3,
+    "height": 1.95,
+    "thickness": 0.12,
+    "doorWidth": 0.7,
+    "doorHeight": 1.8,
+    "kind": "sliding",
+    "slideDir": 1,
+    "open": 0.02
+   },
+   "pos": [
+    -4.15,
+    -5.6,
+    15.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3HallFloor",
+   "room": "deck-three",
+   "type": "floor",
+   "name": "Deck Three hall deck",
+   "params": {
+    "width": 1,
+    "depth": 3.1
+   },
+   "pos": [
+    -4.15,
+    -5.6,
+    13.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3HallCeil",
+   "room": "deck-three",
+   "type": "ceiling",
+   "name": "Deck Three hall overhead",
+   "params": {
+    "width": 1,
+    "depth": 3.1,
+    "height": 1.9
+   },
+   "pos": [
+    -4.15,
+    -5.6,
+    13.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3HallWallE",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "Deck Three hall inboard wall",
+   "params": {
+    "length": 3.1,
+    "height": 1.9,
+    "thickness": 0.12
+   },
+   "pos": [
+    -3.65,
+    -5.6,
+    13.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "d3HallCapN",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "Deck Three hall forward wall",
+   "params": {
+    "length": 1,
+    "height": 1.9,
+    "thickness": 0.12
+   },
+   "pos": [
+    -4.15,
+    -5.6,
+    12.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3HallWallW1",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "Deck Three hall outboard wall (fwd)",
+   "params": {
+    "length": 0.45,
+    "height": 1.9,
+    "thickness": 0.12
+   },
+   "pos": [
+    -4.65,
+    -5.6,
+    12.425
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "d3HallWallW2",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "Deck Three hall outboard wall (aft)",
+   "params": {
+    "length": 1.75,
+    "height": 1.9,
+    "thickness": 0.12
+   },
+   "pos": [
+    -4.65,
+    -5.6,
+    14.425
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "d3RoomDoor",
+   "room": "deck-three",
+   "type": "doorway",
+   "name": "The wrong room’s door (keyed lock)",
+   "params": {
+    "length": 0.9,
+    "height": 1.85,
+    "thickness": 0.12,
+    "doorWidth": 0.65,
+    "doorHeight": 1.75,
+    "kind": "sliding",
+    "slideDir": -1,
+    "open": 0.3
+   },
+   "pos": [
+    -4.65,
+    -5.6,
+    13.1
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "d3RoomFloor",
+   "room": "deck-three",
+   "type": "floor",
+   "name": "The wrong room (Deck Three store) deck",
+   "params": {
+    "width": 2,
+    "depth": 1.15
+   },
+   "pos": [
+    -5.7,
+    -5.6,
+    13.075
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3RoomCeil",
+   "room": "deck-three",
+   "type": "ceiling",
+   "name": "The wrong room overhead",
+   "params": {
+    "width": 2,
+    "depth": 1.15,
+    "height": 1.8
+   },
+   "pos": [
+    -5.7,
+    -5.6,
+    13.075
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3RoomWallN",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "The wrong room forward wall",
+   "params": {
+    "length": 2,
+    "height": 1.8,
+    "thickness": 0.12
+   },
+   "pos": [
+    -5.7,
+    -5.6,
+    12.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3RoomWallS",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "The wrong room aft wall",
+   "params": {
+    "length": 2,
+    "height": 1.8,
+    "thickness": 0.12
+   },
+   "pos": [
+    -5.7,
+    -5.6,
+    13.65
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "d3RoomWallW",
+   "room": "deck-three",
+   "type": "wall",
+   "name": "The wrong room outboard wall",
+   "params": {
+    "length": 1.15,
+    "height": 1.8,
+    "thickness": 0.12
+   },
+   "pos": [
+    -6.7,
+    -5.6,
+    13.075
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "d3PowerTrunk",
+   "room": "deck-three",
+   "type": "conduit",
+   "name": "Power distribution trunk (Deck Three run)",
+   "params": {
+    "length": 2.4,
+    "lines": 3,
+    "gauge": 0.08,
+    "mountHeight": 1.45,
+    "era": "modern"
+   },
+   "pos": [
+    -5.55,
+    -5.6,
+    12.38
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "d3RoomCrate",
+   "room": "deck-three",
+   "type": "crate",
+   "name": "The old crate — tiles, mismatched cups, faded cloth, dead training core",
+   "params": {
+    "width": 0.8,
+    "height": 0.55,
+    "depth": 0.6
+   },
+   "pos": [
+    -6.25,
+    -5.6,
+    13.15
+   ],
+   "rotY": 0.18
+  },
+  {
+   "layoutKey": "d3Bolt",
+   "room": "deck-three",
+   "type": "crate",
+   "name": "The bolt (upright, precarious on purpose)",
+   "params": {
+    "width": 0.05,
+    "height": 0.05,
+    "depth": 0.05
+   },
+   "pos": [
+    -4.38,
+    -5.6,
+    13.38
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cargoBay4Stencil",
+   "room": "work-spine",
+   "type": "shelf",
+   "name": "Painted stencil — \"CARGO BAY FOUR →\"",
+   "params": {
+    "width": 0.95,
+    "depth": 0.04,
+    "mountHeight": 1.55,
+    "tins": 0
+   },
+   "pos": [
+    -1.85,
+    -3,
+    18.6
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "cargoTiem2_4",
+   "room": "cargo-bay",
+   "type": "rail",
+   "name": "Recessed cargo tie / floor track",
+   "params": {
+    "length": 5.8,
+    "height": 0.045,
+    "midRail": false
+   },
+   "pos": [
+    -5,
+    -3,
+    25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cargoTie0",
+   "room": "cargo-bay",
+   "type": "rail",
+   "name": "Recessed cargo tie / floor track",
+   "params": {
+    "length": 5.8,
+    "height": 0.045,
+    "midRail": false
+   },
+   "pos": [
+    -2.5999999999999996,
+    -3,
+    25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "cargoTie2_4",
+   "room": "cargo-bay",
+   "type": "rail",
+   "name": "Recessed cargo tie / floor track",
+   "params": {
+    "length": 5.8,
+    "height": 0.045,
+    "midRail": false
+   },
+   "pos": [
+    -0.19999999999999973,
+    -3,
+    25
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "lowerAftFloor",
+   "room": "lower-aft-spine",
+   "type": "floor",
+   "name": "Lower aft spine deck",
+   "params": {
+    "width": 1.15,
+    "depth": 9.399999999999999
+   },
+   "pos": [
+    -6.675,
+    -3,
+    24.7
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "lowerAftCeil",
+   "room": "lower-aft-spine",
+   "type": "ceiling",
+   "name": "Lower aft spine overhead",
+   "params": {
+    "width": 1.15,
+    "depth": 9.399999999999999,
+    "height": 2
+   },
+   "pos": [
+    -6.675,
+    -3,
+    24.7
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "lowerAftWallW1",
+   "room": "lower-aft-spine",
+   "type": "wall",
+   "name": "Lower aft spine port bulkhead (forward)",
+   "params": {
+    "length": 5.3,
+    "height": 2,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.25,
+    -3,
+    22.65
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "lowerAftWallW2",
+   "room": "lower-aft-spine",
+   "type": "wall",
+   "name": "Lower aft spine port bulkhead (aft)",
+   "params": {
+    "length": 3.2,
+    "height": 2,
+    "thickness": 0.1
+   },
+   "pos": [
+    -7.25,
+    -3,
+    27.799999999999997
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "lowerAftEnd",
+   "room": "lower-aft-spine",
+   "type": "wall",
+   "name": "Lower aft spine end bulkhead",
+   "params": {
+    "length": 1.15,
+    "height": 2,
+    "thickness": 0.1
+   },
+   "pos": [
+    -6.675,
+    -3,
+    29.4
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "lowerAftPanel",
+   "room": "lower-aft-spine",
+   "type": "storage",
+   "name": "Legacy service panel",
+   "params": {
+    "width": 0.85,
+    "height": 1.25,
+    "depth": 0.15
+   },
+   "pos": [
+    -7.125,
+    -3,
+    22.8
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "novaCrawlFloor",
+   "room": "equipment-crawl",
+   "type": "floor",
+   "name": "Port-side equipment crawl deck",
+   "params": {
+    "width": 1.8,
+    "depth": 1.45
+   },
+   "pos": [
+    -8.15,
+    -3,
+    25.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "novaCrawlCeil",
+   "room": "equipment-crawl",
+   "type": "ceiling",
+   "name": "Equipment crawl overhead",
+   "params": {
+    "width": 1.8,
+    "depth": 1.45,
+    "height": 1.65
+   },
+   "pos": [
+    -8.15,
+    -3,
+    25.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "novaCrawlHatch",
+   "room": "equipment-crawl",
+   "type": "doorway",
+   "name": "Equipment crawl hatch",
+   "params": {
+    "length": 0.9,
+    "height": 1.75,
+    "thickness": 0.1,
+    "doorWidth": 0.65,
+    "doorHeight": 1.55,
+    "kind": "hinged",
+    "hinge": "left",
+    "swing": "out",
+    "open": 0
+   },
+   "pos": [
+    -7.25,
+    -3,
+    25.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "novaCrawlDesk",
+   "room": "equipment-crawl",
+   "type": "counter",
+   "name": "Repurposed cargo-panel desk",
+   "params": {
+    "width": 0.9,
+    "depth": 0.35,
+    "height": 0.64,
+    "sink": false
+   },
+   "pos": [
+    -8.450000000000001,
+    -3,
+    25.4
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "novaCrawlPad",
+   "room": "equipment-crawl",
+   "type": "bench",
+   "name": "Folded insulation pad",
+   "params": {
+    "width": 0.8,
+    "height": 0.08,
+    "depth": 0.55
+   },
+   "pos": [
+    -7.87,
+    -3,
+    26.03
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "novaCrawlSlates",
+   "room": "equipment-crawl",
+   "type": "shelf",
+   "name": "Frequency slates (…DO NOT ANSWER)",
+   "params": {
+    "width": 0.55,
+    "depth": 0.06,
+    "mountHeight": 0.55,
+    "tins": 0
+   },
+   "pos": [
+    -8.77,
+    -3,
+    26.05
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "novaCrawlLamp",
+   "room": "equipment-crawl",
+   "type": "shelf",
+   "name": "Patched lamp + taped light strips",
+   "params": {
+    "width": 0.28,
+    "depth": 0.12,
+    "mountHeight": 1.3,
+    "tins": 0
+   },
+   "pos": [
+    -8,
+    -3,
+    25.07
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "novaCrawlSideCrate",
+   "room": "equipment-crawl",
+   "type": "crate",
+   "name": "Broken crate (side table)",
+   "params": {
+    "width": 0.4,
+    "height": 0.32,
+    "depth": 0.38
+   },
+   "pos": [
+    -7.53,
+    -3,
+    25.4
+   ],
+   "rotY": -0.15
+  },
+  {
+   "layoutKey": "aftEngHatch",
+   "room": "lower-aft-spine",
+   "type": "storage",
+   "name": "Aft machinery access hatch",
+   "params": {
+    "width": 0.9,
+    "height": 1.2,
+    "depth": 0.18
+   },
+   "pos": [
+    -6.225,
+    -3,
+    28.4
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "mhNose",
+   "room": "hull",
+   "type": "massing",
+   "name": "Nose — sensor & avionics bay",
+   "params": {
+    "width": 3.6,
+    "depth": 1.85,
+    "height": 2.6,
+    "lift": 0
+   },
+   "pos": [
+    -1,
+    -0.6,
+    -3.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhDorsal",
+   "room": "hull",
+   "type": "massing",
+   "name": "Dorsal spine girder",
+   "params": {
+    "width": 3.4,
+    "depth": 30,
+    "height": 0.9,
+    "lift": 0
+   },
+   "pos": [
+    -1,
+    2.35,
+    14
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhTankW1",
+   "room": "hull",
+   "type": "massing",
+   "name": "Water cells (forward band)",
+   "params": {
+    "width": 3.4,
+    "depth": 6,
+    "height": 1.9,
+    "lift": 0
+   },
+   "pos": [
+    0.8,
+    -5.3,
+    8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhTankW2",
+   "room": "hull",
+   "type": "massing",
+   "name": "Water cells (aft band)",
+   "params": {
+    "width": 3.4,
+    "depth": 6,
+    "height": 1.9,
+    "lift": 0
+   },
+   "pos": [
+    0.8,
+    -5.3,
+    16
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhDeck3F",
+   "room": "hull",
+   "type": "massing",
+   "name": "Deck Three — reserve layer (forward)",
+   "params": {
+    "width": 6.4,
+    "depth": 7.05,
+    "height": 2.2,
+    "lift": 0
+   },
+   "pos": [
+    -4.4,
+    -5.5,
+    8.525
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhDeck3A",
+   "room": "hull",
+   "type": "massing",
+   "name": "Deck Three — reserve layer (aft)",
+   "params": {
+    "width": 6.4,
+    "depth": 2.55,
+    "height": 2.2,
+    "lift": 0
+   },
+   "pos": [
+    -4.4,
+    -5.5,
+    18.725
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhDeck3E",
+   "room": "hull",
+   "type": "massing",
+   "name": "Deck Three — reserve layer (inboard sliver)",
+   "params": {
+    "width": 2.15,
+    "depth": 5.3,
+    "height": 2.2,
+    "lift": 0
+   },
+   "pos": [
+    -2.275,
+    -5.5,
+    14.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhDeck3W",
+   "room": "hull",
+   "type": "massing",
+   "name": "Deck Three — reserve layer (outboard sliver)",
+   "params": {
+    "width": 0.65,
+    "depth": 5.3,
+    "height": 2.2,
+    "lift": 0
+   },
+   "pos": [
+    -7.275,
+    -5.5,
+    14.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhGearNose",
+   "room": "hull",
+   "type": "massing",
+   "name": "Nose gear bay",
+   "params": {
+    "width": 2.2,
+    "depth": 2.6,
+    "height": 1.9,
+    "lift": 0
+   },
+   "pos": [
+    -2.6,
+    -5.3,
+    0.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhGearPort",
+   "room": "hull",
+   "type": "massing",
+   "name": "Main gear bay (port)",
+   "params": {
+    "width": 2.2,
+    "depth": 3.2,
+    "height": 2.2,
+    "lift": 0
+   },
+   "pos": [
+    -9.2,
+    -5.6,
+    17.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhGearStbd",
+   "room": "hull",
+   "type": "massing",
+   "name": "Main gear bay (starboard)",
+   "params": {
+    "width": 2.2,
+    "depth": 3.2,
+    "height": 2.2,
+    "lift": 0
+   },
+   "pos": [
+    3.4,
+    -5.6,
+    17.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhChute",
+   "room": "hull",
+   "type": "massing",
+   "name": "Ventral cargo chute trunk",
+   "params": {
+    "width": 2.6,
+    "depth": 2.2,
+    "height": 2.3,
+    "lift": 0
+   },
+   "pos": [
+    0.6,
+    -5.4,
+    19.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhDrive",
+   "room": "hull",
+   "type": "massing",
+   "name": "Drive core & power plant",
+   "params": {
+    "width": 5.4,
+    "depth": 7.2,
+    "height": 5.2,
+    "lift": 0
+   },
+   "pos": [
+    -2.2,
+    -3.4,
+    33.4
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhRmTankP",
+   "room": "hull",
+   "type": "massing",
+   "name": "Reaction-mass tankage (port)",
+   "params": {
+    "width": 3.6,
+    "depth": 6,
+    "height": 4.2,
+    "lift": 0
+   },
+   "pos": [
+    -7.2,
+    -4.2,
+    32.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhRmTankS",
+   "room": "hull",
+   "type": "massing",
+   "name": "Reaction-mass tankage (starboard)",
+   "params": {
+    "width": 3.6,
+    "depth": 6,
+    "height": 4.2,
+    "lift": 0
+   },
+   "pos": [
+    2.8,
+    -4.2,
+    32.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhAccum",
+   "room": "hull",
+   "type": "massing",
+   "name": "Thermal accumulator / phase-change buffer",
+   "params": {
+    "width": 3,
+    "depth": 4,
+    "height": 1.6,
+    "lift": 0
+   },
+   "pos": [
+    -2.2,
+    1.9,
+    34.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhVaneP",
+   "room": "hull",
+   "type": "massing",
+   "name": "Aft radiator vane (port)",
+   "params": {
+    "width": 0.3,
+    "depth": 3.6,
+    "height": 3.4,
+    "lift": 0
+   },
+   "pos": [
+    -5.2,
+    2,
+    38.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhVaneC",
+   "room": "hull",
+   "type": "massing",
+   "name": "Aft radiator vane (center)",
+   "params": {
+    "width": 0.3,
+    "depth": 3.6,
+    "height": 3.4,
+    "lift": 0
+   },
+   "pos": [
+    -2.2,
+    2,
+    38.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhVaneS",
+   "room": "hull",
+   "type": "massing",
+   "name": "Aft radiator vane (starboard)",
+   "params": {
+    "width": 0.3,
+    "depth": 3.6,
+    "height": 3.4,
+    "lift": 0
+   },
+   "pos": [
+    0.8,
+    2,
+    38.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhNozzle",
+   "room": "hull",
+   "type": "massing",
+   "name": "Drive nozzle assembly",
+   "params": {
+    "width": 3.6,
+    "depth": 3.4,
+    "height": 3.6,
+    "lift": 0
+   },
+   "pos": [
+    -2.2,
+    -2.4,
+    38.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "mhVoidP2",
+   "room": "hull",
+   "type": "massing",
+   "name": "Unaccounted volume — \"Pocket Two?\"",
+   "params": {
+    "width": 1,
+    "depth": 2,
+    "height": 2.05,
+    "lift": 0,
+    "tint": "anomaly"
+   },
+   "pos": [
+    -3.4,
+    0,
+    5.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cdMidlineBus",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Midline power bus",
+   "params": {
+    "length": 10.4,
+    "lines": 3,
+    "gauge": 0.07,
+    "mountHeight": 2,
+    "era": "modern"
+   },
+   "pos": [
+    -0.5,
+    0,
+    7.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cdPortDuct",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Port air trunk (the duct seam)",
+   "params": {
+    "length": 9.4,
+    "lines": 1,
+    "gauge": 0.24,
+    "mountHeight": 1.92,
+    "era": "modern",
+    "branch": "domestic"
+   },
+   "pos": [
+    -4.5,
+    0,
+    9.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cdCoolLower",
+   "room": "lower-corridor",
+   "type": "conduit",
+   "name": "Coolant lines (residential approach)",
+   "params": {
+    "length": 6,
+    "lines": 2,
+    "gauge": 0.09,
+    "mountHeight": 1.95,
+    "era": "modern"
+   },
+   "pos": [
+    -6.55,
+    -3,
+    9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "aftPump",
+   "room": "lower-aft-spine",
+   "type": "crate",
+   "name": "Aft transfer pump",
+   "params": {
+    "width": 0.55,
+    "height": 0.75,
+    "depth": 0.5
+   },
+   "pos": [
+    -6.425,
+    -3,
+    21.9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "oldHz1",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Unmapped harness (bridge run)",
+   "params": {
+    "length": 4.2,
+    "lines": 2,
+    "gauge": 0.05,
+    "mountHeight": 0.1,
+    "era": "ancient"
+   },
+   "pos": [
+    0.5,
+    0,
+    0.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "oldHz2",
+   "room": "spine",
+   "type": "conduit",
+   "name": "Unmapped harness (spine run)",
+   "params": {
+    "length": 6,
+    "lines": 2,
+    "gauge": 0.05,
+    "mountHeight": 0.14,
+    "era": "ancient"
+   },
+   "pos": [
+    3.35,
+    0,
+    7.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "oldHz3",
+   "room": "lower-aft-spine",
+   "type": "conduit",
+   "name": "Unmapped harness (lower aft run)",
+   "params": {
+    "length": 8,
+    "lines": 2,
+    "gauge": 0.05,
+    "mountHeight": 0.12,
+    "era": "ancient"
+   },
+   "pos": [
+    -7.095,
+    -3,
+    24.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductDomCorridor",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Domestic loop — corridor header",
+   "params": {
+    "length": 6,
+    "lines": 1,
+    "gauge": 0.2,
+    "mountHeight": 1.98,
+    "era": "modern",
+    "branch": "domestic"
+   },
+   "pos": [
+    -1.5,
+    0,
+    4.5
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductDomBridge",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Domestic loop — bridge run",
+   "params": {
+    "length": 2.8,
+    "lines": 1,
+    "gauge": 0.16,
+    "mountHeight": 2.05,
+    "era": "modern",
+    "branch": "domestic"
+   },
+   "pos": [
+    1.2,
+    0,
+    0.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductDomGalley",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Domestic loop — galley run",
+   "params": {
+    "length": 3.7,
+    "lines": 1,
+    "gauge": 0.2,
+    "mountHeight": 1.98,
+    "era": "modern",
+    "branch": "domestic"
+   },
+   "pos": [
+    -2.65,
+    0,
+    10.2
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductDomToilet",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Domestic loop — toilet extract",
+   "params": {
+    "length": 2,
+    "lines": 1,
+    "gauge": 0.14,
+    "mountHeight": 1.95,
+    "era": "modern",
+    "branch": "domestic"
+   },
+   "pos": [
+    -3.5,
+    0,
+    11.9
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductDomShower",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Domestic loop — shower extract",
+   "params": {
+    "length": 1.5,
+    "lines": 1,
+    "gauge": 0.14,
+    "mountHeight": 1.95,
+    "era": "modern",
+    "branch": "domestic"
+   },
+   "pos": [
+    -3.75,
+    0,
+    13
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductHabTrunk",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Habitation loop — approach trunk",
+   "params": {
+    "length": 7.7,
+    "lines": 1,
+    "gauge": 0.22,
+    "mountHeight": 1.95,
+    "era": "modern",
+    "branch": "habitation"
+   },
+   "pos": [
+    -6,
+    -3,
+    8.75
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductHabCore",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Habitation loop — wet-core tie",
+   "params": {
+    "length": 1.6,
+    "lines": 1,
+    "gauge": 0.22,
+    "mountHeight": 1.95,
+    "era": "modern",
+    "branch": "habitation"
+   },
+   "pos": [
+    -5.2,
+    -3,
+    12.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductHabWest",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Habitation loop — west cabin header",
+   "params": {
+    "length": 4.4,
+    "lines": 1,
+    "gauge": 0.16,
+    "mountHeight": 1.8,
+    "era": "modern",
+    "branch": "habitation"
+   },
+   "pos": [
+    -7.9,
+    -3,
+    9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductHabEast",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Habitation loop — east cabin header",
+   "params": {
+    "length": 4.6,
+    "lines": 1,
+    "gauge": 0.16,
+    "mountHeight": 1.8,
+    "era": "modern",
+    "branch": "habitation"
+   },
+   "pos": [
+    -4,
+    -3,
+    10.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductHabDogleg",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Habitation loop — dogleg crossing",
+   "params": {
+    "length": 2.6,
+    "lines": 1,
+    "gauge": 0.18,
+    "mountHeight": 1.9,
+    "era": "modern",
+    "branch": "habitation"
+   },
+   "pos": [
+    -8,
+    -3,
+    12.45
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductHabElbow",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Habitation loop — quiet-run elbow",
+   "params": {
+    "length": 1.2,
+    "lines": 1,
+    "gauge": 0.18,
+    "mountHeight": 1.85,
+    "era": "modern",
+    "branch": "habitation"
+   },
+   "pos": [
+    -9.4,
+    -3,
+    12.9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductHabQuiet",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Habitation loop — quiet-run header",
+   "params": {
+    "length": 4,
+    "lines": 1,
+    "gauge": 0.16,
+    "mountHeight": 1.8,
+    "era": "modern",
+    "branch": "habitation"
+   },
+   "pos": [
+    -9.4,
+    -3,
+    15.4
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductHabGarden",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Habitation loop — stores spur",
+   "params": {
+    "length": 1.6,
+    "lines": 1,
+    "gauge": 0.14,
+    "mountHeight": 1.9,
+    "era": "modern",
+    "branch": "habitation"
+   },
+   "pos": [
+    -6.6,
+    -3,
+    14.2
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductOpsTrunk",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Operations loop — work-spine trunk",
+   "params": {
+    "length": 14.4,
+    "lines": 1,
+    "gauge": 0.26,
+    "mountHeight": 1.95,
+    "era": "modern",
+    "branch": "ops"
+   },
+   "pos": [
+    -2.6,
+    -3,
+    11.8
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductOpsSkiff",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Operations loop — skiff bay spur",
+   "params": {
+    "length": 2.4,
+    "lines": 1,
+    "gauge": 0.18,
+    "mountHeight": 1.95,
+    "era": "modern",
+    "branch": "ops"
+   },
+   "pos": [
+    -3.6,
+    -3,
+    2.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductOpsHead",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Operations loop — work-head spur",
+   "params": {
+    "length": 1.8,
+    "lines": 1,
+    "gauge": 0.14,
+    "mountHeight": 1.95,
+    "era": "modern",
+    "branch": "ops"
+   },
+   "pos": [
+    -1.5,
+    -3,
+    6.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductOpsFlex",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Operations loop — Hold Two spur",
+   "params": {
+    "length": 2.4,
+    "lines": 1,
+    "gauge": 0.18,
+    "mountHeight": 1.98,
+    "era": "modern",
+    "branch": "ops"
+   },
+   "pos": [
+    -0.9,
+    -3,
+    10.55
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductOpsCargo",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Operations loop — Hold One run",
+   "params": {
+    "length": 5,
+    "lines": 1,
+    "gauge": 0.22,
+    "mountHeight": 2.1,
+    "era": "modern",
+    "branch": "ops"
+   },
+   "pos": [
+    -2.6,
+    -3,
+    22.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ductOpsLock",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Operations loop — freight lock spur",
+   "params": {
+    "length": 2.2,
+    "lines": 1,
+    "gauge": 0.16,
+    "mountHeight": 2.1,
+    "era": "modern",
+    "branch": "ops"
+   },
+   "pos": [
+    0.3,
+    -3,
+    19.8
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductOpsCrawl",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Operations loop — crawl tap (Iri’s)",
+   "params": {
+    "length": 1.6,
+    "lines": 1,
+    "gauge": 0.1,
+    "mountHeight": 1.35,
+    "era": "modern",
+    "branch": "ops"
+   },
+   "pos": [
+    -7.9,
+    -3,
+    25.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ductMedLoop",
+   "room": "hull",
+   "type": "conduit",
+   "name": "Medbay filtered loop",
+   "params": {
+    "length": 1.4,
+    "lines": 1,
+    "gauge": 0.14,
+    "mountHeight": 1.95,
+    "era": "modern",
+    "branch": "med-iso"
+   },
+   "pos": [
+    -1.5,
+    0,
+    5.8
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ahuDomestic",
+   "room": "domestic-service",
+   "type": "shelf",
+   "name": "Domestic air-handling unit",
+   "params": {
+    "width": 1.2,
+    "depth": 0.42,
+    "mountHeight": 1.78,
+    "tins": 0
+   },
+   "pos": [
+    -4.84,
+    0,
+    9.9
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "ahuHabitation",
+   "room": "domestic-stores",
+   "type": "shelf",
+   "name": "Habitation-loop filter / distribution unit",
+   "params": {
+    "width": 1.1,
+    "depth": 0.45,
+    "mountHeight": 1.78,
+    "tins": 0
+   },
+   "pos": [
+    -6.6,
+    -3,
+    15.3
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "ahuOps",
+   "room": "aft-freight",
+   "type": "shelf",
+   "name": "Operations air-handling unit",
+   "params": {
+    "width": 1.2,
+    "depth": 0.45,
+    "mountHeight": 1.78,
+    "tins": 0
+   },
+   "pos": [
+    -4,
+    -3,
+    20.9
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "medAirUnit",
+   "room": "medbay",
+   "type": "shelf",
+   "name": "Medbay filter unit",
+   "params": {
+    "width": 0.5,
+    "depth": 0.3,
+    "mountHeight": 1.79,
+    "tins": 0
+   },
+   "pos": [
+    -2,
+    0,
+    6.63
+   ],
+   "rotY": 3.141592653589793
+  },
+  {
+   "layoutKey": "ventGridPanel",
+   "room": "cargo-bay",
+   "type": "storage",
+   "name": "Secondary vent grid",
+   "params": {
+    "width": 1.3,
+    "height": 1.5,
+    "depth": 0.08
+   },
+   "pos": [
+    0.84,
+    -3,
+    25.05
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "p1Panel",
+   "room": "hygiene",
+   "type": "storage",
+   "name": "Blanked panel — painted-over stencil \"P-1\"",
+   "params": {
+    "width": 0.8,
+    "height": 1.1,
+    "depth": 0.08
+   },
+   "pos": [
+    -3.4,
+    0,
+    6.92
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "svcKneehole",
+   "room": "bridge",
+   "type": "storage",
+   "name": "Helm kneehole access panel (open)",
+   "params": {
+    "width": 0.7,
+    "height": 0.45,
+    "depth": 0.05
+   },
+   "pos": [
+    0.1,
+    0,
+    -1.11
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "svcCorMidline",
+   "room": "corridor",
+   "type": "storage",
+   "name": "Corridor service panel — power distribution",
+   "params": {
+    "width": 0.6,
+    "height": 1,
+    "depth": 0.09
+   },
+   "pos": [
+    1,
+    0,
+    2.75
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "svcCorBend",
+   "room": "corridor",
+   "type": "storage",
+   "name": "Coolant riser access (elbow corner)",
+   "params": {
+    "width": 0.5,
+    "height": 1.3,
+    "depth": 0.1
+   },
+   "pos": [
+    2,
+    0,
+    5.32
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "svcGalleyHeater",
+   "room": "galley",
+   "type": "storage",
+   "name": "Galley heater service panel",
+   "params": {
+    "width": 0.7,
+    "height": 1.2,
+    "depth": 0.08
+   },
+   "pos": [
+    0.84,
+    0,
+    8.35
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "svcLowerCool",
+   "room": "residential",
+   "type": "storage",
+   "name": "Coolant valve set (residential approach)",
+   "params": {
+    "width": 0.6,
+    "height": 1.1,
+    "depth": 0.09
+   },
+   "pos": [
+    -6.73,
+    -3,
+    6.3
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "svcOpsTrunk",
+   "room": "work-spine",
+   "type": "storage",
+   "name": "Work-spine service panel",
+   "params": {
+    "width": 0.7,
+    "height": 1.2,
+    "depth": 0.09
+   },
+   "pos": [
+    -1.92,
+    -3,
+    8.6
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "svcOpsLanding",
+   "room": "operations",
+   "type": "storage",
+   "name": "Lower Operations junction panel",
+   "params": {
+    "width": 0.8,
+    "height": 1.3,
+    "depth": 0.1
+   },
+   "pos": [
+    -4.04,
+    -3,
+    4.4
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "svcQuietJunction",
+   "room": "residential",
+   "type": "storage",
+   "name": "Quiet-run junction box",
+   "params": {
+    "width": 0.5,
+    "height": 0.9,
+    "depth": 0.09
+   },
+   "pos": [
+    -7.67,
+    -3,
+    13.55
+   ],
+   "rotY": -1.5707963267948966
+  },
+  {
+   "layoutKey": "svcHoldOne",
+   "room": "cargo-bay",
+   "type": "storage",
+   "name": "Old freight-handling junction (Hold One)",
+   "params": {
+    "width": 0.8,
+    "height": 1.4,
+    "depth": 0.08
+   },
+   "pos": [
+    -4.55,
+    -3,
+    21.12
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "cab3JunctionBox",
+   "room": "cabin",
+   "type": "shelf",
+   "name": "Junction box (Cabin Three)",
+   "params": {
+    "width": 0.35,
+    "depth": 0.22,
+    "mountHeight": 1.5,
+    "tins": 0
+   },
+   "pos": [
+    -7.4,
+    -3,
+    9.42
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "svcDoglegManifold",
+   "room": "residential",
+   "type": "storage",
+   "name": "Habitation-loop isolation panel (dogleg)",
+   "params": {
+    "width": 0.7,
+    "height": 1.25,
+    "depth": 0.1
+   },
+   "pos": [
+    -5.72,
+    -3,
+    12.6
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "freightLockPanel",
+   "room": "aft-freight",
+   "type": "storage",
+   "name": "Freight lock seal-test panel",
+   "params": {
+    "width": 0.55,
+    "height": 1.15,
+    "depth": 0.12
+   },
+   "pos": [
+    -3,
+    -3,
+    18.68
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "spnSupportRail",
+   "room": "spine",
+   "type": "rail",
+   "name": "Spine support rail",
+   "params": {
+    "length": 1.6,
+    "height": 0.95,
+    "midRail": false
+   },
+   "pos": [
+    3.32,
+    0,
+    6.4
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "spineMarks",
+   "room": "spine",
+   "type": "shelf",
+   "name": "Graphite pause-marks (the widened wall)",
+   "params": {
+    "width": 0.75,
+    "depth": 0.015,
+    "mountHeight": 1.35,
+    "tins": 0
+   },
+   "pos": [
+    3.28,
+    0,
+    7
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "svcSpineBracket",
+   "room": "spine",
+   "type": "storage",
+   "name": "Recessed equipment bracket (behind the rail line)",
+   "params": {
+    "width": 0.6,
+    "height": 0.9,
+    "depth": 0.1
+   },
+   "pos": [
+    3.31,
+    0,
+    7.7
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "ribCorAft",
+   "room": "corridor",
+   "type": "strut",
+   "name": "Exposed ring-frame rib",
+   "params": {
+    "width": 0.24,
+    "height": 2.05,
+    "depth": 0.2
+   },
+   "pos": [
+    0.78,
+    0,
+    6.55
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ribSpine1",
+   "room": "work-spine",
+   "type": "strut",
+   "name": "Exposed ring-frame rib",
+   "params": {
+    "width": 0.24,
+    "height": 2.05,
+    "depth": 0.2
+   },
+   "pos": [
+    -3.2,
+    -3,
+    9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ribSpine2",
+   "room": "work-spine",
+   "type": "strut",
+   "name": "Exposed ring-frame rib",
+   "params": {
+    "width": 0.24,
+    "height": 2.05,
+    "depth": 0.2
+   },
+   "pos": [
+    -3.2,
+    -3,
+    14.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ribApproach",
+   "room": "residential",
+   "type": "strut",
+   "name": "Exposed ring-frame rib",
+   "params": {
+    "width": 0.24,
+    "height": 2.05,
+    "depth": 0.2
+   },
+   "pos": [
+    -6.66,
+    -3,
+    6.9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "nookElbowRail",
+   "room": "corridor",
+   "type": "rail",
+   "name": "Grab rail (elbow blind corner)",
+   "params": {
+    "length": 0.5,
+    "height": 1.02,
+    "midRail": false
+   },
+   "pos": [
+    1.55,
+    0,
+    5.52
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "nookDoglegRail",
+   "room": "residential",
+   "type": "rail",
+   "name": "Grab rail (dogleg, warm wall)",
+   "params": {
+    "length": 0.6,
+    "height": 1.02,
+    "midRail": false
+   },
+   "pos": [
+    -8.5,
+    -3,
+    11.93
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "suitRack",
+   "room": "skiffbay",
+   "type": "storage",
+   "name": "EVA suit rack — two heavy, one light",
+   "params": {
+    "width": 1.3,
+    "height": 1.9,
+    "depth": 0.45
+   },
+   "pos": [
+    -4.85,
+    -3,
+    -0.6
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "svcScrub",
+   "room": "skiffbay",
+   "type": "counter",
+   "name": "Wash-down / decon point",
+   "params": {
+    "width": 1,
+    "depth": 0.5,
+    "height": 0.9,
+    "sink": true
+   },
+   "pos": [
+    -1.1,
+    -3,
+    -1.85
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "buddyBench",
+   "room": "skiffbay",
+   "type": "bench",
+   "name": "Suit-up bench",
+   "params": {
+    "width": 1,
+    "height": 0.42,
+    "depth": 0.4
+   },
+   "pos": [
+    -4.78,
+    -3,
+    0.95
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hoistRailBay1",
+   "room": "skiffbay",
+   "type": "conduit",
+   "name": "Overhead hoist rail (bay run)",
+   "params": {
+    "length": 4.4,
+    "lines": 1,
+    "gauge": 0.16,
+    "mountHeight": 2.3,
+    "era": "modern"
+   },
+   "pos": [
+    -2.5,
+    -3,
+    0.35
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "hoistRailBay2",
+   "room": "skiffbay",
+   "type": "conduit",
+   "name": "Overhead hoist rail (hatch spur)",
+   "params": {
+    "length": 2,
+    "lines": 1,
+    "gauge": 0.16,
+    "mountHeight": 2.3,
+    "era": "modern"
+   },
+   "pos": [
+    -2.6,
+    -3,
+    1.35
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "hoistRailFreight",
+   "room": "aft-freight",
+   "type": "conduit",
+   "name": "Overhead hoist rail (freight node)",
+   "params": {
+    "length": 2.6,
+    "lines": 1,
+    "gauge": 0.16,
+    "mountHeight": 2.4,
+    "era": "modern"
+   },
+   "pos": [
+    -2,
+    -3,
+    20
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "stagingRack",
+   "room": "aft-freight",
+   "type": "storage",
+   "name": "Salvage staging rack — \"incoming, uncleared\"",
+   "params": {
+    "width": 1.4,
+    "height": 1.6,
+    "depth": 0.5
+   },
+   "pos": [
+    -3.95,
+    -3,
+    20.1
+   ],
+   "rotY": 1.5707963267948966
+  },
+  {
+   "layoutKey": "anchorSB1",
+   "room": "skiffbay",
+   "type": "strut",
+   "name": "Deck tie-down anchor",
+   "params": {
+    "width": 0.16,
+    "height": 0.06,
+    "depth": 0.16
+   },
+   "pos": [
+    -1.6,
+    -3,
+    1.6
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "anchorSB2",
+   "room": "skiffbay",
+   "type": "strut",
+   "name": "Deck tie-down anchor",
+   "params": {
+    "width": 0.16,
+    "height": 0.06,
+    "depth": 0.16
+   },
+   "pos": [
+    -2.7,
+    -3,
+    -0.9
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "anchorFN1",
+   "room": "aft-freight",
+   "type": "strut",
+   "name": "Deck tie-down anchor",
+   "params": {
+    "width": 0.16,
+    "height": 0.06,
+    "depth": 0.16
+   },
+   "pos": [
+    -3.4,
+    -3,
+    19.5
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "anchorFN2",
+   "room": "aft-freight",
+   "type": "strut",
+   "name": "Deck tie-down anchor",
+   "params": {
+    "width": 0.16,
+    "height": 0.06,
+    "depth": 0.16
+   },
+   "pos": [
+    -1.9,
+    -3,
+    19.3
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "anchorEng",
+   "room": "engine",
+   "type": "strut",
+   "name": "Deck tie-down anchor",
+   "params": {
+    "width": 0.16,
+    "height": 0.06,
+    "depth": 0.16
+   },
+   "pos": [
+    4,
+    0,
+    11.1
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "anchorLAS",
+   "room": "lower-aft-spine",
+   "type": "strut",
+   "name": "Deck tie-down anchor",
+   "params": {
+    "width": 0.16,
+    "height": 0.06,
+    "depth": 0.16
+   },
+   "pos": [
+    -6.45,
+    -3,
+    21.35
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "ceilHooks",
+   "room": "work-spine",
+   "type": "shelf",
+   "name": "Ceiling hooks, draped cables",
+   "params": {
+    "width": 1.4,
+    "depth": 0.12,
+    "mountHeight": 1.98,
+    "tins": 0
+   },
+   "pos": [
+    -2.2,
+    -3,
+    17.4
+   ],
+   "rotY": 0
+  },
+  {
+   "layoutKey": "coatRow",
+   "room": "domestic-service",
+   "type": "shelf",
+   "name": "Locker row — coat hooks",
+   "params": {
+    "width": 1.2,
+    "depth": 0.18,
+    "mountHeight": 1.62,
+    "tins": 0
+   },
+   "pos": [
+    -4.03,
+    0,
+    8.2
+   ],
+   "rotY": -1.5707963267948966
+  }
+ ],
+ "FRAME": {
+  "z0": -4.2,
+  "spacing": 1.2,
+  "count": 38
+ },
+ "HULL": [
+  {
+   "y": -6.2,
+   "pts": [
+    [
+     -7,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     5.2,
+     6
+    ],
+    [
+     5.2,
+     26
+    ],
+    [
+     3,
+     32
+    ],
+    [
+     -1,
+     36
+    ],
+    [
+     -3.5,
+     36
+    ],
+    [
+     -7.5,
+     32
+    ],
+    [
+     -9.5,
+     26
+    ],
+    [
+     -9.5,
+     6
+    ]
+   ]
+  },
+  {
+   "y": -3.05,
+   "pts": [
+    [
+     -4.5,
+     -3.6
+    ],
+    [
+     0.5,
+     -3.6
+    ],
+    [
+     2.6,
+     -1
+    ],
+    [
+     7.2,
+     4.5
+    ],
+    [
+     7.2,
+     14
+    ],
+    [
+     5.5,
+     20
+    ],
+    [
+     4.6,
+     29.5
+    ],
+    [
+     2.5,
+     36
+    ],
+    [
+     -1,
+     40.3
+    ],
+    [
+     -3.6,
+     40.3
+    ],
+    [
+     -7.5,
+     36
+    ],
+    [
+     -9,
+     29.5
+    ],
+    [
+     -11.6,
+     20
+    ],
+    [
+     -11.6,
+     8
+    ],
+    [
+     -8,
+     -0.5
+    ]
+   ]
+  },
+  {
+   "y": 0.05,
+   "pts": [
+    [
+     -3.2,
+     -4.2
+    ],
+    [
+     1.2,
+     -4.2
+    ],
+    [
+     3,
+     -1.5
+    ],
+    [
+     7.2,
+     5
+    ],
+    [
+     7.2,
+     13
+    ],
+    [
+     5,
+     19
+    ],
+    [
+     4,
+     27
+    ],
+    [
+     1.5,
+     31
+    ],
+    [
+     -4.5,
+     31
+    ],
+    [
+     -6.8,
+     27
+    ],
+    [
+     -8,
+     19
+    ],
+    [
+     -6.5,
+     8
+    ],
+    [
+     -5.5,
+     2
+    ],
+    [
+     -4.2,
+     -2.5
+    ]
+   ]
+  },
+  {
+   "y": 3.1,
+   "pts": [
+    [
+     -2.6,
+     -1
+    ],
+    [
+     1.4,
+     -1
+    ],
+    [
+     2.2,
+     4
+    ],
+    [
+     2.2,
+     26
+    ],
+    [
+     0,
+     30
+    ],
+    [
+     -3.5,
+     30
+    ],
+    [
+     -4.5,
+     26
+    ],
+    [
+     -4.5,
+     4
+    ]
+   ]
+  }
+ ],
+ "DECK2Y": -3,
+ "version": 34
+}

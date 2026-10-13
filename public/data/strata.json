@@ -1,0 +1,7 @@
+{
+  "_about": "Strata integration point. serverUrl points at a running Strata instance (JellyKid-PEW/Strata). demoChapters lists the chapters where the real embed is mounted in this prototype. workIdPrefix + chapter id is the Strata workId; keep it stable, because Strata anchors notes by paragraph position.",
+  "enabled": true,
+  "serverUrl": "http://localhost:3000",
+  "demoChapters": ["next-02"],
+  "workIdPrefix": "voxhumana:"
+}

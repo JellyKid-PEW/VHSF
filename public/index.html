@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en" data-perspective="quenby">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vox Humana — Wild Huntress</title>
+  <meta name="description" content="Vox Humana: board the Wild Huntress, read the chapters, spend quiet time aboard.">
+  <link rel="icon" href="assets/logos/vox-humana.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Space+Mono:wght@400;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/console.css">
+  <link rel="stylesheet" href="css/ship.css">
+  <link rel="stylesheet" href="css/reader.css">
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="atmos" aria-hidden="true"><div class="scan"></div><div class="vignette"></div></div>
+
+  <header class="topbar" role="banner">
+    <a class="topbar-brand" href="#/" aria-label="Vox Humana console">
+      <img data-perspective-seal src="assets/logos/quenby.png" alt="" width="46" height="31">
+      <span class="tb-word">VOX <b>HUMANA</b></span>
+    </a>
+    <nav class="mainnav" aria-label="Main">
+      <a href="#/" data-route="console">Console</a>
+      <a href="#/ship" data-route="ship"><span class="nav-long">Board the Huntress</span><span class="nav-short">Aboard</span></a>
+      <a href="#/read" data-route="read">Read</a>
+    </nav>
+    <div class="topbar-right">
+      <div class="lens-dock-top" data-dock="chips"></div>
+      <button type="button" class="sound-btn" id="sound-btn" aria-haspopup="dialog" aria-controls="sound-panel" aria-expanded="false">
+        <span class="sound-ico" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="sound-state">Sound off</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= CONSOLE ================= -->
+    <section class="view view-console" id="view-console" aria-labelledby="console-title" hidden>
+      <div class="screen">
+        <section class="identity">
+          <div class="stamp">WILD HUNTRESS · MANUAL INTERFACE</div>
+          <div class="brand-lockup">
+            <img class="brand-seal" data-perspective-seal src="assets/logos/quenby.png" alt="" width="230" height="154">
+            <h1 class="brand-word" id="console-title"><span class="brand-vox">VOX</span><span class="brand-humana">HUMANA</span></h1>
+          </div>
+
+          <div class="ctas">
+            <a class="cta" href="#/ship" id="cta-ship">
+              <span class="cta-ring" aria-hidden="true"></span>
+              <span class="cta-txt"><b>Board the Huntress</b><i>Walk from the bridge to the galley. Settle in.</i></span>
+              <span class="cta-arr" aria-hidden="true">›</span>
+            </a>
+            <a class="cta" href="#/read" id="cta-read">
+              <span class="cta-ring" aria-hidden="true"></span>
+              <span class="cta-txt"><b>Read</b><i>Go straight to the chapters.</i></span>
+              <span class="cta-arr" aria-hidden="true">›</span>
+            </a>
+            <a class="cta cta-resume" href="#/read" id="cta-resume" hidden>
+              <span class="cta-ring" aria-hidden="true"></span>
+              <span class="cta-txt"><b>Resume reading</b><i data-resume-label></i></span>
+              <span class="cta-arr" aria-hidden="true">›</span>
+            </a>
+          </div>
+
+          <article class="listening panel" aria-labelledby="listening-h">
+            <div class="panel-head"><span class="pip"></span><h2 id="listening-h">Listening</h2><span class="panel-tag" data-listen-room>Bridge mix</span></div>
+            <p class="listen-body">Ship ambience is generated live in your browser: drive, ventilation, structure, consoles and galley appliances. It starts only when you ask.</p>
+            <div class="listen-actions">
+              <button type="button" class="btn btn-signal" data-sound-toggle>Start ship sound</button>
+              <button type="button" class="btn" data-sound-open>Adjust the mix</button>
+            </div>
+          </article>
+
+          <article class="dispatch panel" aria-labelledby="dispatch-h">
+            <div class="panel-head"><span class="pip pip-dim"></span><h2 id="dispatch-h">Dispatches</h2><span class="panel-tag">Reserved</span></div>
+            <p class="empty-note">This channel is reserved for dispatches. None have been approved for publication yet.</p>
+          </article>
+        </section>
+
+        <section class="queue panel" aria-labelledby="queue-h">
+          <div class="lens-dock-rail" data-dock="rail"></div>
+          <div class="queue-head">
+            <div><h2 class="title" id="queue-h">Transmission Queue</h2><div class="queue-sub">Chapters supplied to this build</div></div>
+            <div class="queue-persp"><img data-perspective-seal src="assets/logos/quenby.png" alt="" width="58" height="39"><span>Perspective: <b data-perspective-name>Quenby</b></span></div>
+          </div>
+          <div class="q-scroll" id="queue-list" role="list"></div>
+          <div class="queue-foot" id="queue-foot"></div>
+        </section>
+      </div>
+      <footer class="bottombar">
+        <div><h3>Interface</h3><p>Perspective changes accents, emphasis, and which observations you see. The ship and the prose stay the same.</p></div>
+        <div><h3>Ship model</h3><p>Geometry: Roomwright layout v34, Wild Huntress. The bridge, the corridor route and the galley are developed. Other rooms are blockout.</p></div>
+        <div><h3>Comfort</h3><p><label class="toggle"><input type="checkbox" id="pref-motion"> Reduce motion</label></p><p><label class="toggle"><input type="checkbox" id="pref-scan"> Screen texture on this page</label></p></div>
+      </footer>
+    </section>
+
+    <!-- ================= SHIP ================= -->
+    <section class="view view-ship ship-view" id="view-ship" aria-label="Wild Huntress, first-person" hidden>
+      <div class="ship-host" id="ship-host"></div>
+      <div class="hud" id="hud">
+        <div class="hud-room" id="hud-room" aria-live="polite"><b data-room-name>Bridge</b><span data-room-status></span></div>
+        <div class="hud-reticle" aria-hidden="true"></div>
+        <button type="button" class="hud-prompt" id="hud-prompt" hidden><kbd>E</kbd><span></span></button>
+        <div class="hud-lock" id="hud-lock" hidden>Mouse captured · <kbd>Esc</kbd> releases it</div>
+        <div class="hud-tools">
+          <button type="button" class="hud-btn" id="btn-settle" aria-haspopup="true">Settle…</button>
+          <button type="button" class="hud-btn" id="btn-map" aria-pressed="false">Map <kbd>M</kbd></button>
+          <button type="button" class="hud-btn" id="btn-help" aria-pressed="false">Controls <kbd>?</kbd></button>
+          <a class="hud-btn" href="#/read" id="btn-read-from-ship">Read</a>
+        </div>
+        <div class="settle-menu panel" id="settle-menu" hidden role="menu" aria-label="Places to settle"></div>
+        <canvas class="minimap" id="minimap" width="220" height="300" hidden aria-label="Main deck map with your position"></canvas>
+        <div class="help panel" id="help" hidden>
+          <h2>Controls</h2>
+          <dl>
+            <dt>Move</dt><dd><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or <kbd>↑</kbd><kbd>↓</kbd></dd>
+            <dt>Turn</dt><dd><kbd>←</kbd><kbd>→</kbd>, drag, or click to capture the mouse</dd>
+            <dt>Look up / down</dt><dd><kbd>PgUp</kbd><kbd>PgDn</kbd> or the mouse</dd>
+            <dt>Brisk walk</dt><dd>hold <kbd>Shift</kbd></dd>
+            <dt>Doors, objects, seats</dt><dd><kbd>E</kbd> or click while captured</dd>
+            <dt>Release the mouse</dt><dd><kbd>Esc</kbd></dd>
+            <dt>Stand up</dt><dd>any movement key, <kbd>Space</kbd>, or Stand</dd>
+            <dt>Touch</dt><dd>left pad moves, drag elsewhere to look, Use acts</dd>
+          </dl>
+          <p class="fine">The hatches aboard are manual. Nothing opens until you open it.</p>
+        </div>
+        <aside class="inspector panel" id="inspector" hidden aria-labelledby="insp-title" tabindex="-1">
+          <button type="button" class="close" id="insp-close" aria-label="Close">×</button>
+          <h2 id="insp-title"></h2>
+          <p class="ship-record" id="insp-record"></p>
+          <p class="basis" id="insp-basis"></p>
+          <div id="insp-voices"></div>
+        </aside>
+        <div class="settled-bar" id="settled-bar" hidden>
+          <span class="settled-where" id="settled-where"></span>
+          <button type="button" class="hud-btn" id="btn-stand">Stand <kbd>Space</kbd></button>
+          <a class="hud-btn" href="#/read" id="btn-read-here">Read here</a>
+          <button type="button" class="hud-btn" data-sound-open>Sound</button>
+        </div>
+        <div class="touch" id="touch" hidden>
+          <div class="stick" id="stick" aria-hidden="true"><div class="knob"></div></div>
+          <button type="button" class="touch-use" id="touch-use" hidden>Use</button>
+        </div>
+      </div>
+      <div class="board panel" id="board" hidden role="dialog" aria-modal="false" aria-labelledby="board-h">
+        <h2 id="board-h">Wild Huntress · Bridge</h2>
+        <p>You are standing on the bridge, behind the pilot cradle. The galley is aft: through the bridge hatch, down the primary corridor, past the turn toward the storage spine, around the elbow.</p>
+        <p>The hatches are manual. Walk up to one and press <kbd>E</kbd>, or tap <b>Use</b>.</p>
+        <div class="board-actions">
+          <button type="button" class="btn btn-signal" id="board-go">Step aboard</button>
+          <button type="button" class="btn" id="board-go-sound">Step aboard with sound</button>
+        </div>
+        <p class="fine" id="board-loading" aria-live="polite">Loading ship geometry…</p>
+      </div>
+      <div class="ship-error panel" id="ship-error" hidden role="alert"></div>
+    </section>
+
+    <!-- ================= LIBRARY ================= -->
+    <section class="view view-library" id="view-library" aria-labelledby="lib-h" hidden>
+      <div class="lib-wrap">
+        <header class="lib-head">
+          <h1 id="lib-h">Read</h1>
+          <p class="lib-note" id="lib-note"></p>
+          <a class="btn" href="#/ship" id="lib-return" hidden>Return to the Huntress</a>
+        </header>
+        <div id="library"></div>
+      </div>
+    </section>
+
+    <!-- ================= READER ================= -->
+    <section class="view view-reader" id="view-reader" aria-labelledby="rd-title" hidden>
+      <div class="rd-bar">
+        <a class="rd-btn" href="#/read" aria-label="All chapters">☰ Chapters</a>
+        <span class="rd-where" id="rd-where"></span>
+        <div class="rd-controls">
+          <button type="button" class="rd-btn" id="rd-smaller" aria-label="Smaller text">A−</button>
+          <button type="button" class="rd-btn" id="rd-larger" aria-label="Larger text">A+</button>
+          <button type="button" class="rd-btn" id="rd-theme" aria-label="Switch reading theme">Paper</button>
+          <button type="button" class="rd-btn" data-sound-open>Sound</button>
+          <a class="rd-btn" href="#/ship" id="rd-return" hidden>Return to the Huntress</a>
+        </div>
+      </div>
+      <div class="rd-notice" id="rd-notice" hidden role="region" aria-labelledby="rd-notice-h"></div>
+      <article class="rd-article" id="rd-article">
+        <header class="rd-head">
+          <div class="rd-kicker" id="rd-kicker"></div>
+          <h1 id="rd-title"></h1>
+          <div class="rd-sub" id="rd-sub"></div>
+        </header>
+        <div class="chapter-body" id="chapter-body"></div>
+        <nav class="rd-nav" aria-label="Chapter navigation">
+          <a class="rd-btn" id="rd-prev" hidden></a>
+          <a class="rd-btn" id="rd-next" hidden></a>
+        </nav>
+        <section class="strata-slot" id="strata-slot" aria-labelledby="strata-h" hidden>
+          <h2 id="strata-h">Reader notes · Strata</h2>
+          <div id="strata-status"></div>
+        </section>
+      </article>
+    </section>
+  </main>
+
+  <!-- ================= SOUND PANEL ================= -->
+  <div class="sound-panel panel" id="sound-panel" role="dialog" aria-modal="false" aria-labelledby="sp-h" hidden>
+    <button type="button" class="close" id="sp-close" aria-label="Close sound panel">×</button>
+    <h2 id="sp-h">Ship sound</h2>
+    <p class="sp-honest">Generated live in your browser with Web Audio synthesis. No recordings.</p>
+    <div class="sp-row">
+      <button type="button" class="btn btn-signal" id="sp-toggle">Start sound</button>
+      <label class="toggle"><input type="checkbox" id="sp-mute"> Mute</label>
+    </div>
+    <label class="sp-slider"><span>Master volume</span><input type="range" id="sp-master" min="0" max="100" step="1"><output id="sp-master-out"></output></label>
+    <fieldset class="sp-mode">
+      <legend>While moving</legend>
+      <label><input type="radio" name="sp-mode" value="follow"> Follow the room</label>
+      <label><input type="radio" name="sp-mode" value="keep"> Keep my mix</label>
+      <p class="sp-mode-note" id="sp-mode-note" aria-live="polite"></p>
+    </fieldset>
+    <div class="sp-layers" id="sp-layers"></div>
+    <div class="sp-presets"><span>Room presets</span><div id="sp-presets"></div></div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

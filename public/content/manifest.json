@@ -1,0 +1,523 @@
+{
+ "_about": "Chapter metadata, kept separate from manuscript prose. Prose is converted at build time from local .docx files (see README). Titles come from the supplied manuscripts: Next/Presence from file names (no title appears in the text), Want 09–11 from the chapter heading inside the document. viewpointHolder marks a chapter whose record belongs to that character; it drives the in-world viewpoint notice. viewpointHolder values are PROPOSED from a reading of the drafts and await author review.",
+ "viewpointReview": "proposed",
+ "books": [
+  {
+   "id": "next",
+   "title": "Next",
+   "order": 1,
+   "sourceFolder": "01 Vox Humana_ Next"
+  },
+  {
+   "id": "presence",
+   "title": "Presence",
+   "order": 2,
+   "sourceFolder": "02 Vox Humana_ Presence"
+  },
+  {
+   "id": "want",
+   "title": "Want",
+   "order": 3,
+   "sourceFolder": "03 Vox Humana_ Want",
+   "note": "Working drafts; chapters 01–08 carry no title in the manuscript."
+  }
+ ],
+ "chapters": [
+  {
+   "id": "next-01",
+   "book": "next",
+   "number": 1,
+   "kind": "chapter",
+   "title": "The Ship That Listens",
+   "titleSource": "filename",
+   "source": "01 - The Ship That Listens.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "next-02",
+   "book": "next",
+   "number": 2,
+   "kind": "chapter",
+   "title": "Filter by Honesty",
+   "titleSource": "filename",
+   "source": "02 - Filter by Honesty.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "next-03",
+   "book": "next",
+   "number": 3,
+   "kind": "chapter",
+   "title": "A Room That Grows",
+   "titleSource": "filename",
+   "source": "03 - A Room That Grows.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "next-04",
+   "book": "next",
+   "number": 4,
+   "kind": "chapter",
+   "title": "Beauty’s Not Always Optional",
+   "titleSource": "filename",
+   "source": "04 - Beauty#U2019s Not Always Optional.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "File name encodes the apostrophe as #U2019."
+  },
+  {
+   "id": "next-05",
+   "book": "next",
+   "number": 5,
+   "kind": "chapter",
+   "title": "For Whoever’s Left Out There",
+   "titleSource": "filename",
+   "source": "05 - For Whoever#U2019s Left Out There.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "File name encodes the apostrophe as #U2019."
+  },
+  {
+   "id": "next-06",
+   "book": "next",
+   "number": 6,
+   "kind": "chapter",
+   "title": "No Way Back",
+   "titleSource": "filename",
+   "source": "06 - No Way Back.docx",
+   "viewpoints": [
+    "quenby",
+    "iri"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "Drifts briefly to Iri at the very end."
+  },
+  {
+   "id": "next-07",
+   "book": "next",
+   "number": 7,
+   "kind": "chapter",
+   "title": "Momentum, Not Relief",
+   "titleSource": "filename",
+   "source": "07 - Momentum, Not Relief.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "next-08",
+   "book": "next",
+   "number": 8,
+   "kind": "chapter",
+   "title": "Presence Is a Choice",
+   "titleSource": "filename",
+   "source": "08 - Presence Is a Choice.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "next-09",
+   "book": "next",
+   "number": 9,
+   "kind": "chapter",
+   "title": "Cadence Mapping",
+   "titleSource": "filename",
+   "source": "09 - Cadence Mapping.docx",
+   "viewpoints": [
+    "iri",
+    "quenby"
+   ],
+   "viewpointHolder": null,
+   "note": "Iri’s viewpoint for the first part, then Quenby’s."
+  },
+  {
+   "id": "next-10",
+   "book": "next",
+   "number": 10,
+   "kind": "chapter",
+   "title": "Location Only",
+   "titleSource": "filename",
+   "source": "10 - Location Only.docx",
+   "viewpoints": [
+    "iri",
+    "quenby"
+   ],
+   "viewpointHolder": null,
+   "note": "Alternates Iri and Quenby."
+  },
+  {
+   "id": "next-11",
+   "book": "next",
+   "number": 11,
+   "kind": "chapter",
+   "title": "Resonance",
+   "titleSource": "filename",
+   "source": "11 - Resonance.docx",
+   "viewpoints": [
+    "iri",
+    "quenby"
+   ],
+   "viewpointHolder": null,
+   "note": "Alternates Iri and Quenby. The older website listed chapter 11 as “Destination: Optional”; the manuscript file is “Resonance”."
+  },
+  {
+   "id": "next-12",
+   "book": "next",
+   "number": 12,
+   "kind": "epilogue",
+   "title": "Black Box",
+   "titleSource": "filename",
+   "source": "12 Epilogue - Black Box.docx",
+   "viewpoints": [
+    "ship-record"
+   ],
+   "viewpointHolder": null,
+   "note": "Ship-memory record; no character viewpoint. The older website listed chapter 12 as “Give Them the Sound”."
+  },
+  {
+   "id": "presence-01",
+   "book": "presence",
+   "number": 1,
+   "kind": "chapter",
+   "title": "Dissonance",
+   "titleSource": "filename",
+   "source": "01 - Dissonance _ DissonanceV3.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "File name subtitle slot reads “DissonanceV3” (appears to be a version tag, not shown)."
+  },
+  {
+   "id": "presence-02",
+   "book": "presence",
+   "number": 2,
+   "kind": "chapter",
+   "title": "Both Hands",
+   "titleSource": "filename",
+   "subtitle": "Between the Wells",
+   "source": "02 - Both Hands _ Between the Wells.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "presence-03",
+   "book": "presence",
+   "number": 3,
+   "kind": "chapter",
+   "title": "Between the Pulses",
+   "titleSource": "filename",
+   "subtitle": "The Seam",
+   "source": "03 - Between the Pulses _ The Seam.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "presence-04",
+   "book": "presence",
+   "number": 4,
+   "kind": "chapter",
+   "title": "Fifteen Seconds",
+   "titleSource": "filename",
+   "subtitle": "Counting in a Closed System",
+   "source": "04 - Fifteen Seconds _ Counting in a Closed System.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "presence-05",
+   "book": "presence",
+   "number": 5,
+   "kind": "chapter",
+   "title": "Cleanest Filthy Lane",
+   "titleSource": "filename",
+   "subtitle": "The Economy of Heat",
+   "source": "05 - Cleanest Filthy Lane _ The Economy of Heat.docx",
+   "viewpoints": [
+    "quenby",
+    "iri"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "Closing section is Iri’s viewpoint."
+  },
+  {
+   "id": "presence-06",
+   "book": "presence",
+   "number": 6,
+   "kind": "chapter",
+   "title": "For, Not Against",
+   "titleSource": "filename",
+   "subtitle": "The Arithmetic of Outcomes",
+   "source": "06 - For, Not Against _ The Arithmetic of Outcomes.docx",
+   "viewpoints": [
+    "quenby",
+    "iri"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "Iri’s viewpoint after the final break."
+  },
+  {
+   "id": "presence-07",
+   "book": "presence",
+   "number": 7,
+   "kind": "chapter",
+   "title": "Pending, Erased",
+   "titleSource": "filename",
+   "subtitle": "A Market That Watches Itself",
+   "source": "07 - Pending, Erased _ A Market That Watches Itself.docx",
+   "viewpoints": [
+    "quenby",
+    "nova"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "Includes Nova’s inner view."
+  },
+  {
+   "id": "presence-08",
+   "book": "presence",
+   "number": 8,
+   "kind": "chapter",
+   "title": "Stop Letting it Write You",
+   "titleSource": "filename",
+   "subtitle": "The Gravity of Unowned Memory",
+   "source": "08 - Stop Letting it Write You _ The Gravity of Unowned Memory (review).docx",
+   "viewpoints": [
+    "iri",
+    "quenby"
+   ],
+   "viewpointHolder": null,
+   "note": "Iri’s viewpoint first, then Quenby’s. File name carries a “(review)” status tag."
+  },
+  {
+   "id": "presence-09",
+   "book": "presence",
+   "number": 9,
+   "kind": "chapter",
+   "title": "Better Than Drift",
+   "titleSource": "filename",
+   "subtitle": "On the Non-Neutrality of Names",
+   "source": "09 - Better Than Drift _ On the Non-Neutrality of Names.docx",
+   "viewpoints": [
+    "quenby",
+    "nova"
+   ],
+   "viewpointHolder": null,
+   "note": "Mixed: Quenby opens; sparring scenes go to Nova."
+  },
+  {
+   "id": "presence-10",
+   "book": "presence",
+   "number": 10,
+   "kind": "chapter",
+   "title": "Out of Range",
+   "titleSource": "filename",
+   "subtitle": "The Botany of Survival",
+   "source": "10 - Out of Range _ The Botany of Survival.docx",
+   "viewpoints": [
+    "quenby",
+    "nova"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "presence-11",
+   "book": "presence",
+   "number": 11,
+   "kind": "chapter",
+   "title": "Sugar",
+   "titleSource": "filename",
+   "subtitle": "The Coin That Keeps Counting",
+   "source": "11 - Sugar _ The Coin That Keeps Counting.docx",
+   "viewpoints": [
+    "quenby",
+    "nova"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "Contains a Nova section."
+  },
+  {
+   "id": "presence-12",
+   "book": "presence",
+   "number": 12,
+   "kind": "epilogue",
+   "title": "Registry Change Authorized",
+   "titleSource": "filename",
+   "subtitle": "Choice, Scar-Deep",
+   "source": "12 Epilogue - Registry Change Authorized _ Choice, Scar-Deep.docx",
+   "viewpoints": [
+    "ship-record"
+   ],
+   "viewpointHolder": null,
+   "note": "Ship registry record; no character viewpoint."
+  },
+  {
+   "id": "want-01",
+   "book": "want",
+   "number": 1,
+   "kind": "chapter",
+   "title": null,
+   "titleSource": "none",
+   "source": "VH1_B3_01_v2.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "want-02",
+   "book": "want",
+   "number": 2,
+   "kind": "chapter",
+   "title": null,
+   "titleSource": "none",
+   "source": "VH1_B3_02v2.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "want-03",
+   "book": "want",
+   "number": 3,
+   "kind": "chapter",
+   "title": null,
+   "titleSource": "none",
+   "source": "VH1_B3_03v2.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "want-04",
+   "book": "want",
+   "number": 4,
+   "kind": "chapter",
+   "title": null,
+   "titleSource": "none",
+   "source": "VH1_B3_04v2.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "want-05",
+   "book": "want",
+   "number": 5,
+   "kind": "chapter",
+   "title": null,
+   "titleSource": "none",
+   "source": "VH1_B3_05v2.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "want-06",
+   "book": "want",
+   "number": 6,
+   "kind": "chapter",
+   "title": null,
+   "titleSource": "none",
+   "source": "VH1_B3_06v2.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "want-07",
+   "book": "want",
+   "number": 7,
+   "kind": "chapter",
+   "title": null,
+   "titleSource": "none",
+   "source": "VH1_B3_07v2.docx",
+   "viewpoints": [
+    "quenby",
+    "nova"
+   ],
+   "viewpointHolder": "quenby",
+   "note": "Nova’s viewpoint in the closing part."
+  },
+  {
+   "id": "want-08",
+   "book": "want",
+   "number": 8,
+   "kind": "chapter",
+   "title": null,
+   "titleSource": "none",
+   "source": "VH1_B3_08v2.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "want-09",
+   "book": "want",
+   "number": 9,
+   "kind": "chapter",
+   "title": "Close Enough",
+   "titleSource": "heading",
+   "source": "VH1_B3_09v3.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  },
+  {
+   "id": "want-10",
+   "book": "want",
+   "number": 10,
+   "kind": "chapter",
+   "title": "Holder Unassigned",
+   "titleSource": "heading",
+   "source": "VH1_B3_10v3.docx",
+   "viewpoints": [
+    "bob",
+    "quenby"
+   ],
+   "viewpointHolder": null,
+   "note": "Opens in B.O.B.’s viewpoint, then Quenby’s."
+  },
+  {
+   "id": "want-11",
+   "book": "want",
+   "number": 11,
+   "kind": "chapter",
+   "title": "Escape Margin",
+   "titleSource": "heading",
+   "source": "VH1_B3_11v1.docx",
+   "viewpoints": [
+    "quenby"
+   ],
+   "viewpointHolder": "quenby"
+  }
+ ]
+}

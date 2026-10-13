@@ -1,0 +1,118 @@
+{
+ "_status": "DRAFT — newly proposed character wording for author review. Not manuscript text. Shown in the ship with a visible ‘Draft’ mark; remove or edit freely.",
+ "_guidance": [
+  "Iri’s discipline shows in precision and care, never in diagnostic labels.",
+  "B.O.B. speaks only to what his sensors and logs could know; he does not claim private events.",
+  "Nova notices sound, structure and counts; she does not infer private relationships."
+ ],
+ "lines": {
+  "helm": {
+   "quenby": "The helm knows my hands. I don’t make speeches about it.",
+   "iri": "She sits forward when she’s working something out and back when she’s decided. From the auxiliary station I can see which.",
+   "nova": "Press the console edge and the deck answers a little late. Everything up here has a delay you can count.",
+   "bob": "Helm inputs are logged. Who sat here, and why, is not something my sensors record."
+  },
+  "glass": {
+   "quenby": "Real glass. No display pretending to be a window. I’d rather know what’s actually out there.",
+   "iri": "The glass holds the cold longer than the bulkheads. I stand a step back from it.",
+   "nova": "Breathe on it and the stars go soft, then come back one at a time.",
+   "bob": "Forward glass: no faults. I keep the bridge lights low so it shows the dark instead of the room."
+  },
+  "navlocks": {
+   "quenby": "Levers, not menus. You can find them in the dark, and I have.",
+   "iri": "Three levers. I know their positions by the sound they make seating.",
+   "nova": "Click, click, click. The last one is the loudest.",
+   "bob": "Course-hold engagement is logged by lever position. The levers do not ask me first."
+  },
+  "copilot": {
+   "quenby": "Nobody was assigned that chair. People sit there anyway.",
+   "iri": "The chair is left turned toward the hatch more often than not. I turn it back when I pass.",
+   "nova": "It creaks on the left armrest. Only the left.",
+   "bob": "This chair carries no seat sensor in my current records."
+  },
+  "aux": {
+   "quenby": "The aux station sat empty a long time. I got used to talking past it.",
+   "iri": "I could draw the reach of every station on this bridge from memory. This one I could draw with my eyes shut.",
+   "nova": "The amber strip lights when somebody’s there. It stays lit a moment after they go.",
+   "bob": "The occupancy strip lights when the seat takes weight. It cannot tell me whose."
+  },
+  "bolts": {
+   "quenby": "They migrate. I’ve stopped asking how.",
+   "iri": "I step around them. Not because I’d trip. Because they’re arranged.",
+   "nova": "If one’s missing, check the copilot cushion.",
+   "bob": "Loose fasteners on the deck. I flagged them as a trip hazard once. The flag was dismissed."
+  },
+  "rail": {
+   "quenby": "Worn smooth by somebody before me. I add to it.",
+   "iri": "The rail is load-rated for a hard burn. I check the brackets anyway.",
+   "nova": "Tap the rail and the whole bridge rings for a second. Quietly.",
+   "bob": "Rail indicators: green. They mean the station circuits are live, nothing more."
+  },
+  "vbench": {
+   "quenby": "Bench by the glass. Good for sitting when you don’t want to be at the helm but can’t leave.",
+   "iri": "The floor beside it is wide enough to lay a kit out flat. I have.",
+   "nova": "From the bench you can see the glass and the hatch at once.",
+   "bob": "The bench has no sensors. I hear it through the deck plating when it takes weight."
+  },
+  "elbow": {
+   "quenby": "Halfway to the galley there’s the turn. I used to stop there for no reason I’d admit.",
+   "iri": "The corridor jogs here. You hear someone coming before you see them.",
+   "nova": "The hum changes at each bulkhead. Walk slowly and it’s a tune.",
+   "bob": "Corridor plating registers footfall weight, not identity. I can tell you the corridor is used. I am careful not to say by whom."
+  },
+  "powerpanel": {
+   "quenby": "Pull panel. If the lights stutter, this is where you start.",
+   "iri": "Labels on the breakers are in three hands. I’ve learned all three.",
+   "nova": "Put your ear near it and you can hear the bus settle.",
+   "bob": "Distribution panel: within limits. I report the panel, not the people who open it."
+  },
+  "counter": {
+   "quenby": "One long run. The prep end used to be mine by default. Now it’s mine when nobody else needs it.",
+   "iri": "The counter is built to her height and a hand too high for mine. I’ve stopped minding which of us it was built for.",
+   "nova": "The sink light blinks slower than a heartbeat. I matched it once.",
+   "bob": "Water draw at this sink is metered. I have no record of who taped the card above it."
+  },
+  "tins": {
+   "quenby": "Somebody else’s handwriting on the labels. I keep them.",
+   "iri": "Three tins. I open the one that’s mine to open.",
+   "nova": "The middle tin rattles different. Not empty. Different.",
+   "bob": "I do not inventory the shelf. It has not shifted since the last hard burn."
+  },
+  "heater": {
+   "quenby": "It hums off-key. B.O.B. calls that character. I have other words.",
+   "iri": "When it clicks off you feel it in the deck before you hear it.",
+   "nova": "Hum, hum, click. Every cycle. When it skips, everybody looks up.",
+   "bob": "Heater cycle completes with an audible click. I could correct the misaligned note. I have chosen not to."
+  },
+  "cooler": {
+   "quenby": "Low and aft. Nobody designs a galley for knees.",
+   "iri": "I check the seals by touch. The left gasket is older than the right.",
+   "nova": "It shivers when it starts. Sit still on the bench and you feel it.",
+   "bob": "Cold storage is holding temperature. I know its contents only as they are logged in, which is not always."
+  },
+  "table": {
+   "quenby": "A real table. You can put a whole problem on it.",
+   "iri": "Tables get used for everything that isn’t eating. Stitches. Charts. Waiting.",
+   "nova": "There’s a scratch under the edge shaped like a seven. Not mine.",
+   "bob": "The table has no sensors. What happens at it is mostly unknown to me, which seems correct."
+  },
+  "bench": {
+   "quenby": "Too narrow to sleep on. People try.",
+   "iri": "The edges catch. I know where.",
+   "nova": "Left end: you can watch the hatch and the corridor light at the same time.",
+   "bob": "I hear the bench through the deck when it takes weight. I do not know who sits on it unless they speak."
+  },
+  "cabinet": {
+   "quenby": "Spoons in the drawer. Bolts in the mug. Don’t ask me which is the joke.",
+   "iri": "I left the bolts where they were. Some things are filed by whoever found them first.",
+   "nova": "The door sticks on the first pull and gives on the second.",
+   "bob": "This cabinet has no latch sensor. I know it opens only because the sound carries."
+  },
+  "fan": {
+   "quenby": "It ticks once and gives up. I know the feeling.",
+   "iri": "It ticks when the air cycle starts. I hear it from the corridor and know the galley air is turning over.",
+   "nova": "Tick. Then a long nothing. Then the air smells newer.",
+   "bob": "Corner fan, domestic loop. It ticks at start-up. I have logged the tick as a fault twice and withdrawn it twice."
+  }
+ }
+}

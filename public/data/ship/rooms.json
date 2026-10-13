@@ -1,0 +1,284 @@
+{
+ "_about": "Visitor-facing room registry for the Roomwright geometry (layout v34). 'developed' rooms carry lived-in dressing and inspectable objects; every other room keeps its validated blockout geometry and announces its status when entered.",
+ "rooms": {
+  "bridge": {
+   "name": "Bridge",
+   "deck": "main",
+   "developed": true,
+   "status": "developed",
+   "statusText": "Developed for this milestone.",
+   "soundPreset": "bridge"
+  },
+  "corridor": {
+   "name": "Primary corridor",
+   "deck": "main",
+   "developed": true,
+   "status": "developed-route",
+   "statusText": "Route between the bridge and galley is developed; side branches are not.",
+   "soundPreset": "corridor"
+  },
+  "galley": {
+   "name": "Galley",
+   "deck": "main",
+   "developed": true,
+   "status": "developed",
+   "statusText": "Developed for this milestone.",
+   "soundPreset": "galley"
+  },
+  "airlock": {
+   "name": "Personnel / EVA airlock",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "stairwell": {
+   "name": "Primary stair",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "spine": {
+   "name": "Legacy storage spine",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "medbay": {
+   "name": "Medbay",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "hygiene": {
+   "name": "Dry hygiene branch",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "domestic-service": {
+   "name": "Domestic service passage",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "pocket": {
+   "name": "Starboard Pocket Three",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "storage-four": {
+   "name": "Storage Four",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "dome": {
+   "name": "Observation dome",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "engine": {
+   "name": "Walk-in engine bay",
+   "deck": "main",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "operations": {
+   "name": "Lower Operations",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "skiffbay": {
+   "name": "Skiff / mission bay",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "work-spine": {
+   "name": "Work spine",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "nav": {
+   "name": "Nav",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "residential": {
+   "name": "Residential approach",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "cabin": {
+   "name": "Crew cabins",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "wet-service": {
+   "name": "Wet-service core",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "domestic-stores": {
+   "name": "Domestic stores / future garden",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "cargo-bay": {
+   "name": "Hold One — main cargo / training bay",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "flex-bay": {
+   "name": "Hold Two — mission / flex bay",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "aft-freight": {
+   "name": "Aft freight / service node",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "freight-lock": {
+   "name": "Freight transfer lock",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "lower-aft-spine": {
+   "name": "Lower aft spine",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "equipment-crawl": {
+   "name": "Nova’s equipment crawl",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "aft-service": {
+   "name": "Aft service passage",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "work-head": {
+   "name": "Work head",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "engineering-access": {
+   "name": "Underdeck engineering access",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "unlisted": {
+   "name": "Unlisted corridor",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "lower-corridor": {
+   "name": "Lower corridor",
+   "deck": "lower",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "lower"
+  },
+  "deck-three": {
+   "name": "Deck Three (partial)",
+   "deck": "deck-three",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  },
+  "hull": {
+   "name": "Ship services",
+   "deck": "any",
+   "developed": false,
+   "status": "blockout",
+   "statusText": "Not yet developed — Roomwright blockout geometry, shown at its validated size and position.",
+   "soundPreset": "quiet"
+  }
+ },
+ "exclusions": [
+  {
+   "name": "Potted plants",
+   "room": "galley",
+   "reason": "Production floor plan V1: plants are later continuity (Presence-11 'The new plants'), not baseline. Roomwright v34 places them in the galley; the visitor baseline leaves them out. Flagged for author decision."
+  }
+ ]
+}

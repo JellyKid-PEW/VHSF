@@ -1,0 +1,48 @@
+/* Reader: calm, legible, no screen effects. */
+.view-library, .view-reader { min-height: calc(100vh - var(--topbar-h)); }
+.lib-wrap { max-width: 860px; margin: 0 auto; padding: 28px 18px 60px; }
+.lib-head h1 { font: 22px var(--display); letter-spacing: .2em; color: var(--warm); margin: 0 0 6px; font-weight: 400; }
+.lib-note { color: var(--ink-dim); font-size: 14px; }
+.lib-book h2 { font: 12px var(--mono); letter-spacing: .28em; text-transform: uppercase; color: var(--warm-dim); border-bottom: 1px solid var(--line); padding-bottom: 8px; margin: 30px 0 4px; font-weight: 400; }
+.lib-book p.book-note { font-size: 13px; color: var(--ink-dim); margin: 4px 0; }
+
+.view-reader { --rd-size: 19px; --rd-lead: 1.72; --rd-bg: #0e0d0c; --rd-ink: #e6e1d6; --rd-dim: #a39d90; background: var(--rd-bg); color: var(--rd-ink); }
+.view-reader.paper { --rd-bg: #f3eee3; --rd-ink: #24211c; --rd-dim: #615a4e; color-scheme: light; }
+.rd-bar { position: sticky; top: var(--topbar-h); z-index: 20; display: flex; align-items: center; gap: 10px; padding: 8px 16px; background: color-mix(in srgb, var(--rd-bg) 94%, transparent); border-bottom: 1px solid color-mix(in srgb, var(--rd-ink) 14%, transparent); flex-wrap: wrap; }
+.rd-where { font: 12px var(--mono); color: var(--rd-dim); letter-spacing: .06em; }
+.rd-controls { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+.rd-btn { background: none; border: 1px solid color-mix(in srgb, var(--rd-ink) 25%, transparent); padding: 5px 10px; font: 12px var(--mono); cursor: pointer; color: var(--rd-ink); text-decoration: none; }
+.rd-btn:hover { border-color: var(--signal); }
+.rd-article { max-width: 40em; margin: 0 auto; padding: 34px 22px 80px; font-size: var(--rd-size); }
+.rd-head { margin-bottom: 1.6em; }
+.rd-kicker { font: 12px var(--mono); letter-spacing: .22em; text-transform: uppercase; color: var(--rd-dim); }
+.rd-head h1 { font: 600 1.6em/1.25 var(--serif); margin: .3em 0 .2em; }
+.rd-sub { font: italic 1em var(--serif); color: var(--rd-dim); }
+.chapter-body { font: var(--rd-size)/var(--rd-lead) var(--serif); hyphens: auto; }
+.chapter-body p { margin: 0 0 .85em; }
+.chapter-body h2 { font: 600 1.15em var(--serif); margin: 0 0 1em; }
+.chapter-body p.console { font: .82em/1.6 var(--mono); color: var(--rd-dim); white-space: pre-wrap; }
+.chapter-body .scene-break { text-align: center; color: var(--rd-dim); margin: 1.4em 0; letter-spacing: .4em; font-family: var(--mono); font-size: .8em; }
+.chapter-body .spacer { height: .7em; }
+.chapter-body .list-label { font-family: var(--mono); }
+.chapter-body .caps { text-transform: uppercase; }
+.chapter-body p.flash { animation: flash 2.4s ease-out; }
+@keyframes flash { 0% { background: color-mix(in srgb, var(--signal) 28%, transparent); } 100% { background: transparent; } }
+.rd-nav { display: flex; justify-content: space-between; gap: 10px; margin-top: 2.4em; border-top: 1px solid color-mix(in srgb, var(--rd-ink) 14%, transparent); padding-top: 1.2em; }
+.rd-nav .rd-btn { max-width: 48%; font-size: 13px; }
+
+/* in-world viewpoint notice: a ship record access card, never an error */
+.rd-notice { max-width: 40em; margin: 22px auto 0; padding: 0 22px; }
+.notice-card { display: grid; grid-template-columns: 74px 1fr; gap: 16px; align-items: center; border: 1px solid color-mix(in srgb, var(--rd-ink) 22%, transparent); border-left: 3px solid #E05A4F; padding: 14px 16px; background: color-mix(in srgb, var(--rd-ink) 4%, transparent); }
+.notice-card img { width: 74px; height: auto; }
+.notice-card h2 { margin: 0 0 4px; font: 12px var(--mono); letter-spacing: .2em; text-transform: uppercase; font-weight: 400; color: var(--rd-dim); }
+.notice-card p { margin: 0 0 10px; font: 16px/1.5 var(--serif); }
+.notice-card .btns { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.strata-slot { margin-top: 3em; border-top: 1px solid color-mix(in srgb, var(--rd-ink) 14%, transparent); padding-top: 1em; font: 14px/1.5 var(--ui); }
+.strata-slot h2 { font: 12px var(--mono); letter-spacing: .2em; text-transform: uppercase; color: var(--rd-dim); font-weight: 400; }
+.strata-slot form { display: grid; gap: 8px; max-width: 360px; margin-top: 8px; }
+.strata-slot input { font: inherit; padding: 6px 8px; background: transparent; color: var(--rd-ink); border: 1px solid color-mix(in srgb, var(--rd-ink) 30%, transparent); }
+.strata-slot code { font: 12px var(--mono); }
+.strata-ok { color: #7FD6A3; }
+.view-reader.paper .strata-ok { color: #1d6b40; }

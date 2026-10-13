@@ -1,0 +1,79 @@
+{
+ "_about": "Character perspectives. Colours and logos are from the original Vox Humana console archive (scripts/voices.js; logos normalised). Perspective changes interface accents, which observations are selected, and what is emphasised — never the ship or the chapter prose. 'notices' strings are interface copy proposed for review.",
+ "notesStatus": "draft",
+ "default": "quenby",
+ "list": [
+  {
+   "id": "quenby",
+   "name": "Quenby",
+   "legacyKey": "q-vox",
+   "color": "#E05A4F",
+   "dim": "rgba(224,90,79,0.55)",
+   "logo": "assets/logos/quenby.png",
+   "initial": "Q",
+   "notices": "Habit, ownership, what has been worn in.",
+   "emphasis": [
+    "helm",
+    "glass",
+    "counter",
+    "tins",
+    "elbow",
+    "navlocks"
+   ]
+  },
+  {
+   "id": "iri",
+   "name": "Iri-Six",
+   "legacyKey": "iri-six",
+   "color": "#7FD6A3",
+   "dim": "rgba(127,214,163,0.55)",
+   "logo": "assets/logos/iri-six.png",
+   "initial": "I",
+   "notices": "Reach, care, how things are kept.",
+   "emphasis": [
+    "aux",
+    "cooler",
+    "table",
+    "bench",
+    "rail",
+    "powerpanel"
+   ]
+  },
+  {
+   "id": "nova",
+   "name": "Nova",
+   "legacyKey": "nova",
+   "color": "#8C82FF",
+   "dim": "rgba(140,130,255,0.55)",
+   "logo": "assets/logos/nova.png",
+   "initial": "N",
+   "notices": "Sound, structure, counts.",
+   "emphasis": [
+    "bolts",
+    "fan",
+    "heater",
+    "cabinet",
+    "copilot",
+    "vbench"
+   ]
+  },
+  {
+   "id": "bob",
+   "name": "B.O.B.",
+   "legacyKey": "bob",
+   "color": "#7FD7FF",
+   "dim": "rgba(127,215,255,0.55)",
+   "logo": "assets/logos/bob.png",
+   "initial": "B",
+   "notices": "Only what the ship’s sensors log.",
+   "emphasis": [
+    "navlocks",
+    "rail",
+    "heater",
+    "counter",
+    "fan",
+    "powerpanel"
+   ]
+  }
+ ]
+}

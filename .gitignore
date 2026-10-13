@@ -1,0 +1,14 @@
+# Manuscript sources and everything generated from them stay local.
+# (The public repository must not carry chapter prose; see README.)
+manuscripts/
+public/content/chapters/
+public/content/library.json
+
+node_modules/
+test-results/
+playwright-report/
+.strata-data/
+*.log
+.DS_Store
+tools/authoring/*.local.json
+public/content/quotes.json
